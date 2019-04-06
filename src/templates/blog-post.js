@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
 
-import Bio from '../components/bio'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import { rhythm, scale } from '../utils/typography'
@@ -29,13 +28,12 @@ class BlogPostTemplate extends React.Component {
         >
           {post.frontmatter.date}
         </p>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        <hr
+        <div
           style={{
-            marginBottom: rhythm(1),
+            marginBottom: rhythm(3),
           }}
+          dangerouslySetInnerHTML={{ __html: post.html }}
         />
-        <Bio />
 
         <ul
           style={{

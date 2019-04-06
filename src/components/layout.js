@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import { rhythm, scale } from '../utils/typography'
+import Bio from '../components/bio'
 
 class Layout extends React.Component {
   render() {
@@ -63,9 +64,58 @@ class Layout extends React.Component {
         <header>{header}</header>
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <hr
+            style={{
+              marginBottom: rhythm(1),
+            }}
+          />
+          <Bio />
+          Find me on{' '}
+          <a
+            target="_blank"
+            rel="noopener"
+            title="Twitter"
+            href="https://twitter.com/afontcu_"
+          >
+            Twitter
+          </a>
+          ,{' '}
+          <a
+            target="_blank"
+            rel="noopener"
+            title="Github"
+            href="https://github.com/afontcu"
+          >
+            GitHub
+          </a>{' '}
+          and{' '}
+          <a
+            target="_blank"
+            rel="noopener"
+            title="Instagram"
+            href="https://www.linkedin.com/in/adrifontcu/"
+          >
+            LinkedIn
+          </a>
+          . Oh, and{' '}
+          <a
+            target="_blank"
+            rel="noopener"
+            title="Strava"
+            href="https://www.strava.com/athletes/5716746"
+          >
+            Strava
+          </a>{' '}
+          🚴. I also collect{' '}
+          <a
+            target="_blank"
+            rel="noopener"
+            title="Medium"
+            href="https://github.com/afontcu/awesome-learning"
+          >
+            awesome
+          </a>{' '}
+          links.
         </footer>
       </div>
     )

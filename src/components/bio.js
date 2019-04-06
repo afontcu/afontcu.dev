@@ -18,12 +18,7 @@ function Bio() {
       render={data => {
         const { author, social } = data.site.siteMetadata
         return (
-          <div
-            style={{
-              display: `flex`,
-              marginBottom: rhythm(2.5),
-            }}
-          >
+          <div style={{ display: `flex` }}>
             <Image
               fixed={data.avatar.childImageSharp.fixed}
               alt={author}
@@ -38,12 +33,12 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who lives and works in San
-              Francisco building useful things.
-              {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter
+              Oh, hi! 👋 I'm{' '}
+              <a href={`https://twitter.com/${social.twitter}`} target="_blank">
+                {author}
               </a>
+              , a UI engineer interested in JavaScript, CSS, UX, lean software
+              development and everything in between.
             </p>
           </div>
         )
