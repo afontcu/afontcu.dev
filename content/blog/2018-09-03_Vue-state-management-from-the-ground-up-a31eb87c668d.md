@@ -7,8 +7,6 @@ keywords: ''
 slug: vue-state-management-ground-up
 ---
 
-![](https://cdn-images-1.medium.com/max/2560/1*H0kNknqS3A_I2e-hnIvLYA.png)
-
 > There are only two hard things in Computer Science: cache invalidation and naming things. —_ Phil Karlton_
 
 Well, I guess Phil Karlton never had to deal with managing state on the front end..!
@@ -25,15 +23,56 @@ First of all, we need an application. We cannot manage an application state with
 
 Let’s create a voting app, to let you folks vote for the next President(?):
 
-Yes, I merged Single File Components and inline components.
+```vue
+<template>
+  <div>
+    <h1>Election day!</h1>
+    <button @click="voteForRed">Vote for 🔴</button>
+    <button @click="voteForBlue">Vote for 🔵</button>
 
-_TODO (REMOVE BEFORE PUBLISHING): avoid making jokes about politics. Not a good time, not a good time._
+    <h2>Results</h2>
+    <results :red="red" :blue="blue" />
+    <total-votes :total="red + blue" />
+  </div>
+</template>
+
+<script>
+const TotalVotes = {
+  props: ['total'],
+  render(h) {
+    return h('div', `Total votes: ${this.total}`)
+  },
+}
+
+const Results = {
+  props: ['red', 'blue'],
+  render(h) {
+    return h('div', `Red: ${this.red} - Blue: ${this.blue}`)
+  },
+}
+
+export default {
+  components: { TotalVotes, Results },
+  data: () => ({ red: 0, blue: 0 }),
+  methods: {
+    voteForRed() {
+      this.red++
+    },
+    voteForBlue() {
+      this.blue++
+    },
+  },
+}
+</script>
+```
+
+Yes, I merged Single File Components and inline components.
 
 The code above renders something as pretty as this:
 
 ![](https://cdn-images-1.medium.com/max/800/1*iwyBQkT2vuOIg3XaeBuh9Q.png)
 
-It looks like the browser failed to load the CSS
+Yeah: It looks like the browser failed to load the CSS
 
 I can hear your brain screaming:
 
@@ -49,34 +88,93 @@ But yeah, I hear you. Passing down props is not pretty nor comfortable nor scala
 
 Let’s create a “state holder” object and manage our whole state from there.
 
-const **state** = {  
-  red: 0,  
-  blue: 0,  
+```js
+const state = {
+  red: 0,
+  blue: 0,
 }
+```
 
 There it is! Our application state, properly held and encapsulated. It wasn’t that hard!
 
-Now, from our components, we could do something like the following:
+Now we can update our to child components and also our methods:
 
-const **TotalVotes** = {  
-  render: h => h('div', \`Total votes: ${state.red + state.blue}\`)  
+```js
+const TotalVotes = {
+ render: h => h('div', `Total votes: ${state.red + state.blue}`)
 }
 
-const **Results** = {  
-  render: h => h('div', \`Red: ${state.red} - Blue: ${state.blue}\`),  
+const Results = {
+ render: h => h('div', `Red: ${state.red} - Blue: ${state.blue}`),
 }
 
-// ...and, inside our main component,...  
-methods: {  
-  voteForRed () { state.red++ },  
-  voteForBlue () { state.blue++ },  
+// ...and, inside our main component,...
+methods: {
+ voteForRed () { state.red++ },
+ voteForBlue () { state.blue++ },
 },
+```
 
 Spoiler: **this is not going to work**. Why?
 
 Because Vue uses `data` method to trigger its “magic reactivity”. Without passing our data to `data` (heh), Vue won’t be able to track down value changes and update our components in response.
 
 Easily said, _easily(?)_ fixed:
+
+```vue
+<!-- highlight-range{8-9,14,21,24,27,33} -->
+<template>
+  <div>
+    <h1>Election day!</h1>
+    <button @click="voteForRed">Vote for 🔴</button>
+    <button @click="voteForBlue">Vote for 🔵</button>
+
+    <h2>Results</h2>
+    <results />
+    <total-votes />
+  </div>
+</template>
+
+<script>
+const state = {
+  red: 0,
+  blue: 0,
+}
+
+const TotalVotes = {
+  data() {
+    return state
+  },
+  render(h) {
+    return h('div', `Total votes: ${this.red + this.blue}`)
+  },
+}
+
+const Results = {
+  data() {
+    return state
+  },
+  render(h) {
+    return h('div', `Red: ${this.red} - Blue: ${this.blue}`)
+  },
+}
+
+export default {
+  components: { TotalVotes, Results },
+  data() {
+    return state
+  },
+  methods: {
+    voteForRed() {
+      this.red++
+    },
+    voteForBlue() {
+      this.blue++
+    },
+  },
+}
+</script>
+```
 
 A few things happened there:
 
@@ -111,14 +209,13 @@ Our state!
 
 So what if we did this?
 
-const state = new Vue({  
-  data () {  
-    return {  
-      red: 0,  
-      blue: 0,  
-    }  
-  },  
+```js
+const state = new Vue({
+  data() {
+    return { red: 0, blue: 0 }
+  },
 })
+```
 
 Neat! Now our state is reactive. We’ll be sharing a Vue instance for all the data, but that’ll be waaaay cleaner than my previous solution, right?
 
@@ -129,6 +226,46 @@ Exactly: **methods**.
 Now our `voteforRed()` and `voteForBlue()` methods can be **collocated** with our state!
 
 Let’s check it out:
+
+```vue
+<script>
+import Vue from 'vue'
+
+const state = new Vue({
+  data() {
+    return { red: 0, blue: 0 }
+  },
+  methods: {
+    voteForRed() {
+      this.red++
+    },
+    voteForBlue() {
+      this.blue++
+    },
+  },
+})
+
+const TotalVotes = {
+  render: h => h('div', `Total votes: ${state.red + state.blue}`),
+}
+
+const Results = {
+  render: h => h('div', `Red: ${state.red} - Blue: ${state.blue}`),
+}
+
+export default {
+  components: { TotalVotes, Results },
+  methods: {
+    voteForRed() {
+      state.voteForRed()
+    },
+    voteForBlue() {
+      state.voteForBlue()
+    },
+  },
+}
+</script>
+```
 
 Vuetiful! Let me highlight the improvements we achieved:
 
@@ -161,29 +298,37 @@ You see where I’m going, don’t ya.
 
 We want to end up writing this:
 
-const store = createStore({  
-  **state**: { red: 0, blue: 0 },  
-  **mutations**: {  
-    voteForRed (state) { state.red++ },  
-    voteForBlue (state) { state.blue++ },  
-  },  
+```js
+const store = createStore({
+  state: { red: 0, blue: 0 },
+  mutations: {
+    voteForRed(state) {
+      state.red++
+    },
+    voteForBlue(state) {
+      state.blue++
+    },
+  },
 })
+```
 
 Quite nice, right? And pretty straightforward.
 
 Now, how would we implement this `createStore` helper? Remember that we should use a Vue instance to leverage its reactivity:
 
-const **createStore** = ({ state, mutations }) =>  
-  new Vue({  
-    data () {  
-      return { state }  
-    },  
-    methods: {  
-      commit (mutationName) {  
-        mutations\[mutationName\](this.state)  
-      },  
-    },  
+```js
+const createStore = ({ state, mutations }) =>
+  new Vue({
+    data() {
+      return { state }
+    },
+    methods: {
+      commit(mutationName) {
+        mutations[mutationName](this.state)
+      },
+    },
   })
+```
 
 Some things happened there:
 
@@ -194,25 +339,94 @@ Some things happened there:
 
 So, how do our component look like, now?
 
-const TotalVotes = {  
-  render: h => h('div', \`Total votes: ${store.state.red + store.state.blue}\`),  
+```js
+const TotalVotes = {
+  render: h => h('div', `Total votes: ${store.state.red + store.state.blue}`),
 }
 
-const Results = {  
-  render: h => h('div', \`Red: ${store.state.red} - Blue: ${store.state.blue}\`),  
+const Results = {
+  render: h => h('div', `Red: ${store.state.red} - Blue: ${store.state.blue}`),
 }
 
-export default {  
-  components: { TotalVotes, Results },  
-  methods: {  
-    voteForRed () { store.commit('voteForRed') },  
-    voteForBlue () { store.commit('voteForBlue') },  
-  },  
+export default {
+  components: { TotalVotes, Results },
+  methods: {
+    voteForRed() {
+      store.commit('voteForRed')
+    },
+    voteForBlue() {
+      store.commit('voteForBlue')
+    },
+  },
 }
+```
 
 Now we access `store.state` to get our state, and `store.commit` to modify it (notice that we pass the desired mutation name as parameter).
 
 All together now!:
+
+```vue
+<template>
+  <div>
+    <h1>Election day!</h1>
+    <button @click="voteForRed">Vote for 🔴</button>
+    <button @click="voteForBlue">Vote for 🔵</button>
+
+    <h2>Results</h2>
+    <results />
+    <total-votes />
+  </div>
+</template>
+
+<script>
+import Vue from 'vue'
+
+const createStore = ({ state, mutations }) => {
+  return new Vue({
+    data() {
+      return { state }
+    },
+    methods: {
+      commit(mutationName) {
+        mutations[mutationName](this.state)
+      },
+    },
+  })
+}
+
+const store = createStore({
+  state: { red: 0, blue: 0 },
+  mutations: {
+    voteForRed(state) {
+      state.red++
+    },
+    voteForBlue(state) {
+      state.blue++
+    },
+  },
+})
+
+const TotalVotes = {
+  render: h => h('div', `Total votes: ${store.state.red + store.state.blue}`),
+}
+
+const Results = {
+  render: h => h('div', `Red: ${store.state.red} - Blue: ${store.state.blue}`),
+}
+
+export default {
+  components: { TotalVotes, Results },
+  methods: {
+    voteForRed() {
+      store.commit('voteForRed')
+    },
+    voteForBlue() {
+      store.commit('voteForBlue')
+    },
+  },
+}
+</script>
+```
 
 Isn’t that cool?
 

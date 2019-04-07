@@ -14,35 +14,22 @@ class Layout extends React.Component {
       header = (
         <h1
           style={{
-            ...scale(1.5),
+            ...scale(1),
             marginBottom: rhythm(1.5),
             marginTop: 0,
           }}
         >
-          <Link
-            style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
-            }}
-            to={`/`}
-          >
-            {title}
-          </Link>
+          {title}
         </h1>
       )
     } else {
       header = (
-        <h3
-          style={{
-            fontFamily: `Montserrat, sans-serif`,
-            marginTop: 0,
-          }}
-        >
+        <h3 style={{ marginTop: 0 }}>
           <Link
             style={{
               boxShadow: `none`,
               textDecoration: `none`,
+              backgroundImage: `none`,
               color: `inherit`,
             }}
             to={`/`}
@@ -73,7 +60,7 @@ class Layout extends React.Component {
           Find me on{' '}
           <a
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
             title="Twitter"
             href="https://twitter.com/afontcu_"
           >
@@ -82,7 +69,7 @@ class Layout extends React.Component {
           ,{' '}
           <a
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
             title="Github"
             href="https://github.com/afontcu"
           >
@@ -91,7 +78,7 @@ class Layout extends React.Component {
           and{' '}
           <a
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
             title="Instagram"
             href="https://www.linkedin.com/in/adrifontcu/"
           >
@@ -100,7 +87,7 @@ class Layout extends React.Component {
           . Oh, and{' '}
           <a
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
             title="Strava"
             href="https://www.strava.com/athletes/5716746"
           >
@@ -109,7 +96,7 @@ class Layout extends React.Component {
           🚴. I also collect{' '}
           <a
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
             title="Medium"
             href="https://github.com/afontcu/awesome-learning"
           >

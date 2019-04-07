@@ -1,15 +1,11 @@
 ---
 title: Inversion
-description: >-
-  NOTE: This post was first published in my newsletter. Subscribe to receive my
-  posts a week earlier, right to your inbox �
+description: When we think about the future, we tend to focus on things that will likely change. We like progress, shining new things.
 date: '2019-01-17T05:46:00.833Z'
 categories: ''
 keywords: ''
 slug: inversion
 ---
-
-
 
 When we think about the future, we tend to focus on things that will likely change. We like progress, shining new things.
 
@@ -21,7 +17,7 @@ What if we thought about the future in terms of **things that won’t change?**
 
 ![](https://cdn-images-1.medium.com/max/800/0*uP_PQ59aMVSBNpH-.jpg)
 
-Janus, the Roman [god](https://en.wikipedia.org/wiki/List_of_Roman_deities "List of Roman deities") of beginnings, gates, transitions, time, duality. It seemed the right god to mention, giving the topic and the month of this issue, right?
+Janus, the Roman [god](https://en.wikipedia.org/wiki/List_of_Roman_deities 'List of Roman deities') of beginnings, gates, transitions, time, duality. It seemed the right god to mention, giving the topic and the month of this issue, right?
 
 Jeff Bezos has something to say about it:
 
@@ -40,5 +36,3 @@ Same with transportation, for instance. 10 years from now we’ll still need to 
 Why is this idea interesting? Because it applies to all levels (damn, [it’s a mental model after all](https://fs.blog/2013/10/inversion/)). **Think about learning**: what won’t change in 10 years? Specific tools and processes may disappear. But certain things will still be there. **The first principles** of knowledge won’t change in a decade. Learn those. Forget the details.
 
 Think about it. Think about things around you, things that will still be a reality 10 years from now. And stick to them.
-
-

@@ -33,8 +33,16 @@ function Bio() {
               }}
             />
             <p>
-              Oh, hi! 👋 I'm{' '}
-              <a href={`https://twitter.com/${social.twitter}`} target="_blank">
+              Oh, hi!{' '}
+              <span role="img" aria-label="waving hand">
+                👋
+              </span>{' '}
+              I'm{' '}
+              <a
+                href={`https://twitter.com/${social.twitter}`}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
                 {author}
               </a>
               , a UI engineer interested in JavaScript, CSS, UX, lean software

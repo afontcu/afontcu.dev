@@ -7,23 +7,23 @@ keywords: ''
 slug: named-arguments-functions
 ---
 
-![](https://cdn-images-1.medium.com/max/800/1*y8anDIvMEMKW7D7DEgqBdw.png)
+Imagine this piece of code:
 
-Imagine this piece of code
-
+```js
 // some code...
 
-**apiRequest**(  
-  'products',  
-  'GET',  
-  { category: 3 },  
-  \["Content-Type: text/plain"\],  
-  function(response) { ... },  
-  null,  
-  true  
+apiRequest(
+  'products',
+  'GET',
+  { category: 3 },
+  ['Content-Type: text/plain'],
+  function(response) { ... },
+  null,
+  true
 )
 
 // some more code...
+```
 
 If I were to ask you: “Can you explain me every parameter?” you’d have two options:
 
@@ -38,21 +38,25 @@ Oh wait.
 
 We _do_ have a similar way!
 
-### Enter object destructuring and shorthand property names!
+## Enter object destructuring and shorthand property names!
 
 _(Sounds harder than it is)_
 
 We know that this:
 
-var someObject = { a: 1, b: 2, c: 3 }  
+```js
+var someObject = { a: 1, b: 2, c: 3 }
 var { a: a, b: c, c: c } = someObject
+```
 
-will create three variables (a, b, and c) with the values of the object (1, 2, and 3, respectively).
+will create three variables (`a`, `b`, and `c`) with the values of the object (1, 2, and 3, respectively).
 
 We also know that, given an object key/value pair with the same name, we can remove one of them and achieve a terser syntax:
 
-var someObject = { a: 1, b: 2, c: 3 }  
+```js
+var someObject = { a: 1, b: 2, c: 3 }
 var { a, b, c } = someObject
+```
 
 This would yield exactly the same result as before.
 
@@ -60,7 +64,33 @@ Finally, we know we can pass Objects as function parameters, obviously.
 
 Why not merging this three things we know?
 
-The “timeout: 0” makes \*no\* sense but I’m literally too lazy to open, edit, save, copy, remove from the post and paste the Gist again ❤.
+```js
+// notice the curly braces! we are passing an object now
+apiRequest({
+  endpoint: 'products',
+  method: 'GET',
+  getParams: { category: 3 },
+  headers: ['Content-Type: text/plain'],
+  callback: function(response) {},
+  timeout: 0,
+  authRequest: true,
+})
+
+// somewhere else:
+
+// notice the curly braces! we are receiving an object now
+function apiRequest({
+  endpoint,
+  method,
+  getParams,
+  headers,
+  callback,
+  timeout,
+  authRequest,
+}) {
+  //...
+}
+```
 
 What happened here? Instead of N parameters, now `apiRequest` is just expecting a single object. We are immediately _destructuring_ it into some variables, that happen to have the same name as the parameters.
 
@@ -68,23 +98,35 @@ And notice our function call. Now it “explains” what is every parameter. Con
 
 Isn’t it great?
 
-### But wait, there’s more!
+## But wait, there’s more!
 
 Did you know that you can provide default values when destructuring an object?
 
+```js
 var someObj = { a: 1, b: 2 }
 
-var {  
-  a,  
-  b,  
-  c = 123456,  
-} = someObj
+var { a, b, c = 123456 } = someObj
 
-// a = 1  
-// b = 2  
+// a = 1
+// b = 2
 // c = 123456
+```
 
 now we can improve our `apiRequest` function by providing some default values to prevent nasty edge cases and also avoid repetition:
+
+```js
+function apiRequest({
+  endpoint,
+  method = 'GET',
+  getParams = {},
+  headers = ['Content-Type: text-plain'],
+  callback = () => {},
+  timeout = 0,
+  authRequest = true,
+} = {}) {
+  //...
+}
+```
 
 We set some default sensible values. This way we avoid passing some usual values (such as the `method` or if the request has to be authenticated).
 
@@ -94,10 +136,12 @@ Notice that we also provide some default value (an empty object) **for the whole
 
 Our function call would look like this now:
 
-apiRequest({  
-  endpoint: 'products',  
-  getParams: { category: 3 },  
+```js
+apiRequest({
+  endpoint: 'products',
+  getParams: { category: 3 },
 })
+```
 
 Way cleaner, right?
 
@@ -105,49 +149,32 @@ This pattern is called **named parameters** (or named arguments), and we can emu
 
 Apart from default values, we can then create specialized versions of our `apiRequest` function. Some naive examples:
 
-function **authApiRequest** (params) {  
-  const token = 'Bearer whatever'
+```js
+function authApiRequest (params) {
+ const token = 'Bearer whatever'
 
-```
-  return new Promise((resolve, reject) => {    apiRequest(      ...params,      { headers: ...params.headers, Authentication: token }    )    .then(resolve)    .catch(reject)  }
+  return apiRequest(
+    ...params,
+    { headers: ...params.headers, Authentication: token }
+  )
+}
 ```
 
 or even:
 
-function **postRequest** (params) {  
-  `return new Promise((resolve, reject) => {  
-    **apiRequest**(...params, method: 'POST')  
-      .then(resolve)  
-      .catch(reject)  
-  }  
-`}
+```js
+function postRequest (params) {
+  const token = 'Bearer whatever'
 
-### You can use the same pattern with returning values
+  return  apiRequest(
+   ...params,
+   method: 'POST',
+   { headers: ...params.headers, Authentication: token }
+  )
+}
+```
 
-Our `apiRequest` return signature could look like this:
-
-function **apiRequest**({ ... }) {  
-  var response, error, loading  
-  response = error = loading = null
-
-  //some amazing code...
-
-  return {  
-    response,  
-    error,  
-    loading,  
-  }  
-} 
-
-This way, we could destructure the response of our function, providing again context and intent:
-
-var { response, error, loading } = apiRequest({ ... })
-
-This is a nice way of effectively “returning more than one value from a function”. Well, you are actually just returning an Object, but you know what I mean.
-
-You could even use an Array to store and return the values, now that [React Hooks](https://reactjs.org/docs/hooks-intro.html) kinda made it mainstream.
-
-### Recap: benefits of passing and receiving objects as parameters
+## Recap: benefits of passing and receiving objects as parameters
 
 1.  We provide **context** to our parameters. It’s easy to understand what are our parameters if we tag them with a key.
 2.  Goodbye order! We didn’t mention that in the post, but Objects are unordered structures, so **we are no longer tied to positional arguments**.
@@ -156,7 +183,7 @@ You could even use an Array to store and return the values, now that [React Hook
 5.  We can use the same pattern for returning values. Store them into an Object, and return the whole object.
 6.  If you use TypeScript, create an **interface** for the object parameter which, IMHO, will look nice that several inline typing annotations. But’s that just stylistic, so you might disagree :)
 
-### Warning #1: This is not an excuse to create monstruous function signatures
+## Warning #1: This is not an excuse to create monstruous function signatures
 
 Ok, we have great tools and we use them to overcome some language shortcomings.
 
@@ -168,23 +195,27 @@ _Rule of thumb_: We don’t like Boolean parameters. Usually, a Boolean paramete
 
 Contrived example:
 
-function **getUsersList** ({ includeInactiveUsers = false }) {...}
+```js
+function getUsersList ({ includeInactiveUsers = false }) {...}
 
-getUsersList()     // whatgetUsersList(true) // the fuck
+getUsersList() // whatgetUsersList(true) // the fuck
+```
 
 We should aim for something like the following:
 
-function **getActiveUsersList**() { ... }
+```js
+function getActiveUsersList () { ... }
 
-function **getInactiveUsersList**() { ... }
+function getInactiveUsersList () { ... }
 
-function **getUsersList**() {  
-    return \[...getActiveUsersList(), ...getInactiveUsersList()\]  
+function getUsersList () {
+  return [...getActiveUsersList(), ...getInactiveUsersList()]
 }
+```
 
 …you might want to create a single function to query the database/whatever to get the filtered user list, instead of doing so in both helper functions. You get the idea.
 
-### Warning #2: This is just a pattern
+## Warning #2: This is just a pattern
 
 If you create a function called `getUserAddressById`_(?)_ that only takes a parameter, well, we all know that the parameter is gonna be the ID. Or at least, it should. If it doesn’t, please refer to warning #1.
 

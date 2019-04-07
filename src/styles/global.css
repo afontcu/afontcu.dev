@@ -1,0 +1,26 @@
+:root {
+  --theme-color: hsl(181, 100%, 92%);
+}
+
+:not(pre) > code {
+  background-color: var(--theme-color);
+  padding: 4px;
+}
+
+pre {
+  border-radius: 4px;
+}
+
+.gatsby-highlight {
+  margin-bottom: 1rem;
+}
+
+.gatsby-highlight-code-line {
+  background-color: rgba(0, 0, 0, 100%);
+  display: block;
+  margin-right: -1em;
+  margin-left: -1em;
+  padding-right: 1em;
+  padding-left: 0.75em;
+  border-left: 0.25em solid var(--theme-color);
+}

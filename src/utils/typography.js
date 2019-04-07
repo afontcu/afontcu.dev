@@ -1,7 +1,7 @@
 import Typography from 'typography'
-import Wordpress2016 from 'typography-theme-wordpress-2016'
+import TypographyTheme from 'typography-theme-lincoln'
 
-Wordpress2016.overrideThemeStyles = () => {
+TypographyTheme.overrideThemeStyles = () => {
   return {
     'a.gatsby-resp-image-link': {
       boxShadow: `none`,
@@ -9,9 +9,14 @@ Wordpress2016.overrideThemeStyles = () => {
   }
 }
 
-delete Wordpress2016.googleFonts
+delete TypographyTheme.googleFonts
 
-const typography = new Typography(Wordpress2016)
+TypographyTheme.headerFontFamily = ['Patua One', 'sans-serif']
+TypographyTheme.bodyFontFamily = ['Lora', 'Georgia', 'serif']
+TypographyTheme.baseFontSize = '19px'
+TypographyTheme.scaleRatio = 3
+
+const typography = new Typography(TypographyTheme)
 
 // Hot reload typography in development.
 if (process.env.NODE_ENV !== `production`) {
