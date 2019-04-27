@@ -3,6 +3,8 @@ import { Link } from 'gatsby'
 
 import { rhythm, scale } from '../utils/typography'
 import Bio from '../components/bio'
+import Newsletter from '../components/newsletter'
+import FullBleed from '../components/full-bleed'
 
 class Layout extends React.Component {
   render() {
@@ -49,10 +51,15 @@ class Layout extends React.Component {
         }}
       >
         <header>{header}</header>
-        <main style={{ marginBottom: rhythm(2) }}>{children}</main>
-        <footer>
-          <Bio />
-        </footer>
+        <main style={{ marginBottom: rhythm(6) }}>{children}</main>
+        <FullBleed>
+          <footer style={{ marginTop: rhythm(-4) }}>
+            <Newsletter />
+            <br />
+            <br />
+            <Bio />
+          </footer>
+        </FullBleed>
       </div>
     )
   }

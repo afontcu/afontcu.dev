@@ -1,5 +1,5 @@
 :root {
-  --theme-color: hsl(181, 100%, 92%);
+  --theme-color: rgb(214, 254, 254);
 }
 
 :not(pre) > code {
@@ -26,8 +26,12 @@ pre[class*='language-'] {
   border-left: 0.25em solid var(--theme-color);
 }
 
-.bio a {
+.full-bleed a {
   background-image: none;
   text-shadow: none;
   text-decoration: underline;
+}
+
+.btn:hover {
+  opacity: 0.8;
 }
