@@ -27,6 +27,8 @@ Jeff Bezos has something to say about it:
 
 This is it. _Disclaimer: Amazon is evil. I know it, you know it, Jeff Bezos knows it. But the example is excellent, isn’t it?_
 
+## Same principles; different problems
+
 Under this perspective, a lot of things start making sense. **Huge companies have been built around this idea.** They solve evergreen human needs using the best tools available.
 
 We will always need to find good, useful information as fast as possible. First, we got encyclopedias. _Well, not “first”, but you know what I mean_. Then, someone invented an index of all web pages so we could search through them conveniently. The need is the same, it hasn’t changed. What has changed is the best way to solve it.

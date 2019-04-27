@@ -7,12 +7,6 @@ keywords: ''
 slug: getting-someone-do-something
 ---
 
-![](https://cdn-images-1.medium.com/max/1200/1*XfSSYFXJ72Q8ArL6SAcGaQ.jpeg)
-
-Photo by [Julian Lozano](https://unsplash.com/photos/c2o4D_iWGaI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/motivation?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-
-
-
 Remember that meeting where you had a great idea. You thought of a way to improve a topic in your job. Or even better, a solution to an ongoing problem, something you knew need to be addressed.
 
 So, during the meeting, you explain your great idea. It’s so damn clear inside your head! Yet, you don’t get the buy-in. Or even worse: some say “fine”, but nothing happens in the following days.
@@ -29,7 +23,7 @@ Well, that’s not true. Sorry about that.
 
 You identify a big problem. You find a quite well-crafted solution. You try to sell it to people who, allegedly, suffer the issue. And Bam!… Nothing happens.
 
-### Mental models behind convincing people
+## Mental models behind convincing people
 
 Mental _what_?
 
@@ -43,7 +37,7 @@ The power behind mental models is that **they are applied to several fields of k
 
 So, let’s explore what they say about convincing people.
 
-### MAT
+## MAT
 
 During my time as a member of an online marketing team, I learned about this model called “MAT”, created by [Dr. Fogg](https://www.bjfogg.com/). It states the following:
 
@@ -60,15 +54,15 @@ Finally, you need some **motivation** to start the whole process.
 
 And talking about _motivation_…
 
-### Driving people
+## Driving people
 
 This made me think of something else. When I read [Drive](https://www.amazon.com/Drive-Surprising-Truth-About-Motivates/dp/1594484805), by Dan Pink, ([one of the best books I’ve ever read](https://calidae.blog/qu%C3%A8-ens-motiva-9c1c9e3e6bd3). Period) I learned about the intrinsic motivators that make us stand up and do things.
 
 Pink identifies 3 basic intrinsic modifiers:
 
-*   The willingness to **master** our craft.
-*   The **autonomy** of doing what we think is best, the way we think is best.
-*   The **purpose** of the task we want to do.
+- The willingness to **master** our craft.
+- The **autonomy** of doing what we think is best, the way we think is best.
+- The **purpose** of the task we want to do.
 
 _(Remember that Pink talks about intrinsic motivators. An extrinsic motivator would be getting paid or, well, not getting hit with a whip)_.
 
@@ -76,7 +70,7 @@ So as long as you want to change someone else’s behavior, and not only _force_
 
 Talking about _incentives_…
 
-### Selling a Design System
+## Selling a Design System
 
 Reading [Smashing Magazine #6](https://www.smashingmagazine.com/2018/09/smashing-book-6-release/) book (a must read, if I may), the first chapter caught my eye. [Laura Elizabeth](https://twitter.com/laurium) writes there about Design Systems, and how to “sell” them to both your colleagues and people with resources (a.k.a. money and time) to finance the project.
 
@@ -101,5 +95,3 @@ All this exploration reminded me of [First Principles mental model](https://fs.b
 This is the power of mental models. Simple but powerful frames that you use as **building blocks to create more complex ideas**. Same thing we do nowadays to create User Interfaces using VueJS or React. _What?_ _Connecting the dots again?_
 
 Have you ever noticed any other pattern that you might use in several knowledge fields?
-
-

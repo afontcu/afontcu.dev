@@ -9,13 +9,9 @@ keywords: ''
 slug: neural-networks-apocalypse
 ---
 
-[![](https://cdn-images-1.medium.com/max/800/0*IQTDYPoKdP-3w8oZ)](http://www.track.datadriveninvestor.com/1B9E)
-
-
-
 Last month, [**a detailed paper**](https://deepmind.com/documents/260/alphazero_preprint.pdf) was published with detailed information of the matches it played against [Stockfish](https://en.wikipedia.org/wiki/Stockfish_%28chess%29), the most popular and powerful chess engineer out there… until now.
 
-### Mind = blown
+## Mind = blown
 
 Two things blow my mind with regard to AlphaGo.
 
@@ -31,7 +27,7 @@ Yeah, you read it right. It beats humans and machines in three ancestral games.
 
 The most incredible part of it, though, is how the engineers achieved such a level of perfection and differentiation among different games. It really blows my mind.
 
-### Noone taught chess to AlphaGo
+## Noone taught chess to AlphaGo
 
 Noone taught AlphaGo how to play chess. Engineers only taught him the basic rules: how pieces move, and what’s the ultimate goal (to checkmate the opposite King).
 
@@ -45,7 +41,7 @@ But AlphaGo, as if it were the King in the North (_spoiler?_), **knew nothing**.
 
 AlphaGo is a [deep neural network](https://skymind.ai/wiki/neural-network) that learned chess… **by playing against itself**. No human input. No opening theories. No relative value. No good or bad pawn structures.
 
-### AlphaGo sucked. For, like, one or two games
+## AlphaGo sucked. For, like, one or two games
 
 Its first games were ridiculous. Random moves. But eventually, black or white won the game. And if one side wins, it must have performed better moves, right? AlphaGo learned something along the way, and played against the refined version of itself.
 
@@ -70,5 +66,3 @@ We are still in control, though: we can set their boundaries, and decide where t
 That’s a pretty disturbing thought.
 
 Extra ball: If you happen to have a Netflix account, check out [the documentary](https://www.netflix.com/es-en/title/80190844) of the match between AlphaGo and the reigning World champion of Go. It’s fascinating.
-
-

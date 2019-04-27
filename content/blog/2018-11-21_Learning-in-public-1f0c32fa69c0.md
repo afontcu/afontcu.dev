@@ -1,6 +1,6 @@
 ---
 title: Learning in public
-description: ""
+description: ''
 date: '2018-11-21T07:36:01.570Z'
 categories: ''
 keywords: ''
@@ -10,8 +10,6 @@ slug: learning-in-public
 ![](https://cdn-images-1.medium.com/max/800/1*xP8iNQA1JaE2wZpdxXs_Ww.png)
 
 “Expand my brain, learning juice!” — Homer Simpson, poet (Episode s17e06)
-
-
 
 When [I started this newsletter](https://medium.com/@afontcu/have-you-ever-sent-your-own-newsletter-51e22f82f949), I stated that **Learning in Public** was one of the main reasons for doing so.
 
@@ -33,7 +31,9 @@ I have changed the format (now I started [giving conference talks](https://www.y
 
 The goal shouldn’t be “to reach as many people as possible”. That’s a quite lovely side effect. Yet, the goal should be to help your future self.
 
-**Start simple**. You read cool stuff online? Share it on your team’s Slack, on Twitter. [Curate a post list](https://calidae.blog/tagged/food-for-thought) and publish it (it’s so damn easy).
+## Start simple
+
+Do you read cool stuff online? Share it on your team’s Slack, on Twitter. [Curate a post list](https://calidae.blog/tagged/food-for-thought) and publish it (it’s so damn easy).
 
 The wheel never stops turning.
 
@@ -44,5 +44,3 @@ Once you started to do so, why not trying to submit a talk to some cool conferen
 And this, folks, is the main reason behind this newsletter. It’s just another channel I wanted to explore. The more people I reach, the better — it might mean more feedback, so more learning! The goal is improving.
 
 Go for it.
-
-

@@ -7,8 +7,6 @@ keywords: ''
 slug: software-engineer-myths
 ---
 
-![](https://cdn-images-1.medium.com/max/2560/1*5K_ZAP91V-kNQ5gsOriazQ.jpeg)
-
 The newsletter’s title was a Tweet published weeks ago [by Amy](https://twitter.com/TheAmyCode/status/1092116316196990976). I wrote a short response, but the questions have been in my head for some time, so I wanted to discuss the topic further.
 
 So, here’s the list of myths that I believed a long time ago. I wouldn’t say “before becoming a software engineer”, because I’m not sure when that happened. When I as Junior? When I became “Senior” [(what does that even mean](https://medium.com/@afontcu/senior-developer-you-keep-using-that-word-i-dont-think-it-means-what-you-think-it-means-f935c1c36820))?

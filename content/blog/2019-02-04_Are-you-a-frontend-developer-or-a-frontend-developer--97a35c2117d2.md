@@ -1,15 +1,11 @@
 ---
 title: Are you a frontend developer or a frontend developer?
-description: ""
+description: ''
 date: '2019-02-04T07:26:00.959Z'
 categories: ''
 keywords: ''
 slug: are-you-frontend-developer
 ---
-
-
-
-![](https://cdn-images-1.medium.com/max/800/0*0jfdydmEqZZojn-p.jpg)
 
 The current big topic in the frontend community is not… new. However, _CSS Tricks_ spiced everything up with their last post, called [**The Great Divide**](https://css-tricks.com/the-great-divide/).
 
@@ -25,7 +21,7 @@ Dan Abramov’s post [The Elements of UI engineering](https://overreacted.io/the
 
 Does the UI of Google Photos look simple? Yeah, it does. But it [isn’t](https://medium.com/google-design/google-photos-45b714dfbed1).
 
-### “Oh, you do CSS? Then you must suck at JS”
+## “Oh, you do CSS? Then you must suck at JS”
 
 And the other way around. This is a reality. Not that CSS people suck as JS, but that the feeling exists. We (as an industry) tend to assume that people working with CSS will suck at JS and that JS-focused engineers have no fucking clue about CSS or accessibility.
 
@@ -33,7 +29,7 @@ I believe this is due to the growth I mentioned before. Requirements grew and ex
 
 Job offers (and people writing them) should bear this in mind. If you ask for a “Frontend developer”, will you feel comfortable with a CSS-focused candidate, or vice-versa?
 
-### We put JavaScript in the JavaScript so we can JavaScript while JavaScripting
+## We put JavaScript in the JavaScript so we can JavaScript while JavaScripting
 
 One of the trends in the industry is to _JavaScript all the things_.
 
@@ -53,7 +49,7 @@ JavaScript looks hard and makes you look cool. **We love complex things because 
 
 HTML and CSS _look_ simpler next to it, even though they are not. I’ve seen some developers feel superior to their peers because they can JS. It is weird and plain wrong.
 
-### My take
+## My take
 
 **We are entering the era of the “**[**T-shaped**](https://en.wikipedia.org/wiki/T-shaped_skills) **Frontend Engineer”**. You can’t be [amazing at everything](https://overreacted.io/things-i-dont-know-as-of-2018/). Our field is too large, now. You can know your shit quite well, and be aware of everything else. Know your [circle of competence](https://en.wikipedia.org/wiki/Circle_of_competence), and try to expand it.
 
@@ -70,5 +66,3 @@ We share the same goal: to create useful and accessible User Interfaces for our 
 **JS is not at odds with HTML and CSS**. They work together, so we should be able to understand them all, and get the better of each world. Learn as much as you can. It has never hurt anybody, huh?
 
 And don’t even get me started on the Full-stack engineer stuff. “Full-stack” usually becomes the short version of _“I’m a backend, and I think HTML and CSS are simpler and inferior, so I can easily write them. But then I’ll com crying saying the CSS is broken”_. So don’t get me started.
-
-

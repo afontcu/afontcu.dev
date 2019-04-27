@@ -11,7 +11,7 @@ slug: cool-ux-tools
 
 ![](https://cdn-images-1.medium.com/max/1200/1*PyYW7nCxUVTX2fqkPaNPFw.png)
 
-### The Why
+## The Why
 
 I’m a frontend developer, and I love everything related to the web. The web is cool. It allows you to create things and people can then use them or hate them on Github issues.
 
@@ -19,7 +19,7 @@ I gathered a few UX tools and resources I used sparingly, and I wanted to share 
 
 > Wait a minute. You said you are a frontend developer. Why do you mess with UX people, mate? You are asking for trouble.
 
-Life is too short to avoid pissing some UX experts off, isn’t it? Now seriously. I like how [this picture from Ben Melbourne](https://asinthecity.com/2011/11/10/the-difference-between-a-ux-designer-and-ui-developer/ "Differences between UX designer and UI developer") (the second one) articulates the difference between UX, design, frontend and so on. And I like doing the right things right, so research and design are critical. And “UI Developer” sounds cool, so ¯\\\_(ツ)\_/¯
+Life is too short to avoid pissing some UX experts off, isn’t it? Now seriously. I like how [this picture from Ben Melbourne](https://asinthecity.com/2011/11/10/the-difference-between-a-ux-designer-and-ui-developer/ 'Differences between UX designer and UI developer') (the second one) articulates the difference between UX, design, frontend and so on. And I like doing the right things right, so research and design are critical. And “UI Developer” sounds cool, so ¯\\\_(ツ)\_/¯
 
 Bottom line: there are obvious differences between UXers, developers, and designers. But working on a small agency means that I often need to step into UX realm (_Developer of a small agency? You better call’em Jack of all trades_).
 
@@ -36,7 +36,7 @@ Why **Cool UX Tools**, then? This project has three goals:
 
 ![](https://cdn-images-1.medium.com/max/1200/1*1HLnuyCJ3nWt1rnQUd6m5A.png)
 
-### The What
+## The What
 
 The idea is pretty straightforward: a simple site featuring a curated list of tools, with a maximum of 8 tools per category. I wanted a curated repository of tools, not a _gotta-catch-them-all_ website with thousands of links. 8 tools per category felt right.
 
@@ -50,13 +50,13 @@ Anyway, the path was clear: I wanted to create some side project, and that post 
 
 By the way, Bram’s goal was to become famous and rich (I think he managed to achieve both..?), my goal is to have a pet project.
 
-### The How
+## The How
 
 As I said, I followed no specific process to discover the tools featured in Cool UX Tools. I was familiar with some of them, and a bunch of them were recommended by family, friends and, fools.
 
 Then I decided it was the right time to start building the site. So suddenly I needed waaay more information than a categorized link.
 
-#### First, we take logos, then we take descriptions
+### First, we take logos, then we take descriptions
 
 One by one, I gathered the URL of the logo of every resource. I couldn’t come up with an automated way. Now I think I could’ve scrapped every website, get their Twitter username, and then download the Twitter logo. It makes sense.
 
@@ -72,7 +72,7 @@ Then I went one by one making sure every logo looked good _(spoiler: nope)_.
 
 You may say all this logo stuff was unnecessary, but I think that it gives **Cool UX Tools** more credib- _it looks better_.
 
-#### Descriptions, huh?
+### Descriptions, huh?
 
 “I really want to provide a custom, curated description for every and each resource. But it would require too much time. But I think it’s important for users, and if it’s important to my users it’s important to me. But starting from scratch? Crazy. I wish I had something to start with. But but but.”
 
@@ -86,7 +86,7 @@ So I could just scrap every website and pull their meta description. This would 
 
 I had to rewrite several descriptions because they were _a little too much opinionated_ (“The best tool of the world!”)_._ Who are they to say that? Let **me** decide who is coolest one.
 
-#### Nuxt.js ❤
+### Nuxt.js ❤
 
 Once I had the content I could finally start to create the site. And I’m gonna say it: Nuxt is **A👏M👏A👏Z👏I👏N👏G**. I worked with several Vue boilerplates and implementations, and Nuxt is the one I liked the most. [Vuex](https://nuxtjs.org/guide/vuex-store/) is there, [vue-router](https://nuxtjs.org/guide/routing/) is there, [vue-meta](https://github.com/declandewet/vue-meta) is there… And it provides SSR and prerendering out of the box and useful conventions such as `pages/` and `plugins/` folders.
 
@@ -100,13 +100,13 @@ Oh, and by the way, I had a great time:
 
 [Lighthouse-driven development](https://twitter.com/afontcu_/status/1006205059313668096).
 
-### The Result
+## The Result
 
 ![](https://cdn-images-1.medium.com/max/1200/1*PyYW7nCxUVTX2fqkPaNPFw.png)
 
 So this is [**Cool UX Tools**](https://coolux.tools/), a curated list of (obviously) **cool resources and tools** for developers, UX researchers, designers and project managers. Hope you like it!
 
-### Next steps
+## Next steps
 
 I’m not sure how Cool UX Tools will evolve. Actually, I don’t know if it will evolve. I guess I’ll email every resource owner to tell him/her that his/her tool has been officially labeled as cool, and hopefully my project will get some visitors.
 
@@ -120,7 +120,7 @@ But again, this is a lot of work.
 
 From a technical point of view, I want to further explore Nuxt. I want to see how well works from an SEO perspective and try out more community plugins. I might end up evolving the project because of this (I want to play with an external API and Nuxt's`asyncData` hook, for instance).
 
-### That’s a wrap
+## That’s a wrap
 
 Feel free to give feedback in the comments section or on [Twitter](https://twitter.com/afontcu_), and check out the code in [Github](https://github.com/afontcu/uxstack)!
 

@@ -7,15 +7,9 @@ keywords: ''
 slug: agile-is-dead
 ---
 
-![](https://cdn-images-1.medium.com/max/800/1*pGq5m62VpXJh2LY1nSQOSA.png)
+![Google Search capture for "Agile is dead" query](https://cdn-images-1.medium.com/max/800/1*pGq5m62VpXJh2LY1nSQOSA.png)
 
-
-
-I wanted my first newsletter to tell you about my first public talk ever. I talked about CSS at [Barcelona Software Crafters 2018](http://scbcn.github.io). I explained how do we deal with it nowadays.
-
-But.
-
-We were having some beers after the first day, and, as usual, interesting topics arose. Here, take the first learning of this newsletter. _Surround yourself with smart, passionate people, and listen to them_. You might learn a thing or two. Or, at least, they’ll make you think.
+I was having some beers in the BCN Software Crafters after the first day, and, as usual, interesting topics arose. Here, take the first learning of this newsletter. _Surround yourself with smart, passionate people, and listen to them_. You might learn a thing or two. Or, at least, they’ll make you think.
 
 So. My hypothesis. “Agile” (uppercased) has become a dreaded word for developers in the agile/XP/crafters communities.
 
@@ -35,7 +29,7 @@ And no one is to blame! I mean, yes, obviously. Big companies eating everything 
 
 So what should we do? Should we strive for defending the label, come what may? Being a Don Quijote is exhausting, and our energy is finite. Yet, it makes sense to fight for something if it’s worth it.
 
-#### The agile manifesto is… hard
+## The agile manifesto is… hard
 
 I loved what [Carlos](https://twitter.com/carlosthesailor) said about his experience because it resonated with mine. He said he had to follow “agile methodologies” for five years before starting to understand what they meant.
 
@@ -51,14 +45,10 @@ So, my open questions are the following:
 
 Should we fight to **get back the label, come what may?** Or should we **focus on the principles**, and use whatever new fancy label represent us?
 
+## Food for thought
+
 More on this topic from The Best™:
 
 [The Tragedy of Craftsmanship](http://blog.cleancoder.com/uncle-bob/2018/08/28/CraftsmanshipMovement.html), by Uncle Bob.
 
 [Developers Should Abandon Agile](https://ronjeffries.com/articles/018-01ff/abandon-1/), by Ron Jeffries.
-
-My talk is gonna be online soon, so stay tuned. I’ll flood you no matter what 😇.
-
-Damn. I promised myself newsletters would be short. 0/1. I’ll keep trying!
-
-

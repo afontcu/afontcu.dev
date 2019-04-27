@@ -7,7 +7,7 @@ keywords: ''
 slug: agile-open-spain-2018
 ---
 
-### tl;dr
+## tl;dr
 
 I helped to organize the Agile Open Spain 2018 and I’m so proud of the result, the people I worked with, and everything. 🙌
 
@@ -19,7 +19,7 @@ I couldn’t attend any talk/debate/activity, but I learned a lot of things. And
 
 AOS 2018 welcome ceremony.
 
-### Less short version
+## Less short version
 
 I’ve had a hard time trying to explain no _non-agilists_ the concept of Open Space.
 
@@ -33,13 +33,13 @@ I liked how [Jordi Medina](https://medium.com/u/433a241c70db) (our master of cer
 
 Among other stuff, I was in charge of crafting the website (_hooray_ for [Lighthouse-driven development](https://twitter.com/afontcu_/status/1006205059313668096), 99/100 performance score) and also of the [official Twitter account](https://twitter.com/agileopenspain). Chief of Community Management.
 
-#### Why did we decide to host the AOS 2018?
+### Why did we decide to host the AOS 2018?
 
 Last year we went to Segovia to enjoy the AOS 2017. There we had an outburst (it was a Friday evening — enough said) and decided to propose ourselves as organizers for the 2018 edition.
 
 I haven’t regretted the decision a single time. The AOS flooded my agenda and made me step outside my comfort zone, but it was so worth it. We usually benefit from the community — events, talks, Meetups, workshops, even code. I wanted to give something back, something everyone could benefit from — that is, my time and effort.
 
-#### And the result?
+### And the result?
 
 Well, check it out:
 
@@ -53,7 +53,7 @@ Well, check it out:
 
 More pics in the [AOS Twitter account](https://twitter.com/agileopenspain/media)
 
-#### What I learned
+### What I learned
 
 I learned that there’s no such thing as a “small event”. We assumed an Open Space would be easy to coordinate. _Lol nope_. But hey — no regrets. We ended up exhausted but happy.
 
@@ -65,7 +65,7 @@ I got to know better people who I usually meet at similar events. I was busy dur
 
 I also learned that I’m gonna miss some people.
 
-#### The feedback
+### The feedback
 
 Everyone was so nice. People enjoyed the venue, the talks, the food, the drinks, the activities…
 

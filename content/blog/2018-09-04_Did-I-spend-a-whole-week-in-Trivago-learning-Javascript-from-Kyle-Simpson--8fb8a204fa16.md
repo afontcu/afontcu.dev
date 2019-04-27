@@ -17,11 +17,11 @@ Yeah, that’s about right. 5 days with Kyle Simpson. For free. In Düsseldorf, 
 
 The menu for the week was the following:
 
-*   Javascript foundations
-*   ES6: the good parts
-*   Rethinking Async
-*   Functional Light Javascript
-*   Functional Light Javascript II
+- Javascript foundations
+- ES6: the good parts
+- Rethinking Async
+- Functional Light Javascript
+- Functional Light Javascript II
 
 One topic per day. 8 hours a day.
 
@@ -35,21 +35,25 @@ Heck yeah it did.
 
 I thought I knew Javascript. It’s not only that I didn’t, is that **now I feel that I discovered a ton of things I didn’t know I don’t know**. (This sentence was as hard to write as it is to read).
 
+## 5 days a week
+
 Monday was great because we focused for 8 hours on **low-level JS stuff** such as scoping, hoisting, closures and so on.
 
 We had time to go over _“classical JS interview questions”_, and we could spend the required amount of time on each question, to make sure we fully understood what was happening and **why**.
 
 So, for instance, it’s clear to me now why this two loops don’t output the same result:
 
-for (var i = 0; i < 10; i++) {  
-  console.log('The number is ' + i)  
+```js
+for (var i = 0; i < 10; i++) {
+  console.log('The number is ' + i)
 }
 
-for (var i = 0; i < 10; i++) {  
-  setTimeout(function () {  
-    console.log('The number is ' + i)  
-  }, 0)  
+for (var i = 0; i < 10; i++) {
+  setTimeout(function() {
+    console.log('The number is ' + i)
+  }, 0)
 }
+```
 
 Do you want the answer, and how to solve it? Ask for it 😜 Or, ehm, well, use Google.
 
@@ -71,4 +75,4 @@ Let me also share [Debbie O'Brien](https://medium.com/u/2104dd167a50)’s [post]
 
 A meeting room at Trivago. True story.
 
-Again, I’d like to thank [trivago\_tech](https://medium.com/u/d91ecef33107) for such once in a lifetime opportunity. Trivago Headquarters is _ah-mah-zing_ and the people there are as cool as the offices. I just wish the workshop had taken us a month.
+Again, I’d like to thank [trivago_tech](https://medium.com/u/d91ecef33107) for such once in a lifetime opportunity. Trivago Headquarters is _ah-mah-zing_ and the people there are as cool as the offices. I just wish the workshop had taken us a month.

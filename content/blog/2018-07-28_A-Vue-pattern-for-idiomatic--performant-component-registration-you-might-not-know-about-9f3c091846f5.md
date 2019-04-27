@@ -9,27 +9,27 @@ keywords: ''
 slug: vue-performant-dynamic-component-registration
 ---
 
-![](https://cdn-images-1.medium.com/max/2560/1*XH9l-6x9SUlmGxPlZFaoIA.jpeg)
-
 If you played with Vue **Single File Components** a little bit, you probably know how to “call” a component from another one:
 
 1.  `import` the child component.
 2.  Register it on the `components` object of the parent component.
 3.  Add the component to the template/render function.
 
-<template>  
-  <some-random-thing />  
+```vue
+<template>
+  <some-random-thing />
 </template>
 
-<script>  
+<script>
 import **SomeRandomThing** from './components/SomeRandomThing'
 
-export default {  
-  components: {  
-    **SomeRandomThing**,  
-  },  
-}  
+export default {
+  components: {
+    **SomeRandomThing**,
+  },
+}
 </script>
+```
 
 It’s a common pattern, and it might end up becoming tedious. In this short post, we’ll learn a pattern (or two) to avoid some repetition. And we‘ll also improve our application performance for free.
 
@@ -39,7 +39,7 @@ Imagine a `Header` component that holds the information and layout for our appli
 
 Now imagine that we have a `UserInfo` and `CompanyInfo` components. And we want to display one or another depending on that setting value we had already configured before.
 
-### Version 1: Good ol’ way
+## Version 1: Good ol’ way
 
 This is the way we outlined above.
 
@@ -49,7 +49,7 @@ Nothing fancy. We import two components, register them, and then display one or 
 
 You might have used this “pattern” _aaaall_ over the place. And while there’s nothing inherently wrong with it, we can do better.
 
-### Version 2: <component /> to the rescue
+## Version 2: <component /> to the rescue
 
 There’s a built-in component in Vue called [Component](https://vuejs.org/v2/guide/components.html#Dynamic-Components). Yeah, try to search that on Google.
 
@@ -71,7 +71,7 @@ Did you say “_dynamically import_”?
 
 We got you.
 
-### Version 3: dynamic imports + `<component />` (and code splitting for free!)
+## Version 3: dynamic imports + `<component />` (and code splitting for free!)
 
 Let’s see how [**dynamic imports**](https://webpack.js.org/guides/code-splitting/#dynamic-imports) and `<component />` can play together:
 
@@ -81,8 +81,8 @@ So, what is happening here? We still use our new friend `<component/>`, but this
 
 As stated in the documentation, the `:is` prop can contain either:
 
-*   The name of a registered component, or
-*   **A component’s options object**
+- The name of a registered component, or
+- **A component’s options object**
 
 Bang! A “component’s options object”. This is exactly what we need!
 
@@ -90,7 +90,7 @@ Notice how we avoided importing and registering the components because our dynam
 
 There’s more information about Vue and Dynamic Imports [in the official documentation](https://vuejs.org/v2/guide/components-dynamic-async.html).
 
-#### A little gotcha
+### A little gotcha
 
 Notice that we access our prop `this.isCompany` **outside** of the dynamic import statement.
 
@@ -98,7 +98,7 @@ This is mandatory because otherwise Vue cannot do its reactivity magic and updat
 
 By accessing to our prop outside the dynamic import (by creating a simple `name` variable) Vue knows that our `componentInstance` computed property “depends on” `this.isCompany`, so it will effectively trigger a reevaluation when our prop changes.
 
-#### A word of caution _(updated, August 4th)_
+### A word of caution _(updated, August 4th)_
 
 When using dynamic imports, Webpack will create (on build time) **a chunk file for every file matching the expression inside the import function**.
 
@@ -108,7 +108,7 @@ Since this is not what we were looking for (heh), make sure you [write stricter 
 
 Besides that _gotchas_, we achieved an **idiomatic**, **terser** pattern. It comes with a wonderful side effect that makes it really shine:
 
-#### Our “conditional” components are now code split!
+### Our “conditional” components are now code split!
 
 If you `npm run build` a component like this, you’ll notice that Webpack will create a specific bundle file for `UserInfo.vue`, and another one for `CompanyInfo.vue`. Webpack [does that by default](https://webpack.js.org/guides/code-splitting/#dynamic-imports). Webpack is pure love ❤.
 
@@ -124,6 +124,6 @@ If you want to learn more about Code Splitting, Dynamic Imports and why you shou
 
 Hope it helped!
 
-_This post was featured in the_ [_#105 issue of the official Vue.js newsletter_](https://www.getrevue.co/profile/vuenewsletter/issues/105-vue-js-sprint-sneak-peek-get-the-vuevixens-scholarship-for-vue-js-london-125646)  💃
+_This post was featured in the_ [_#105 issue of the official Vue.js newsletter_](https://www.getrevue.co/profile/vuenewsletter/issues/105-vue-js-sprint-sneak-peek-get-the-vuevixens-scholarship-for-vue-js-london-125646) 💃
 
 **I just started out my own newsletter! Feel free to** [**subscribe here**](https://buttondown.email/afontcu)**.**

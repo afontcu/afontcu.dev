@@ -19,7 +19,7 @@ Raise your glasses! The king is dead, long live the king. Photo by [Alasdair El
 
 Sure, I might be biased. I challenge you to install a fresh copy of IE 7 (if you feel adventurous, go with IE6) and create a website. You’ll feel my pain.
 
-### What is really happening?
+## What is really happening?
 
 Microsoft [is killing its web engine](https://blogs.windows.com/windowsexperience/2018/12/06/microsoft-edge-making-the-web-better-through-more-open-source-collaboration/), called “EdgeHTML”. A web engine is the piece of software browsers rely upon to render websites. They are an engineering masterpiece. A huge chunk of critical code. So it’s not cheap.
 
@@ -31,7 +31,7 @@ Microsoft will (likely) continue expanding the Edge family, but the core of the 
 
 Why is this happening, though? How we got here?
 
-### It’s the dominance, stupid!
+## It’s the dominance, stupid!
 
 How come Google Chrome got obtained such a tremendous amount of market share? Because they had the platform to push Chrome down everyone’s throat. Android, and other Google services (Youtube, Maps), they all point you the _right_ direction.
 

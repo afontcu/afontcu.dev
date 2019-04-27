@@ -9,14 +9,7 @@ keywords: ''
 slug: senior-developer
 ---
 
-
 Nah, I don’t think so.
-
-```js
-const a = (b, c) => b + c
-```
-
-Lorem `ipsum dolor` sit amet.
 
 I mean, is not that I don’t think I’m senior — to be honest, _I don’t know_.
 
@@ -99,5 +92,3 @@ But hey — It is easier said than done.
 From my point of view, all these things are way more important. Way more important than knowing the last framework or being _nitpicky_ with trailing commas and indentation. They define what seniority means, which has nothing to do with such stuff.
 
 So, how do you feel about it? What do you think are the common traits of a Senior Developer? Do you identify as such? Why? Don’t you? Why?
-
-

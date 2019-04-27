@@ -7,8 +7,6 @@ keywords: ''
 slug: your-opinion
 ---
 
-
-
 This week, [Slack unveiled its new logo](https://slackhq.com/say-hello-new-logo). If you’ve been on the Internet long enough, you can easily guess the reaction to that change.
 
 Feel free to grab some popcorn and [read the reactions to the announcement](https://twitter.com/SlackHQ/status/1085609385542459393). At least [some](https://twitter.com/DesignByKyle/status/1085664903640305664) [tried](https://twitter.com/chrisgrande/status/1085633797830443008) to [add](https://twitter.com/HeyHeyESJ/status/1085613709286764544) [fun](https://twitter.com/heydonworks/status/1085822722926673920) to the mix.
@@ -45,7 +43,7 @@ We are living deep in this whirlpool of shitposts labeled as opinions. We need t
 
 What if we tried to read and listen more, ask more questions, talk less, and be open-minded? This is my New Year’s resolution.
 
-### Form a line!
+## Form a line!
 
 Anyway. The new Slack logo can be described in several ways, but I wouldn’t say it’s new. Is funny to see how **trends eat everything for breakfast**. A few years back everyone ditched skeuomorphism and complex logos in favor of a minimalist, flat design approach that has swallowed the entire World:
 
@@ -54,5 +52,3 @@ Anyway. The new Slack logo can be described in several ways, but I wouldn’t sa
 (Image from [Just Creative](https://justcreative.com/2018/12/18/logo-design-branding-trends-2019/))
 
 By the way, I loved the typography from the old logo.
-
-

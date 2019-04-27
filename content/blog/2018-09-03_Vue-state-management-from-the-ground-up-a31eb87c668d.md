@@ -17,7 +17,7 @@ In this post, we will discover how to **handle state in a Vue application** from
 
 Let’s dive in:
 
-### Step 1: Our first app. Election Day!
+## Step 1: Our first app. Election Day!
 
 First of all, we need an application. We cannot manage an application state without an application, right?
 
@@ -84,7 +84,7 @@ _(The answers are YES and YES)_
 
 But yeah, I hear you. Passing down props is not pretty nor comfortable nor scalable, so let’s try something else.
 
-### Step 2: Isolating state
+## Step 2: Isolating state
 
 Let’s create a “state holder” object and manage our whole state from there.
 
@@ -201,7 +201,7 @@ And could I create a shared Vue instance to hold that reactivity, so my componen
 
 Well, yes. Let me write a big heading:
 
-### Step 3: Create a shared Vue instance to hold that reactivity
+## Step 3: Create a shared Vue instance to hold that reactivity
 
 So, information stored in `data()` becomes “reactive by default”. And what is the piece of information we want to make reactive?
 
@@ -283,7 +283,7 @@ For instance, our solution cannot be shared among projects right now. I need to 
 
 It’s time to…
 
-### Step 4: Encapsulate our state in a function
+## Step 4: Encapsulate our state in a function
 
 Fortunately, Javascript provides us with a cool feature that allows us to hide all those details and keep things simple: functions. We are gonna create our [factory function](https://medium.com/javascript-scene/javascript-factory-functions-with-es6-4d224591a8b1).
 
@@ -432,7 +432,7 @@ Isn’t that cool?
 
 Now we can generate hundreds of thousands of stores by providing a simple `createStore` method. You’d want to place your `createStore` in a file and export it, so you can import it in your applications and create a whole new store. Bonus points if you call this file `Vuex.js` 😁.
 
-### ✅ That’s a wrap!
+## ✅ That’s a wrap!
 
 `state`, `mutations`… does it sound familiar to you? Well, if you have ever used [Vuex](https://vuex.vuejs.org/), it definitely should. We effectively mapped the Vuex API in our example.
 
