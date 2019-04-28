@@ -23,7 +23,7 @@ class BlogPostTemplate extends React.Component {
             <time
               dateTime={post.frontmatter.dateTime}
               style={{
-                ...scale(-1 / 5),
+                ...scale(1 / 3),
                 display: `block`,
                 marginBottom: rhythm(1.5),
                 fontStyle: `italic`,
