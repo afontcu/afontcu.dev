@@ -9,12 +9,8 @@ export default ({ children, skewed }) => (
       width: `100vw`,
       marginLeft: `calc(50% - 50vw)`,
       padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-      background: `rgb(123, 119, 198)`,
-      background: `linear-gradient(
-        90deg,
-        rgba(211, 255, 237, 1) 0%,
-        rgba(169, 240, 255, 1) 85%
-      )`,
+      boxShadow: `inset 0 -10px 13px rgba(0, 0, 0, 0.05)`,
+      background: `linear-gradient(90deg, rgb(211, 243, 255) 0%, rgb(169, 255, 196) 85%)`,
     }}
   >
     <div

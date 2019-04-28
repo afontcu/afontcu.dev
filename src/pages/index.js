@@ -22,37 +22,39 @@ class BlogIndex extends React.Component {
         <FullBleed skewed>
           <Bio />
         </FullBleed>
-        {posts.map(({ node }) => {
-          const title = node.frontmatter.title || node.fields.slug
-          return (
-            <div key={node.fields.slug}>
-              <h3
-                style={{
-                  marginBottom: rhythm(1 / 4),
-                }}
-              >
-                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                  {title}
-                </Link>
-              </h3>
-              <time
-                dateTime={node.frontmatter.dateTime}
-                style={{
-                  ...scale(-1 / 5),
-                  display: `block`,
-                  fontStyle: `italic`,
-                }}
-              >
-                {node.frontmatter.date}
-              </time>
-              <p
-                dangerouslySetInnerHTML={{
-                  __html: node.frontmatter.description || node.excerpt,
-                }}
-              />
-            </div>
-          )
-        })}
+        <div style={{ marginTop: rhythm(2.25) }}>
+          {posts.map(({ node }) => {
+            const title = node.frontmatter.title || node.fields.slug
+            return (
+              <div key={node.fields.slug}>
+                <h3
+                  style={{
+                    marginBottom: rhythm(1 / 4),
+                  }}
+                >
+                  <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                    {title}
+                  </Link>
+                </h3>
+                <time
+                  dateTime={node.frontmatter.dateTime}
+                  style={{
+                    ...scale(-1 / 5),
+                    display: `block`,
+                    fontStyle: `italic`,
+                  }}
+                >
+                  {node.frontmatter.date}
+                </time>
+                <p
+                  dangerouslySetInnerHTML={{
+                    __html: node.frontmatter.description || node.excerpt,
+                  }}
+                />
+              </div>
+            )
+          })}
+        </div>
       </Layout>
     )
   }
