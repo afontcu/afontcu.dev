@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Adrià Fontcuberta`,
     author: `Adrià Fontcuberta`,
-    description: `Just my personal blog`,
+    description: `I'm Adrià Fontcuberta, a UI engineer interested in JavaScript, CSS, UX, lean software development, clean code, and everything in between`,
     siteUrl: `https://afontcu.dev/`,
     social: {
       twitter: `afontcu_`,
