@@ -51,9 +51,9 @@ class Layout extends React.Component {
         }}
       >
         <header>{header}</header>
-        <main style={{ marginBottom: rhythm(6) }}>{children}</main>
+        <main style={{ marginBottom: rhythm(7.5) }}>{children}</main>
         <FullBleed>
-          <footer style={{ marginTop: rhythm(-4) }}>
+          <footer style={{ marginTop: rhythm(-5.5) }}>
             <Newsletter />
             <br />
             <br />

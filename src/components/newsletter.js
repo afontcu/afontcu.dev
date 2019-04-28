@@ -9,11 +9,11 @@ export default () => (
     onSubmit="window.open('https://buttondown.email/afontcu', 'popupwindow')"
     style={{
       backgroundColor: `white`,
-      padding: `3rem`,
+      padding: rhythm(1.5),
       borderRadius: `0.5rem`,
       boxShadow: `rgba(0, 37, 49, 0.05) 0px -7px 20px 0px, rgba(0, 0, 0, 0.05) 0px 3px 11px 1px`,
       fontFamily: systemFonts,
-      width: `75%`,
+      width: `85%`,
       margin: `0 auto`,
     }}
   >
