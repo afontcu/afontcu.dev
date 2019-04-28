@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Adrià Fontcuberta`,
     author: `Adrià Fontcuberta`,
-    description: `Personal blog of Adrià Fontcuberta`,
+    description: `Just my personal blog`,
     siteUrl: `https://afontcu.dev/`,
     social: {
       twitter: `afontcu_`,
@@ -50,7 +50,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-139198326-1`,
       },
     },
     `gatsby-plugin-feed`,
