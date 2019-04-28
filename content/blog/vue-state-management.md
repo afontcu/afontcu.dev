@@ -4,7 +4,7 @@ description: "Let’s get some state managed \U0001F483"
 date: '2018-09-03T13:31:02.259Z'
 categories: ''
 keywords: ''
-slug: vue-state-management-ground-up
+slug: vue-state-management
 ---
 
 > There are only two hard things in Computer Science: cache invalidation and naming things. —_ Phil Karlton_

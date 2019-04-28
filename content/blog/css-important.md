@@ -4,7 +4,7 @@ description: '!important isn’t bad and you shouldn’t feel bad — if you
 date: '2018-11-07T07:56:01.115Z'
 categories: ''
 keywords: ''
-slug: css-defense-important
+slug: css-important
 ---
 
 ![](https://cdn-images-1.medium.com/max/1200/1*PVy5JNbDae-riozZ7upI8Q.png)

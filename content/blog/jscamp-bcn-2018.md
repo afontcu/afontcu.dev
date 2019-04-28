@@ -6,7 +6,7 @@ description: >-
 date: '2018-07-21T12:31:34.582Z'
 categories: ''
 keywords: ''
-slug: jscamp-bcn-2018-recap
+slug: jscamp-bcn-2018
 ---
 
 ![](https://cdn-images-1.medium.com/max/2560/1*MziYBRoWaKZbMbN8eM5_JA.png)

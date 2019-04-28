@@ -6,7 +6,7 @@ description: 'I’ve been working in the web industry for 10 years now. Does it 
 date: '2018-11-05T07:46:01.901Z'
 categories: ''
 keywords: ''
-slug: senior-developer
+slug: senior-developer-meaning
 ---
 
 Nah, I don’t think so.

@@ -6,7 +6,7 @@ description: …leveraging Vue and Webpack cool features!
 date: '2018-07-28T17:08:30.507Z'
 categories: ''
 keywords: ''
-slug: vue-performant-dynamic-component-registration
+slug: vue-dynamic-component-registration
 ---
 
 If you played with Vue **Single File Components** a little bit, you probably know how to “call” a component from another one:

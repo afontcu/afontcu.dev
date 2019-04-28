@@ -4,7 +4,7 @@ description: I did spend a whole week in Trivago learning Javascript from Kyle S
 date: '2018-09-04T11:10:21.370Z'
 categories: ''
 keywords: ''
-slug: week-trivago-javascript-kyle-simpson
+slug: trivago-javascript-kyle-simpson
 ---
 
 It [looked like a harmless Pull Request](https://github.com/webpack/webpack.js.org/pull/2389). I saw this [contest](https://tech.trivago.com/2018/07/23/win-a-spot-in-a-5-day-javascript-workshop-with-kyle-simpson/) by Trivago where 3 people would be fortunate enough to win a free spot in a 5-day JavaScript workshop with Kyle Simpson.
