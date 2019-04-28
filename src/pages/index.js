@@ -5,7 +5,7 @@ import Bio from '../components/bio'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import FullBleed from '../components/full-bleed'
-import { rhythm } from '../utils/typography'
+import { rhythm, scale } from '../utils/typography'
 
 class BlogIndex extends React.Component {
   render() {
@@ -19,7 +19,7 @@ class BlogIndex extends React.Component {
           title="All posts"
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
         />
-        <FullBleed>
+        <FullBleed skewed>
           <Bio />
         </FullBleed>
         {posts.map(({ node }) => {
@@ -35,7 +35,16 @@ class BlogIndex extends React.Component {
                   {title}
                 </Link>
               </h3>
-              <small>{node.frontmatter.date}</small>
+              <time
+                dateTime={node.frontmatter.dateTime}
+                style={{
+                  ...scale(-1 / 5),
+                  display: `block`,
+                  fontStyle: `italic`,
+                }}
+              >
+                {node.frontmatter.date}
+              </time>
               <p
                 dangerouslySetInnerHTML={{
                   __html: node.frontmatter.description || node.excerpt,
@@ -67,6 +76,7 @@ export const pageQuery = graphql`
           }
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
+            dateTime: date
             title
             description
           }

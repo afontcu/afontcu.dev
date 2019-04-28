@@ -18,16 +18,15 @@ class BlogPostTemplate extends React.Component {
           description={post.frontmatter.description || post.excerpt}
         />
         <article>
-          <header>
+          <header style={{ textAlign: `center`, marginTop: rhythm(2) }}>
             <h1>{post.frontmatter.title}</h1>
             <time
               dateTime={post.frontmatter.dateTime}
               style={{
                 ...scale(-1 / 5),
                 display: `block`,
-                marginBottom: rhythm(1),
-                textAlign: `right`,
-                // marginTop: rhythm(-1),
+                marginBottom: rhythm(1.5),
+                fontStyle: `italic`,
               }}
             >
               {post.frontmatter.date}

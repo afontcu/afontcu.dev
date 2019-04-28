@@ -1,10 +1,11 @@
 import React from 'react'
 import { rhythm } from '../utils/typography'
 
-export default ({ children }) => (
+export default ({ children, skewed }) => (
   <div
     className="full-bleed"
     style={{
+      ...(skewed && { transform: `skew(0deg, -2deg)` }),
       width: `100vw`,
       marginLeft: `calc(50% - 50vw)`,
       padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
@@ -16,6 +17,14 @@ export default ({ children }) => (
       )`,
     }}
   >
-    <div style={{ maxWidth: rhythm(24), margin: `0 auto` }}>{children}</div>
+    <div
+      style={{
+        maxWidth: rhythm(24),
+        margin: `0 auto`,
+        ...(skewed && { transform: `skew(0deg, 2deg)` }),
+      }}
+    >
+      {children}
+    </div>
   </div>
 )
