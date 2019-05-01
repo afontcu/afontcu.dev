@@ -16,6 +16,10 @@ time {
   color: rgba(0, 0, 0, 0.6);
 }
 
+strong {
+  color: #111;
+}
+
 :not(pre) > code {
   background-color: var(--theme-color);
   padding: 4px;
