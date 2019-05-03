@@ -198,7 +198,8 @@ Contrived example:
 ```js
 function getUsersList ({ includeInactiveUsers = false }) {...}
 
-getUsersList() // whatgetUsersList(true) // the fuck
+getUsersList() // what
+getUsersList(true) // the fuck
 ```
 
 We should aim for something like the following:
@@ -221,4 +222,4 @@ If you create a function called `getUserAddressById`_(?)_ that only takes a para
 
 I mean, don’t rush into your codebase and start dropping objects all over the place. As usual, patterns and models are sometimes useful, but not always.
 
-Use them to clarify the intent of your code. To provide some meaning to the values passed on a function declaration. To provide some default values. Et cetera.
+Use them to **clarify intent**. To provide some meaning to the values passed on a function declaration. To provide some default values. In short: make your code easier to understand, read, and maintain.
