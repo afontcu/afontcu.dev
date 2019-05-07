@@ -1,6 +1,6 @@
 ---
-title: Did I spend a whole week in Trivago learning Javascript from Kyle Simpson?
-description: I did spend a whole week in Trivago learning Javascript from Kyle Simpson
+title: Did I spend a whole week in Trivago learning JavaScript from Kyle Simpson?
+description: I did spend a whole week in Trivago learning JavaScript from Kyle Simpson
 date: '2018-09-04T11:10:21.370Z'
 categories: ''
 keywords: ''
@@ -11,17 +11,17 @@ It [looked like a harmless Pull Request](https://github.com/webpack/webpack.js.o
 
 Well, I was fortunate enough.
 
-Yeah, that’s about right. 5 days with Kyle Simpson. For free. In Düsseldorf, surrounded by other Javascript engineers. How cool is that?
+Yeah, that’s about right. 5 days with Kyle Simpson. For free. In Düsseldorf, surrounded by other JavaScript engineers. How cool is that?
 
 ![](https://cdn-images-1.medium.com/max/1200/1*VYIrQTH68pviHiwuqhMfXA.png)
 
 The menu for the week was the following:
 
-- Javascript foundations
+- JavaScript foundations
 - ES6: the good parts
 - Rethinking Async
-- Functional Light Javascript
-- Functional Light Javascript II
+- Functional Light JavaScript
+- Functional Light JavaScript II
 
 One topic per day. 8 hours a day.
 
@@ -33,7 +33,7 @@ Heck yeah I did.
 
 Heck yeah it did.
 
-I thought I knew Javascript. It’s not only that I didn’t, is that **now I feel that I discovered a ton of things I didn’t know I don’t know**. (This sentence was as hard to write as it is to read).
+I thought I knew JavaScript. It’s not only that I didn’t, is that **now I feel that I discovered a ton of things I didn’t know I don’t know**. (This sentence was as hard to write as it is to read).
 
 ## 5 days a week
 
@@ -59,11 +59,11 @@ Do you want the answer, and how to solve it? Ask for it 😜 Or, ehm, well, use 
 
 On Tuesday we explored new ES6 functionalities, and instead of exploring the usual suspects (let/const, arrow functions)... we explored object/array destructuring, template literals and other “not-so-famous” **ES6 features**.
 
-My mind was blown during Wednesday when we focused on **asynchronous** patterns and how to handle asynchronous data management in Javascript. I mean, I thought I was well versed in Promises. Oh, how wrong I was.
+My mind was blown during Wednesday when we focused on **asynchronous** patterns and how to handle asynchronous data management in JavaScript. I mean, I thought I was well versed in Promises. Oh, how wrong I was.
 
 Finally, we spent the last two days on **functional programming**. Kyle’s approach is great as we tried to get our heads around FP without dealing with all the convoluted stuff (monads, transducers, and other _hard-to-type-and-harder-to-understand_ words).
 
-I tried to jot down every piece of knowledge I received and also trying to stay focused to understand the concepts and also the nuances behind the language. Besides that, I loved Kyle speeches on “_offtopic_” issues such as **learning mindset**, **code quality** and what it means to be a **“senior” developer**. He didn’t explicitly mention seniority, but from my point of view, he was describing what a “senior developer” looks like. I loved that speeches, as they provided real value besides Javascript and any specific programming language.
+I tried to jot down every piece of knowledge I received and also trying to stay focused to understand the concepts and also the nuances behind the language. Besides that, I loved Kyle speeches on “_offtopic_” issues such as **learning mindset**, **code quality** and what it means to be a **“senior” developer**. He didn’t explicitly mention seniority, but from my point of view, he was describing what a “senior developer” looks like. I loved that speeches, as they provided real value besides JavaScript and any specific programming language.
 
 Kyle asked us to try to go over our notes a week or so after the workshop. I did (even though I was on vacation), and a month later, I’m planning to put everything together and wrap it up nicely on a Github repository so I get to go over my notes again and to make sure I share what I learned with everyone. You know, _learn in public_.
 
