@@ -99,6 +99,21 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: "gatsby-remark-embed-video",
+            options: {
+              width: 675,
+              related: false,
+            }
+          },
+          `gatsby-remark-responsive-iframe`
+        ],
+      },
+    },
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-netlify`,
   ],
