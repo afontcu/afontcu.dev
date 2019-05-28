@@ -37,8 +37,7 @@ pre[class*="language-"] {
 }
 
 .gatsby-highlight .token {
-  padding: 0.15em 0;
-  display: inline-block;
+  line-height: 1.7;
 }
 
 .gatsby-highlight-code-line {
