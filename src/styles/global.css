@@ -1,5 +1,5 @@
 :root {
-  --theme-color: rgb(214, 254, 254);
+  --theme-color: rgb(224, 255, 236);
 }
 
 body {
@@ -33,17 +33,21 @@ pre[class*="language-"] {
 }
 
 .gatsby-highlight {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.gatsby-highlight .token {
+  padding: 0.15em 0;
+  display: inline-block;
 }
 
 .gatsby-highlight-code-line {
-  background-color: rgba(0, 0, 0, 100%);
+  background-color: rgba(0, 0, 0, 50%);
   display: block;
   margin-right: -1em;
   margin-left: -1em;
   padding-right: 1em;
-  padding-left: 0.75em;
-  border-left: 0.25em solid var(--theme-color);
+  padding-left: 1em;
 }
 
 .full-bleed a {
