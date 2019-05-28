@@ -46,15 +46,13 @@ div {
 }
 ```
 
-Damn, now every `div` has a blue background.
+Damn, now every `<div>` has a blue background.
 
 What’s wrong with this?
 
-First of all, that we are not sure of its reach: how many items are you trumping at once?
+First of all, **we are not sure of its reach**: how many items are you trumping at once?
 
 Secondly, that *!important* is **applied at a property level**. We cannot reason about specificity anymore by looking at selectors.
-
-<div id="item">¯\\\_(ツ)\_/¯</div>
 
 The `<div>` will have a font-size of 3em, but a blue background.
 
