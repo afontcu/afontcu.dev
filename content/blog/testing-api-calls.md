@@ -117,9 +117,9 @@ test('It displays a list of items', () => {
 
 Now we are sure our `fetchItems` method has been called once (and only once), and that it has been called with no arguments.
 
-1/2 assertions made. Halfway there.
+1/2 assertions made. Halfway there!
 
-As a side now: you can learn a lot about mocks if you inspect them. Try to throw a `console.log(fetchItems)` somewhere, so you'll see how Jest stores the info.
+As a side note: you can learn a lot about mocks if you inspect them. Try to throw a `console.log(fetchItems)` somewhere, so you'll see how Jest stores the info.
 
 
 ## Gimme data
