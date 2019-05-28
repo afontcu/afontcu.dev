@@ -115,7 +115,7 @@ test('It displays a list of items', () => {
 })
 ```
 
-Now we are sure our `fetchItems` method has been called once (and only once), and that it was called with no arguments.
+Now we are sure our `fetchItems` method has been called once (and only once), and that it has been called with no arguments.
 
 1/2 assertions made. Halfway there.
 
@@ -128,7 +128,7 @@ So, how can we test that the DOM gets updated when the API call has succeeded? R
 
 We need to make it a bit smarter by setting some return values.
 
-```js{9,17,21}
+```js{8,9,17,21}
 import { render, wait } from 'vue-testing-library'
 import ItemsList from './ItemsList.vue'
 import { fetchItems } from './api/items'
