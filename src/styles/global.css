@@ -20,14 +20,16 @@ strong {
   color: #111;
 }
 
-:not(pre) > code {
+:not(pre) > code[class*="language-"] {
   background-color: var(--theme-color);
+  color: #111;
+  font-size: initial;
   padding: 4px;
 }
 
-pre[class*='language-'] {
-  font-size: 0.8rem;
-  border-radius: 4px;
+pre[class*="language-"] {
+  border-radius: 6px;
+  font-size: 0.8em;
 }
 
 .gatsby-highlight {
