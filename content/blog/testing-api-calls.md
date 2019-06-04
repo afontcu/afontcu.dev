@@ -11,7 +11,7 @@ More often than not, your app is gonna need to send an API request to an externa
 
 Note: this article might help you with any kind of asynchronous operation, but they tend to be external API calls.
 
-Note2: this post assumes that you are already familiar with the [testing-library](https://testing-library.com) tooling family, especially with [vue-testing-library](https://github.com/testing-library/vue-testing-library).
+Note2: this post assumes that you are already familiar with the [Testing Library](https://testing-library.com) tooling family, especially with [Vue Testing Library](https://github.com/testing-library/vue-testing-library). I've worked on the docs, so make sure you check them out!
 
 
 ## Our amazing component
@@ -82,7 +82,7 @@ This line ([Docs](https://jestjs.io/docs/en/jest-object#jestmockmodulename-facto
 Okay! Let's write our test, shall we?
 
 ```js
-import { render } from 'vue-testing-library'
+import { render } from '@testing-library/vue'
 import ItemsList from './ItemsList.vue'
 
 jest.mock('./api/items')
@@ -100,7 +100,7 @@ Now, as we were saying, we need to make sure the API call has been made.
 To do so, we're gonna need to import the mocked function, and add assertions on it:
 
 ```js{3,11,12}
-import { render } from 'vue-testing-library'
+import { render } from '@testing-library/vue'
 import ItemsList from './ItemsList.vue'
 import { fetchItems } from './api/items'
 
@@ -129,7 +129,7 @@ So, how can we test that the DOM gets updated when the API call has succeeded? R
 We need to make it a bit smarter by setting some return values.
 
 ```js{8,9,17,21}
-import { render, wait } from 'vue-testing-library'
+import { render, wait } from '@testing-library/vue'
 import ItemsList from './ItemsList.vue'
 import { fetchItems } from './api/items'
 
@@ -164,7 +164,7 @@ Now, let's write a test to make sure we warn the user in case of an error.
 
 
 ```js{8,16}
-import { render, wait } from 'vue-testing-library'
+import { render, wait } from '@testing-library/vue'
 import ItemsList from './ItemsList.vue'
 import { fetchItems } from './api/items'
 
