@@ -59,3 +59,9 @@ pre[class*="language-"] {
 .btn:hover {
   opacity: 0.8;
 }
+
+a.gatsby-resp-image-link {
+  text-decoration: none;
+  text-shadow: none;
+  background-image: none;
+}
