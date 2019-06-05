@@ -11,9 +11,9 @@ Let’s say you are sold on the idea of testing. You know it’s essential, and 
 
 ## Why is it so hard?
 
-One of the main reasons is that **benefits are not immediate**. Especially from a business perspective.
-
 You and I know that testing increase productivity - in the long run. And people _on the other side_ are not aware of that pleasant feeling when refactoring some code and seeing the "✅ 100% tests" message.
+
+One of the main reasons is that **benefits are not immediate**. Especially from a business perspective.
 
 Let's put ourselves in the shoes of a Boss™:
 
