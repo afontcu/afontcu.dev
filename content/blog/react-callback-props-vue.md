@@ -17,7 +17,7 @@ Callback Props are the “_React way_” of passing **actions from parent to chi
 
 There are several pros and cons to this approach. In this article, I will compare the two approaches and help you decide which is best for your projects.
 
-> Note: this article was originally posted [here on the Vue.js Developers blog](https://vuejsdevelopers.com/2018/07/30/callback-props-vs-emitting-events/?utm_source=medium-vjd&utm_medium=article&utm_campaign=cbp) on 2018/07/30
+> Note: this article was originally posted [on the Vue.js Developers blog](https://vuejsdevelopers.com/2018/07/30/callback-props-vs-emitting-events/?utm_source=medium-vjd&utm_medium=article&utm_campaign=cbp) on 2018/07/30
 
 ## Getting your head around Callback Props and event emitting
 
@@ -30,9 +30,13 @@ The first time you read the amazing Vue docs you are [presented with a simple co
 
 Here’s an example of using both a prop and an event in Vue to play with an input value:
 
+<iframe src="https://codesandbox.io/embed/yv7w6qz96j?fontsize=14" title="Vue with event emitting" allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+
 That’s the Vue approach. So, how would React solve this? “events” doesn’t exist in React. You would instead pass a callback prop to your child component.
 
 So, this is how the same UI would look in React:
+
+<iframe src="https://codesandbox.io/embed/m45wnv5j6p?fontsize=14" title="React with callback props" allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
 As you can see, here we are providing a callback function to our component (a native input) to react (heh) when the native [onInput](https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XUL/Attribute/oninput) event gets fired.
 
@@ -44,6 +48,8 @@ So, the main difference here:
 ## You can use callback Props in Vue
 
 Okay, React uses callback Props and Vue uses events. But Vue is Javascript, after all, so you can easily pass callback Props too:
+
+<iframe src="https://codesandbox.io/embed/32lpmzm2lq?fontsize=14" title="Vue with callback props" allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
 _(I’m using the _[_.prop modifier_](https://vuejs.org/v2/api/#v-bind) _because we’re working with a native HTML input. This wouldn’t be the case with a custom component)_.
 
