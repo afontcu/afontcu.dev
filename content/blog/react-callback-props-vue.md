@@ -98,5 +98,3 @@ I wouldn’t say there’s a winner. The differences are mostly semantic so you 
 Given this, I would just **stick with the conventions**: callback Props in React and events in Vue.
 
 But now we know the similarities and differences between both systems and we can reason about them. _Hooray!_
-
-> **Take A Free Vue.js Introduction Course!** Learn what Vue is, what kind of apps you can build with it, how it compares to React & Angular, and more in this 30-minute video introduction. [Enroll for free](https://courses.vuejsdevelopers.com/p/vue-js-crash-course?utm_source=medium-vjd&utm_medium=article)!
