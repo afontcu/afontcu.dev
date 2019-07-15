@@ -43,7 +43,7 @@ Fuck burndowns, and fuck story points. Well, at least, fuck them when used as a 
 
 If a team delivers crap, and you make that team go faster, you'll get **crap at a higher rate**. A fantastic idea.
 
-If you think of products as tools to **solve problems while providing business value**, oh boy, things change. Now you need to create a hypothesis and analyze the outcome. You have a simple idea, you test it out, see if it works, and then start all over again.
+If you think of products as tools to **solve problems while providing business value**, well, things start to change. Now you need to create a hypothesis and analyze the outcome. You have a simple idea, you test it out, see if it works, and then start all over again.
 
 The only way to do that is to focus on the outcome, define business-focused metrics, inspect the result, and adapt the following iteration.
 
