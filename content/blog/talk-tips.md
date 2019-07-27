@@ -3,7 +3,7 @@ title: Are you preparing a talk? Here, take this uncommon tip
 description: ''
 date: '2019-05-19T07:36:01.570Z'
 categories: ''
-keywords: ''
+tags: ['Leadership']
 slug: talk-tips
 ---
 
@@ -28,11 +28,11 @@ I feel that the talk I gave at Commit is way better than the first 45-min versio
 
 ## History repeats itself
 
-It just happened again last week. I was prepping my talk for the [VueJS Roadtrip BCN](https://vuejsroadtrip.com/barcelona/) event. There, I'll have 35 minutes to explain and discuss some things about testing the front-end.
+It just happened again last week. I was prepping my talk for the [VueJS Roadtrip BCN](https://vuejsroadtrip.com/barcelona/) event. There, I'll have 35 minutes to explain and discuss some things about testing the front end.
 
-Before that event, I also got invited to take part at the [Frontend Dev Tech Talk](https://www.eventbrite.com/e/edreamjs-frontend-dev-tech-talk-tickets-61779463037), organized by eDreams.
+Before that event, I also got invited to take part at the [Front end Dev Tech Talk](https://www.eventbrite.com/e/edreamjs-frontend-dev-tech-talk-tickets-61779463037), organized by eDreams.
 
-The topic? <s>Maintainable and scal</s> just kidding. **Testing the front-end**.
+The topic? <s>Maintainable and scal</s> just kidding. **Testing the front end**.
 
 Time slot? 15 minutes. _Fif-teen_!
 

@@ -3,7 +3,7 @@ title: Horror Vacui
 description: ''
 date: '2018-12-13T07:36:00.941Z'
 categories: ''
-keywords: ''
+tags: ['Random Thoughts']
 slug: horror-vacui
 ---
 

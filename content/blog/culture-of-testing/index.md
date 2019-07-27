@@ -1,13 +1,11 @@
 ---
 title: 'Creating a culture of testing'
-description: 'Let’s say you are sold on the idea of testing. You know it’s important, and you are struggling selling it to your team, your managers, your colleagues. Why is that?'
+description: 'Let’s say you are sold on the idea of testing. You know it’s important, but you find it hard to sell it to your team, your managers, your colleagues. Why is that?'
 date: '2019-06-03T07:56:01.115Z'
 categories: ''
-keywords: ''
-slug: creating-culture-testing
+tags: ['Testing']
+slug: culture-of-testing
 ---
-
-Let’s say you are sold on the idea of testing. You know it’s essential, and you are struggling to sell it to your team, your managers, and your colleagues.
 
 ## Why is it so hard?
 

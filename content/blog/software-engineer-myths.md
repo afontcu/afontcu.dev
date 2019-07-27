@@ -3,7 +3,7 @@ title: What are some myths that you believed prior to becoming a software engine
 description: 'So, here’s the list of myths that I believed a long time ago.'
 date: '2019-03-12T07:36:00.692Z'
 categories: ''
-keywords: ''
+tags: ['Software Crafting']
 slug: software-engineer-myths
 ---
 

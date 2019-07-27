@@ -1,9 +1,26 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
+import { toLower, replace } from 'lodash'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import { rhythm, scale } from '../utils/typography'
+
+function TagList ({ tags }) {
+  return tags.map(tag => {
+    const urlTag = replace(toLower(tag), ' ', '-')
+
+    return (
+      <Link
+        key={tag}
+        to={`/tags/${urlTag}/`}
+        style={{ fontSize: '0.8rem'}}
+      >
+        {tag}
+      </Link>
+    )
+  }).reduce((a, b) => [a, ', ', b])
+}
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -26,12 +43,16 @@ class BlogPostTemplate extends React.Component {
               style={{
                 ...scale(1 / 3),
                 display: `block`,
-                marginBottom: rhythm(1.5),
                 fontStyle: `italic`,
               }}
             >
               {post.frontmatter.date}
             </time>
+            <div style={{marginBottom: rhythm(1.5),}}>
+            {post.frontmatter.tags.length > 0 && 
+              <TagList tags={post.frontmatter.tags} />
+            }
+            </div>
           </header>
 
           {post.frontmatter.description && (
@@ -99,6 +120,7 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         dateTime: date
         description
+        tags
       }
     }
   }

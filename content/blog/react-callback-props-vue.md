@@ -5,7 +5,7 @@ description: >-
   And even a Function.
 date: '2018-07-30T00:00:00.000Z'
 categories: ''
-keywords: ''
+tags: ['JavaScript']
 slug: react-callback-props-vue
 ---
 

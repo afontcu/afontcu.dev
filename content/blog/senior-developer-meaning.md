@@ -5,7 +5,7 @@ title: >-
 description: 'I’ve been working in the web industry for 10 years now. Does it make me a Senior Developer?'
 date: '2018-11-05T07:46:01.901Z'
 categories: ''
-keywords: ''
+tags: ['Leadership']
 slug: senior-developer-meaning
 ---
 

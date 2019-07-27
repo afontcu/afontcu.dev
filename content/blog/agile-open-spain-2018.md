@@ -3,7 +3,7 @@ title: Agile Open Spain 2018 (from the trenches)
 description: You are only as good as your team. And my team rocked the AOS.
 date: '2018-07-16T19:17:04.326Z'
 categories: ''
-keywords: ''
+tags: ['Agile', 'Events']
 slug: agile-open-spain-2018
 ---
 
