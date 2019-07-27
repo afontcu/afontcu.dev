@@ -3,7 +3,7 @@ title: Goodbye, Medium
 description: It was about time.
 date: '2019-05-01T05:46:01.976Z'
 categories: ''
-keywords: ''
+tags: ['Random Thoughts']
 slug: goodbye-medium
 ---
 

@@ -5,7 +5,7 @@ description: >-
   was great, and I learned a couple of things.
 date: '2018-07-21T12:31:34.582Z'
 categories: ''
-keywords: ''
+tags: ['Events', 'JavaScript']
 slug: jscamp-bcn-2018
 ---
 

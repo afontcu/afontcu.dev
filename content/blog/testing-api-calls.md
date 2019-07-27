@@ -1,10 +1,10 @@
 ---
 title: Testing API calls in Vue applications
-description: ''
+description: '...or how to test async behavior using Vue Testing Library.'
 date: '2019-05-28T18:36:01.570Z'
 categories: ''
-keywords: ''
-slug: vue-test-api-calls
+tags: ['Testing', 'Vue', 'JavaScript']
+slug: testing-api-calls
 ---
 
 More often than not, your app is gonna need to send an API request to an external server. In this article, we'll see how to test asynchronous calls in our Vue apps, and how to do that reliably.

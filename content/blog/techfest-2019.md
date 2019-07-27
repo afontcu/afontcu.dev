@@ -3,7 +3,7 @@ title: t3chfest 2019
 description: t3chfest is one of a kind. It is a tech conference, obviously, but some things make it different from the others.
 date: '2019-03-25T11:10:21.370Z'
 categories: ''
-keywords: ''
+tags: ['Events']
 slug: techfest-2019
 ---
 

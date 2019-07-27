@@ -3,7 +3,7 @@ title: Agile is dead(?)
 description: …long live agile?
 date: '2018-10-11T05:46:01.976Z'
 categories: ''
-keywords: ''
+tags: ['Agile']
 slug: agile-is-dead
 ---
 

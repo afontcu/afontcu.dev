@@ -3,7 +3,7 @@ title: "CSS: In defense of\_!important"
 description: '!important isn’t bad and you shouldn’t feel bad — if you know how to use it'
 date: '2018-11-07T07:56:01.115Z'
 categories: ''
-keywords: ''
+tags: ['CSS']
 slug: css-important
 ---
 

@@ -5,7 +5,7 @@ description: >-
   The algorithm, developed by DeepMind (a.k.a. Google), beat…
 date: '2019-02-18T08:01:00.845Z'
 categories: ''
-keywords: ''
+tags: ['Random Thoughts']
 slug: neural-networks-apocalypse
 ---
 
