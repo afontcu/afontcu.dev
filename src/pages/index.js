@@ -1,11 +1,13 @@
 import React from 'react'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 
 import Bio from '../components/bio'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import FullBleed from '../components/full-bleed'
-import { rhythm, scale } from '../utils/typography'
+import PostList from '../components/post-list'
+
+import { rhythm } from '../utils/typography'
 
 class BlogIndex extends React.Component {
   render() {
@@ -22,37 +24,7 @@ class BlogIndex extends React.Component {
           <Bio />
         </FullBleed>
         <div style={{ marginTop: rhythm(2.25) }}>
-          {posts.map(({ node }) => {
-            const title = node.frontmatter.title || node.fields.slug
-            return (
-              <div key={node.fields.slug}>
-                <h3
-                  style={{
-                    marginBottom: rhythm(1 / 4),
-                  }}
-                >
-                  <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                    {title}
-                  </Link>
-                </h3>
-                <time
-                  dateTime={node.frontmatter.dateTime}
-                  style={{
-                    ...scale(-1 / 5),
-                    display: `block`,
-                    fontStyle: `italic`,
-                  }}
-                >
-                  {node.frontmatter.date}
-                </time>
-                <p
-                  dangerouslySetInnerHTML={{
-                    __html: node.frontmatter.description || node.excerpt,
-                  }}
-                />
-              </div>
-            )
-          })}
+          <PostList posts={posts} />
         </div>
       </Layout>
     )
