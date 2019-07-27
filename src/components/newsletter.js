@@ -19,7 +19,8 @@ export default class Newsletter extends React.Component {
           borderRadius: `0.5rem`,
           boxShadow: `rgba(0, 37, 49, 0.05) 0px -7px 20px 0px, rgba(0, 0, 0, 0.05) 0px 3px 11px 1px`,
           fontFamily: systemFonts,
-          width: `85%`,
+          width: `70%`,
+          minWidth: `260px`,
           margin: `0 auto`,
         }}
       >
