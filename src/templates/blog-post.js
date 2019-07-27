@@ -34,6 +34,12 @@ class BlogPostTemplate extends React.Component {
             </time>
           </header>
 
+          {post.frontmatter.description && (
+            <p>
+            {post.frontmatter.description}
+            </p>
+          )}
+
           <div
             style={{
               marginBottom: rhythm(3),
