@@ -27,6 +27,10 @@ function SEO({ description, lang, meta, title, type = 'website' }) {
 
   const metaDescription = description || site.siteMetadata.description
 
+  const titleTemplate = site.siteMetadata.title === title
+    ? title
+    : `%s | ${site.siteMetadata.title}`
+
   return (
     <Helmet
       htmlAttributes={{
@@ -34,7 +38,7 @@ function SEO({ description, lang, meta, title, type = 'website' }) {
         prefix: `og: http://ogp.me/ns#`,
       }}
       title={title}
-      titleTemplate={`%s | ${site.siteMetadata.title}`}
+      titleTemplate={titleTemplate}
       meta={[
         {
           name: `description`,
