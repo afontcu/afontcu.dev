@@ -1,8 +1,29 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
+import { toLower, replace, isEmpty } from 'lodash'
 
 import { rhythm, scale } from '../utils/typography'
+
+function TagList ({ tags }) {
+  return tags.map(tag => {
+    const urlTag = replace(toLower(tag), ' ', '-')
+
+    return (
+      <Link
+        key={tag}
+        to={`/tags/${urlTag}/`}
+        style={{
+          backgroundImage: 'none',
+          color: 'rgba(0, 0, 0, 0.6)',
+          textDecoration: 'underline',
+        }}
+      >
+        {tag}
+      </Link>
+    )
+  }).reduce((a, b) => [a, ', ', b])
+}
 
 const PostList = ({ posts }) => (
   posts.map(({ node: post }) => {
@@ -16,16 +37,14 @@ const PostList = ({ posts }) => (
             {title}
           </Link>
         </h3>
-        <time
-          dateTime={post.frontmatter.dateTime}
-          style={{
-            ...scale(-1 / 5),
-            display: `block`,
-            fontStyle: `italic`,
-          }}
-        >
-          {post.frontmatter.date}
-        </time>
+        <div style={{ ...scale(-1 / 5), fontStyle: `italic` }}>
+          <time dateTime={post.frontmatter.dateTime}>
+            {post.frontmatter.date}
+          </time>
+          {!isEmpty(post.frontmatter.tags) && (
+            <span>{' · '}<TagList tags={post.frontmatter.tags} /></span>
+          )}
+        </div>
         <p
           dangerouslySetInnerHTML={{ __html: html }}
         />

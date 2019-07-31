@@ -25,6 +25,7 @@ function TagList ({ tags }) {
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
+    console.log(this.props.data);
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
 
@@ -81,14 +82,14 @@ class BlogPostTemplate extends React.Component {
             >
               {previous && (
                 <li>
-                  <Link to={previous.fields.slug} rel="prev">
+                  <Link to={previous.frontmatter.slug} rel="prev">
                     ← {previous.frontmatter.title}
                   </Link>
                 </li>
               )}
               {next && (
                 <li>
-                  <Link to={next.fields.slug} rel="next">
+                  <Link to={next.frontmatter.slug} rel="next">
                     {next.frontmatter.title} →
                   </Link>
                 </li>
@@ -108,7 +109,6 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
-        author
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
@@ -121,6 +121,7 @@ export const pageQuery = graphql`
         dateTime: date
         description
         tags
+        slug
       }
     }
   }

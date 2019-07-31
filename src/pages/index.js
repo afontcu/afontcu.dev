@@ -45,10 +45,11 @@ export const pageQuery = graphql`
         node {
           excerpt
           frontmatter {
+            title
             date(formatString: "MMMM DD, YYYY")
             dateTime: date
-            title
             description
+            tags
             slug
           }
         }

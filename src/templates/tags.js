@@ -13,20 +13,21 @@ import { rhythm, scale } from '../utils/typography'
 const Tags = ({ pageContext, data }) => {
   const { tag } = pageContext
   const { edges } = data.allMarkdownRemark
+
   const siteTitle = data.site.siteMetadata.title
   const isRandomThoughts = kebabCase(tag) === 'random-thoughts'
   const headerTitle = isRandomThoughts
     ? `A series of random thoughts`
     : `Things I wrote on ${tag}`
 
-  const TagAwesomeLink = () => {
+  const AwesomeLink = () => {
     if (isRandomThoughts) return null
 
     const link = `https://github.com/afontcu/awesome-learning#${kebabCase(tag)}`
     return (
       <FullBleed>
-        <p style={{textAlign: 'center', ...scale(1 / 3) }}>
-          Hey! <span role="img" aria-label="waving hand">👋</span>
+        <p style={{fontStyle: 'italic', textAlign: 'center', ...scale(1 / 3) }}>
+          Hey! <span style={{fontStyle: 'initial'}} role="img" aria-label="waving hand">👋</span>
         </p>
         <p style={{margin: 0, textAlign: 'center'}}>
           Make sure you check my awesome list of <br />
@@ -42,7 +43,7 @@ const Tags = ({ pageContext, data }) => {
       <h1 style={{textAlign: 'center', marginBottom: rhythm(1.5)}}>
         {headerTitle}
       </h1>
-      <TagAwesomeLink />
+      <AwesomeLink />
       <div style={{ marginTop: rhythm(2.25) }}>
         <PostList posts={edges} />
       </div>
@@ -90,9 +91,9 @@ export const pageQuery = graphql`
       edges {
         node {
           frontmatter {
+            title
             date(formatString: "MMMM DD, YYYY")
             dateTime: date
-            title
             description
             slug
           }
