@@ -128,7 +128,7 @@ So, how can we test that the DOM gets updated when the API call has succeeded? R
 
 We need to make it a bit smarter by setting some return values.
 
-```js{8,9,17,21}
+```js{8,9,17-22}
 import { render, wait } from '@testing-library/vue'
 import ItemsList from './ItemsList.vue'
 import { fetchItems } from './api/items'
@@ -145,8 +145,11 @@ test('It displays a list of items', async () => {
   expect(fetchItems).toHaveBeenCalledTimes(1)
   expect(fetchItems).toHaveBeenCalledWith()
 
+  // wait() will retry until the callback function stops failing
+  // (or a timeout is reached).
+  // So, line reads as follows: "Wait until 'An amazing item' exists"
   await wait(() => getByText('An amazing item'))
-
+ 
   expect(queryByText(/loading/i)).toBeNull()
 
   items.forEach(item => getByText(item.title))
@@ -155,7 +158,7 @@ test('It displays a list of items', async () => {
 
 With `mockResolvedValueOnce` ([source](https://jestjs.io/docs/en/mock-function-api.html#mockfnmockrejectedvalueoncevalue)), we instruct our mocked method to return some fake values (once). Then we need to wait for two things: the API call to finish, and our component to rerender.
 
-After making sure that happened, we can iterate over all our items and make sure their content is on the DOM. We're also checking if the "Loading..." message was removed correctly.
+After making sure that happened, we can iterate over all our items and make sure their content is on the DOM. We're also checking if the "Loading..." message is removed correctly.
 
 
 ### Let it fail
@@ -192,4 +195,4 @@ After that, the only missing part is making sure the error message is displayed 
 
 Isn't it cool? We've learned how to test asynchronous in our Vue components, and how to do so while avoiding hitting an external API.
 
-As we defined our test in terms of inputs and outputs, we've avoided focusing on implementation details.
+As we defined our test in terms of inputs and outputs, we've avoided focusing on implementation details. Looks neat!
