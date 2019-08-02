@@ -1,6 +1,6 @@
 ---
 title: "JSCamp 2019 was not about JavaScript"
-description: 
+description: 'And that was a good thing.'
 date: '2019-07-22T07:31:34.582Z'
 categories: ''
 tags: ['Events', 'JavaScript']

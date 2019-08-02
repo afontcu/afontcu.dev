@@ -1,6 +1,6 @@
 ---
 title: Did I spend a whole week in Trivago learning JavaScript from Kyle Simpson?
-description: I did spend a whole week in Trivago learning JavaScript from Kyle Simpson
+description: I did spend a whole week in Trivago learning JavaScript from Kyle Simpson.
 date: '2018-09-04T11:10:21.370Z'
 categories: ''
 tags: ['JavaScript', 'Events']
