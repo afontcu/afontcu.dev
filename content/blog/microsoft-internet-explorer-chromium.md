@@ -3,7 +3,7 @@ title: 'On Microsoft, Internet Explorer, and Chromium'
 description: Everyone has an opinion about the topic — So why wouldn’t I?
 date: '2018-12-24T07:51:00.716Z'
 categories: ''
-tags: []
+tags: ['Random Thoughts']
 slug: microsoft-internet-explorer-chromium
 ---
 
