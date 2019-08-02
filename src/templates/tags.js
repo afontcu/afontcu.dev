@@ -11,16 +11,19 @@ import PostList from '../components/post-list'
 import { rhythm, scale } from '../utils/typography'
 
 const Tags = ({ pageContext, data }) => {
+
   const { tag } = pageContext
   const { edges } = data.allMarkdownRemark
+
   const siteTitle = data.site.siteMetadata.title
   const isRandomThoughts = kebabCase(tag) === 'random-thoughts'
+  const isEvents = kebabCase(tag) === 'events'
   const headerTitle = isRandomThoughts
     ? `A series of random thoughts`
     : `Things I wrote on ${tag}`
 
   const TagAwesomeLink = () => {
-    if (isRandomThoughts) return null
+    if (isRandomThoughts || isEvents) return null
 
     const link = `https://github.com/afontcu/awesome-learning#${kebabCase(tag)}`
     return (
@@ -64,7 +67,6 @@ Tags.propTypes = {
           node: PropTypes.shape({
             frontmatter: PropTypes.shape({
               title: PropTypes.string.isRequired,
-              slug: PropTypes.string.isRequired,
             }),
           }),
         }).isRequired
@@ -89,12 +91,14 @@ export const pageQuery = graphql`
     ) {
       edges {
         node {
+          fields {
+            slug
+          }
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             dateTime: date
             title
             description
-            slug
           }
         }
       }

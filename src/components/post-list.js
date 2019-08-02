@@ -6,13 +6,13 @@ import { rhythm, scale } from '../utils/typography'
 
 const PostList = ({ posts }) => (
   posts.map(({ node: post }) => {
-    const title = post.frontmatter.title || post.frontmatter.slug
+    const title = post.frontmatter.title || post.fields.slug
     const html = post.frontmatter.description || post.excerpt
 
     return (
-      <div key={post.frontmatter.slug}>
+      <div key={post.fields.slug}>
         <h3 style={{ marginBottom: rhythm(1 / 4) }}>
-          <Link style={{ boxShadow: `none` }} to={`/${post.frontmatter.slug}/`}>
+          <Link style={{ boxShadow: `none` }} to={post.fields.slug}>
             {title}
           </Link>
         </h3>
