@@ -50,6 +50,7 @@ export const pageQuery = graphql`
             dateTime: date
             title
             description
+            tags
           }
         }
       }

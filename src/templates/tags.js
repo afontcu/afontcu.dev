@@ -11,11 +11,11 @@ import PostList from '../components/post-list'
 import { rhythm, scale } from '../utils/typography'
 
 const Tags = ({ pageContext, data }) => {
-
-  const { tag } = pageContext
-  const { edges } = data.allMarkdownRemark
-
+  
   const siteTitle = data.site.siteMetadata.title
+  const { tag } = pageContext
+  const { edges: posts } = data.allMarkdownRemark
+
   const isRandomThoughts = kebabCase(tag) === 'random-thoughts'
   const isEvents = kebabCase(tag) === 'events'
   const headerTitle = isRandomThoughts
@@ -46,8 +46,8 @@ const Tags = ({ pageContext, data }) => {
         {headerTitle}
       </h1>
       <TagAwesomeLink />
-      <div style={{ marginTop: rhythm(2.25) }}>
-        <PostList posts={edges} />
+      <div style={{marginTop: rhythm(2.25)}}>
+        <PostList posts={posts} />
       </div>
       <div style={{textAlign: 'center', marginTop: rhythm(2) }}>
           <Link to="/tags" >All tags</Link>
@@ -99,6 +99,7 @@ export const pageQuery = graphql`
             dateTime: date
             title
             description
+            tags
           }
         }
       }

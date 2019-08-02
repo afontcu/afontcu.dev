@@ -24,40 +24,42 @@ function TagList ({ tags }) {
 
 class BlogPostTemplate extends React.Component {
   render() {
-    const post = this.props.data.markdownRemark
-    const siteTitle = this.props.data.site.siteMetadata.title
-    const { previous, next } = this.props.pageContext
+    const { data, pageContext, location } = this.props
+    const post = data.markdownRemark
+    const { previous, next } = pageContext
+    const { description, title, dateTime, date, tags } = post.frontmatter
+    const siteTitle = data.site.siteMetadata.title
 
     return (
-      <Layout location={this.props.location} title={siteTitle}>
+      <Layout location={location} title={siteTitle}>
         <SEO
-          title={post.frontmatter.title}
-          description={post.frontmatter.description || post.excerpt}
+          title={title}
+          description={description || post.excerpt}
           type="article"
         />
         <article>
           <header style={{ textAlign: `center`, marginTop: rhythm(2) }}>
-            <h1>{post.frontmatter.title}</h1>
+            <h1>{title}</h1>
             <time
-              dateTime={post.frontmatter.dateTime}
+              dateTime={dateTime}
               style={{
                 ...scale(1 / 3),
                 display: `block`,
                 fontStyle: `italic`,
               }}
             >
-              {post.frontmatter.date}
+              {date}
             </time>
             <div style={{marginBottom: rhythm(1.5),}}>
-            {post.frontmatter.tags.length > 0 && 
-              <TagList tags={post.frontmatter.tags} />
+            {tags.length > 0 && 
+              <TagList tags={tags} />
             }
             </div>
           </header>
 
-          {post.frontmatter.description && (
+          {description && (
             <p>
-            {post.frontmatter.description}
+            {description}
             </p>
           )}
 

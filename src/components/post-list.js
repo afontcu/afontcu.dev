@@ -1,33 +1,37 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
+import { isEmpty } from 'lodash'
 
 import { rhythm, scale } from '../utils/typography'
+import PostListTags from './post-list-tags'
 
 const PostList = ({ posts }) => (
   posts.map(({ node: post }) => {
-    const title = post.frontmatter.title || post.fields.slug
-    const html = post.frontmatter.description || post.excerpt
+    const { slug } = post.fields
+    const {
+      title = slug,
+      description = post.excerpt,
+      dateTime,
+      date,
+      tags,
+    } = post.frontmatter
 
     return (
-      <div key={post.fields.slug}>
+      <div key={slug}>
         <h3 style={{ marginBottom: rhythm(1 / 4) }}>
-          <Link style={{ boxShadow: `none` }} to={post.fields.slug}>
+          <Link style={{ boxShadow: `none` }} to={slug}>
             {title}
           </Link>
         </h3>
-        <time
-          dateTime={post.frontmatter.dateTime}
-          style={{
-            ...scale(-1 / 5),
-            display: `block`,
-            fontStyle: `italic`,
-          }}
-        >
-          {post.frontmatter.date}
-        </time>
+        <div style={{ ...scale(-1 / 5), fontStyle: `italic` }}>
+          <time dateTime={dateTime}>{date}</time>
+          {!isEmpty(tags) && (
+            <span>{' · '}<PostListTags tags={tags} /></span>
+          )}
+        </div>
         <p
-          dangerouslySetInnerHTML={{ __html: html }}
+          dangerouslySetInnerHTML={{ __html: description }}
         />
       </div>
     )
