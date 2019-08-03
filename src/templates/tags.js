@@ -42,7 +42,11 @@ const Tags = ({ pageContext, data }) => {
   return (
     <Layout title={siteTitle} location={{}}>
       <SEO title={`${tag} posts`} />
-      <h1 style={{textAlign: 'center', marginBottom: rhythm(1.5)}}>
+      <h1 style={{
+        textAlign: 'center',
+        marginTop: rhythm(2.5),
+        marginBottom: rhythm(1.5)
+      }}>
         {headerTitle}
       </h1>
       <TagAwesomeLink />
@@ -50,7 +54,7 @@ const Tags = ({ pageContext, data }) => {
         <PostList posts={posts} />
       </div>
       <div style={{textAlign: 'center', marginTop: rhythm(2) }}>
-          <Link to="/tags" >All tags</Link>
+        <Link to="/tags" >All tags</Link>
       </div>      
     </Layout>
   )
