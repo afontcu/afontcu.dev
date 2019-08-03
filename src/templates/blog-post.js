@@ -1,42 +1,65 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
+import { toLower, replace } from 'lodash'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import { rhythm, scale } from '../utils/typography'
 
-class BlogPostTemplate extends React.Component {
-  render() {
-    const post = this.props.data.markdownRemark
-    const siteTitle = this.props.data.site.siteMetadata.title
-    const { previous, next } = this.props.pageContext
+function TagList ({ tags }) {
+  return tags.map(tag => {
+    const urlTag = replace(toLower(tag), ' ', '-')
 
     return (
-      <Layout location={this.props.location} title={siteTitle}>
+      <Link
+        key={tag}
+        to={`/tags/${urlTag}/`}
+        style={{ fontSize: '0.8rem'}}
+      >
+        {tag}
+      </Link>
+    )
+  }).reduce((a, b) => [a, ', ', b])
+}
+
+class BlogPostTemplate extends React.Component {
+  render() {
+    const { data, pageContext, location } = this.props
+    const post = data.markdownRemark
+    const { previous, next } = pageContext
+    const { description, title, dateTime, date, tags } = post.frontmatter
+    const siteTitle = data.site.siteMetadata.title
+
+    return (
+      <Layout location={location} title={siteTitle}>
         <SEO
-          title={post.frontmatter.title}
-          description={post.frontmatter.description || post.excerpt}
+          title={title}
+          description={description || post.excerpt}
           type="article"
         />
         <article>
           <header style={{ textAlign: `center`, marginTop: rhythm(2) }}>
-            <h1>{post.frontmatter.title}</h1>
+            <h1>{title}</h1>
             <time
-              dateTime={post.frontmatter.dateTime}
+              dateTime={dateTime}
               style={{
                 ...scale(1 / 3),
                 display: `block`,
-                marginBottom: rhythm(1.5),
                 fontStyle: `italic`,
               }}
             >
-              {post.frontmatter.date}
+              {date}
             </time>
+            <div style={{marginBottom: rhythm(1.5),}}>
+            {tags.length > 0 && 
+              <TagList tags={tags} />
+            }
+            </div>
           </header>
 
-          {post.frontmatter.description && (
+          {description && (
             <p>
-            {post.frontmatter.description}
+            {description}
             </p>
           )}
 
@@ -99,6 +122,7 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         dateTime: date
         description
+        tags
       }
     }
   }

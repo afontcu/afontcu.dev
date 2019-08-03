@@ -3,7 +3,7 @@ title: 'Getting [someone] to do [something]'
 description: Have you ever tried to sell something to someone?
 date: '2018-10-24T06:36:20.075Z'
 categories: ''
-keywords: ''
+tags: ['Leadership']
 slug: getting-someone-do-something
 ---
 

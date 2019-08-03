@@ -3,7 +3,7 @@ title: Your company is not your family
 description: And that’s a good thing.
 date: '2019-04-11T11:10:21.370Z'
 categories: ''
-keywords: ''
+tags: ['Random Thoughts']
 slug: company-family
 ---
 

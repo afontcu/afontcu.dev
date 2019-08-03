@@ -1,9 +1,9 @@
 ---
 title: Three ways of telling if you are not problem-oriented
-description: Are solving problems or just developing sotware?
+description: Are you solving problems or just developing sotware?
 date: '2019-07-05T08:46:01.976Z'
 categories: ''
-keywords: ''
+tags: ['Product Management']
 slug: ways-telling-problem-oriented
 ---
 
@@ -32,7 +32,7 @@ Why would you want that "product" to be _ended_ and _celebrated_? I can only com
 
 1. You ran out of budget. Seems fair.
 2. Priorities shifted. Seems fair, too.
-3. Scaling up the solution means a lower ROI, so the effort is not worth it.
+3. Scaling up the solution means a lower ROI, so it is not worth the effort.
 
 Why would you "pick up the next item on the list" otherwise?
 

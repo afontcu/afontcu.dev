@@ -3,7 +3,7 @@ title: Your opinion doesn’t count
 description: 'Ahh, the Internet. You gotta love the Internet.'
 date: '2019-01-23T07:21:00.850Z'
 categories: ''
-keywords: ''
+tags: ['Random Thoughts']
 slug: your-opinion
 ---
 

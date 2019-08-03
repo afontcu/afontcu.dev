@@ -12,7 +12,8 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+    "test:e2e": "cypress open"
   },
   "homepage": "https://github.com/afontcu/afontcu.dev#readme",
   "bugs": {
@@ -57,6 +58,8 @@
     "typography-theme-wordpress-2016": "^0.16.19"
   },
   "devDependencies": {
+    "@testing-library/cypress": "^4.0.5",
+    "cypress": "^3.4.1",
     "prettier": "^1.18.2"
   }
 }

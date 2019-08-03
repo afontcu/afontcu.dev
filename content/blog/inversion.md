@@ -3,7 +3,7 @@ title: Inversion
 description: When we think about the future, we tend to focus on things that will likely change. We like progress, shining new things.
 date: '2019-01-17T05:46:00.833Z'
 categories: ''
-keywords: ''
+tags: ['Random Thoughts']
 slug: inversion
 ---
 

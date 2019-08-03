@@ -3,7 +3,7 @@ title: Learning in public
 description: ''
 date: '2018-11-21T07:36:01.570Z'
 categories: ''
-keywords: ''
+tags: ['Random Thoughts']
 slug: learning-in-public
 ---
 

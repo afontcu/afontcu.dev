@@ -5,7 +5,7 @@ description: >-
   researchers, designers and project managers.
 date: '2018-06-12T08:35:47.809Z'
 categories: ''
-keywords: ''
+tags: ['User Experience']
 slug: cool-ux-tools
 ---
 
@@ -13,11 +13,11 @@ slug: cool-ux-tools
 
 ## The Why
 
-I’m a frontend developer, and I love everything related to the web. The web is cool. It allows you to create things and people can then use them or hate them on Github issues.
+I’m a front-end developer, and I love everything related to the web. The web is cool. It allows you to create things and people can then use them or hate them on Github issues.
 
 I gathered a few UX tools and resources I used sparingly, and I wanted to share them, so this is why I created [**Cool UX Tools**](https://coolux.tools/). Now my cool UX tools are like my bases: they are belong to us ([_did I go too far with that one_](http://knowyourmeme.com/memes/all-your-base-are-belong-to-us)?).
 
-> Wait a minute. You said you are a frontend developer. Why do you mess with UX people, mate? You are asking for trouble.
+> Wait a minute. You said you are a front-end developer. Why do you mess with UX people, mate? You are asking for trouble.
 
 Life is too short to avoid pissing some UX experts off, isn’t it? Now seriously. I like how [this picture from Ben Melbourne](https://asinthecity.com/2011/11/10/the-difference-between-a-ux-designer-and-ui-developer/ 'Differences between UX designer and UI developer') (the second one) articulates the difference between UX, design, frontend and so on. And I like doing the right things right, so research and design are critical. And “UI Developer” sounds cool, so ¯\\\_(ツ)\_/¯
 
