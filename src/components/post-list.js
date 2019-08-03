@@ -20,7 +20,11 @@ const PostList = ({ posts }) => (
     return (
       <div key={slug}>
         <h3 style={{ marginBottom: rhythm(1 / 4) }}>
-          <Link style={{ boxShadow: `none` }} to={slug}>
+          <Link
+            style={{ boxShadow: `none` }}
+            to={slug}
+            data-testid="post-list-link"
+          >
             {title}
           </Link>
         </h3>
