@@ -3,7 +3,7 @@ title: "JSCamp 2019 was not about JavaScript"
 description: 'And that was a good thing.'
 date: '2019-07-22T07:31:34.582Z'
 categories: ''
-tags: ['Events', 'JavaScript']
+tags: ['Events', 'Javascript']
 slug: jscamp-bcn-2019
 ---
 

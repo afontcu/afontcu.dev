@@ -3,7 +3,7 @@ title: Vue state management from the ground up
 description: "Let’s get some state managed \U0001F483"
 date: '2018-09-03T13:31:02.259Z'
 categories: ''
-tags: ['JavaScript', 'Vue']
+tags: ['Javascript', 'Vue']
 slug: vue-state-management
 ---
 

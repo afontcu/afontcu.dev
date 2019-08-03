@@ -3,7 +3,7 @@ title: Testing API calls in Vue applications
 description: '...or how to test async behavior using Vue Testing Library.'
 date: '2019-05-28T18:36:01.570Z'
 categories: ''
-tags: ['Testing', 'Vue', 'JavaScript']
+tags: ['Testing', 'Vue', 'Javascript']
 slug: testing-api-calls
 ---
 

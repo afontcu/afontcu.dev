@@ -5,7 +5,7 @@ title: >-
 description: …leveraging Vue and Webpack cool features!
 date: '2018-07-28T17:08:30.507Z'
 categories: ''
-tags: ['JavaScript', 'Vue']
+tags: ['Javascript', 'Vue']
 slug: vue-dynamic-component-registration
 ---
 

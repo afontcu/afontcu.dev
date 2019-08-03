@@ -3,7 +3,7 @@ title: 'Named arguments — Functions that get and return Objects'
 description: Brought to you by Object destructuring and shorthand property names!
 date: '2018-08-08T14:06:07.866Z'
 categories: ''
-tags: ['JavaScript']
+tags: ['Javascript']
 slug: named-arguments-functions
 ---
 
