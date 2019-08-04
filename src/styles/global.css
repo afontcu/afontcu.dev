@@ -7,6 +7,16 @@ body {
   background-color: rgb(252, 252, 252);
 }
 
+body::before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 5px;
+  background: rgba(0, 0, 0, 0) linear-gradient(90deg, rgb(211, 243, 255) 0%, rgb(169, 255, 196) 85%) repeat scroll 0% 0%;
+}
+
 @media (min-width: 900px) {
   h1 {
     font-size: 3.5rem;
