@@ -116,8 +116,6 @@ export default {
 
 ### Don't do this
 
-If our test does something like:
-
 ```js
 import { mount } from '@vue/test-utils'
 
@@ -134,7 +132,7 @@ test('text updates on clicking', () => {
 })
 ```
 
-Then your test is doing something different from the user and the developer. It is querying the component using CSS classes, and calling `increment()` directly.
+Because then your test is doing something different from the user and the developer. It is querying the component using CSS classes, and calling `increment()` directly.
 
 Is the end user doing that? No.
 
