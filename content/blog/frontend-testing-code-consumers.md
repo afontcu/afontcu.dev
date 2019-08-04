@@ -1,9 +1,9 @@
 ---
-title: 'Front-end Testing: Who am I testing for?'
-description: "You'll want to focus on these two users when testing the front end."
+title: 'Front-end Testing and a tale of three users'
+description: "How should we think of UI components when testing them?"
 date: 2019-08-02
 categories: ''
-tags: ['Testing']
+tags: ['Testing', 'Javascript']
 slug: frontend-testing-code-consumers
 ---
 
@@ -114,6 +114,8 @@ export default {
 </script>
 ```
 
+Let's see a couple of ways of testing this totally useful component.
+
 ### Don't do this
 
 ```js
@@ -177,6 +179,10 @@ Libraries such as [Vue Testing Library](https://github.com/testing-library/vue-t
 3. There's a **hidden third user** for your component: a test. If your test is doing something different from end users and developers, then you need to take that into account.
 4. Your testing tools should help you stay on track. [Vue Testing Library](https://github.com/testing-library/vue-testing-library) (and all the [Testing Library](https://testing-library.com) toolset) does a pretty good job achieving that goal.
 
+A quick footnote: Everything exposed above is **also valid for plain functions** (or any other kind of code encapsulation mechanism FWIW). Avoid testing implementation details, and treat units as black boxes. You'll sleep better at night.
+
 ---
 
 Phew, that was long!
+
+[Ping me on Twitter](https://twitter.com/afontcu_) if you have any doubts or additional insight :)
