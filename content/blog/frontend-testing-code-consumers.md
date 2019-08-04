@@ -74,13 +74,13 @@ And they both are gonna expect some outputs: **DOM elements** and **side effects
 
 Let me drop a beautiful table with examples!
 
-| Inputs        | Examples                                    |
-|---------------|---------------------------------------------|
-| Interactions  | clicking, typing... any "human" interaction |
-| Props         | The arguments a component receives          |
+| Inputs       | Examples                                    |
+| ------------ | ------------------------------------------- |
+| Interactions | clicking, typing... any "human" interaction |
+| Props        | The arguments a component receives          |
 
 | Outputs       | Examples                                                |
-|---------------|---------------------------------------------------------|
+| ------------- | ------------------------------------------------------- |
 | Side Effects* | HTTP requests, Cookies, `console.log()`, `this.$emit()` |
 | DOM elements  | `<input>`, `<div>`, whatever. Elements on the screen    |
 
