@@ -66,7 +66,7 @@ It is crucial that you can actually answer this question. When asked, choose one
 
 1. Test **the most important part of your app**. And what is it, you might ask? Well, ask Product people. Product people know better. Involve them in the decision process, so they feel more connected to the whole testing thing.
 
-2. Did someone found a **bug**? Great! I mean, well, not great. But try to get the best of the situation: First, write a failing test asserting that the bug is there. Then, fix the bug. See the test pass. You just made sure the bug stays dead while adding a small test.
+2. Did someone find a **bug**? Great! I mean, well, not great. But try to get the best of the situation: First, write a failing test asserting that the bug is there. Then, fix the bug. See the test pass. You just made sure the bug stays dead while adding a small test.
 
 So: test the most critical parts of your app, and also test the broken ones. Other answers may also apply, but this two work pretty well.
 
