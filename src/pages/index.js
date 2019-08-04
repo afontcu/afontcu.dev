@@ -4,7 +4,6 @@ import { graphql } from 'gatsby'
 import Bio from '../components/bio'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import FullBleed from '../components/full-bleed'
 import PostList from '../components/post-list'
 
 import { rhythm } from '../utils/typography'
@@ -16,12 +15,14 @@ class BlogIndex extends React.Component {
     const posts = data.allMarkdownRemark.edges
 
     return (
-      <Layout location={this.props.location} title={siteTitle}>
+      <Layout
+        location={this.props.location}
+        title={siteTitle}
+        siteMetadata={data.site.siteMetadata}
+      >
         <SEO title="Adrià Fontcuberta" />
-        <FullBleed skewed>
-          <Bio />
-        </FullBleed>
-        <div style={{ marginTop: rhythm(2.25) }}>
+        <Bio />
+        <div style={{ marginTop: rhythm(3) }}>
           <PostList posts={posts} />
         </div>
       </Layout>
@@ -36,6 +37,10 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+        author
+        social {
+          twitter
+        }
       }
     }
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {

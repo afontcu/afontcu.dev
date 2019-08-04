@@ -18,13 +18,9 @@ const PostList = ({ posts }) => (
     } = post.frontmatter
 
     return (
-      <div key={slug}>
+      <div key={slug} style={{ marginTop: rhythm(2) }}>
         <h3 style={{ marginBottom: rhythm(1 / 4) }}>
-          <Link
-            style={{ boxShadow: `none` }}
-            to={slug}
-            data-testid="post-list-link"
-          >
+          <Link to={slug} data-testid="post-list-link">
             {title}
           </Link>
         </h3>

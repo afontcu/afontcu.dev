@@ -8,21 +8,36 @@ import FullBleed from '../components/full-bleed'
 
 class Layout extends React.Component {
   render() {
-    const { location, title, children } = this.props
+    const { location, children, siteMetadata = {} } = this.props
+    const { author, social } = siteMetadata
     const rootPath = `${__PATH_PREFIX__}/`
     let header
 
     if (location.pathname === rootPath) {
       header = (
-        <h1
+        <div
           style={{
-            ...scale(1),
+            ...scale(1 / 2),
+            display: `flex`,
             marginBottom: rhythm(1.5),
-            marginTop: 0,
+            alignItems: `center`,
           }}
         >
-          {title}
-        </h1>
+          <p style={{ margin: 0, color: 'black' }}>
+            Oh, hi!{' '}
+            <span role="img" aria-label="waving hand">👋</span>{' '}
+            I'm{' '}
+            <a
+              href={`https://twitter.com/${social.twitter}`}
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              {author}
+            </a>
+            , a UI engineer interested in JavaScript, CSS, UX, lean software
+            development, clean code, and everything in between.
+          </p>
+        </div>
       )
     } else {
       header = (
@@ -36,7 +51,7 @@ class Layout extends React.Component {
             }}
             to={`/`}
           >
-            {title}
+            afontcu.dev
           </Link>
         </h3>
       )
@@ -57,7 +72,10 @@ class Layout extends React.Component {
             <Newsletter />
             <br />
             <br />
-            <Bio />
+            <Bio css={{
+              width: 'max-content',
+              margin: '0 auto',
+            }} />
           </footer>
         </FullBleed>
       </div>

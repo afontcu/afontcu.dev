@@ -38,7 +38,7 @@ export default () => (
     >
       Strava
     </a>{' '}
-    🚴. I also collect{' '}
+    🚴.<br />I also collect{' '}
     <a
       target="_blank"
       rel="noopener noreferrer"

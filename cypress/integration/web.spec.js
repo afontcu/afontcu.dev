@@ -1,8 +1,7 @@
 it('Homepage renders', () => {
   cy.visit('/')
 
-  cy.getAllByText(/a UI engineer interested in JavaScript, CSS, UX, lean software development, clean code, and everything in between./)
-    .should('have.length', 2)
+  cy.getByText(/a UI engineer interested in JavaScript, CSS, UX, lean software development, clean code, and everything in between./)
 })
 
 it('Newsletter form submits', () => {
