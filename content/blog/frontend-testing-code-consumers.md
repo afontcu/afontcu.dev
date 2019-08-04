@@ -50,7 +50,7 @@ What are the *inputs* and *outputs*, though? In our previous example they were j
 
 How can we define *inputs* and *outputs* in the front end?
 
-## Enter code consumers
+## Enter our code users
 
 We can't answer those questions (yet), but we can explore the problem from another perspective. First of all, let's define who's gonna use our component:
 
@@ -90,7 +90,7 @@ _*: Testing side effects such as [API calls](https://afontcu.dev/testing-api-cal
 
 ## Be careful of the dreaded third user
 
-<abbr title="Too Long; Didn't Read">tl;dr</abbr>: If a test relies on implementation details, then the test becomes a third user. And, you're gonna need to please it.
+<abbr title="Too Long; Didn't Read">tl;dr</abbr>: If a test relies on implementation details, then the test becomes a third user. And you're gonna need to please it.
 
 Let's see an example taken from [Vue Testing Library](https://github.com/testing-library/vue-testing-library) docs (*disclaimer, I wrote it*) using a dumb Counter component:
 
