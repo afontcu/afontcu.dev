@@ -1,4 +1,4 @@
-import 'typeface-patua-one'
+import 'typeface-merriweather'
 import 'typeface-lora'
 
 import 'prismjs/themes/prism-tomorrow.css'
