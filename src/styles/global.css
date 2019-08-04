@@ -4,7 +4,7 @@
 
 body {
   overflow: hidden;
-  background-color: rgb(250, 250, 250);
+  background-color: rgb(252, 252, 252);
 }
 
 @media (min-width: 900px) {
@@ -31,6 +31,14 @@ strong {
 pre[class*="language-"] {
   border-radius: 6px;
   font-size: 0.8em;
+}
+
+@media (min-width: 900px) {
+  pre[class*="language-"] {
+    --pre-overflow: 6rem;
+    width: calc(100% + var(--pre-overflow));
+    margin-left: calc(-1 / 2 * var(--pre-overflow));
+  }
 }
 
 .gatsby-highlight {
