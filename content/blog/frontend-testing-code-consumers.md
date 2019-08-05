@@ -1,6 +1,6 @@
 ---
 title: 'Front-end Testing and a tale of three users'
-description: "How should we think of UI components when testing them?"
+description: "How should we think about UI components when testing them?"
 date: 2019-08-02
 categories: ''
 tags: ['Testing', 'Javascript']
