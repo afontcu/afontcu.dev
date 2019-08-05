@@ -7,7 +7,7 @@ tags: ['Testing', 'Javascript']
 slug: frontend-testing-code-consumers
 ---
 
-If I gave you a really compelx function such as
+If I gave you a really complex function such as
 
 ```ts
 function sum (a, b) {
@@ -175,7 +175,7 @@ Libraries such as [Vue Testing Library](https://github.com/testing-library/vue-t
 ## Recap
 
 1. **UI components have two consumers**: your end users, and the developers using them.
-2. Think of components as you think of functions: black boxes that receive inputs and yields outputs.
+2. Think of components as you think of functions: black boxes that receive inputs and yield outputs.
 3. There's a **hidden third user** for your component: a test. If your test is doing something different from end users and developers, then you need to take that into account.
 4. Your testing tools should help you stay on track. [Vue Testing Library](https://github.com/testing-library/vue-testing-library) (and all the [Testing Library](https://testing-library.com) toolset) does a pretty good job achieving that goal.
 
