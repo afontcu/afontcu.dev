@@ -123,7 +123,7 @@ import { mount } from '@vue/test-utils'
 
 test('text updates on clicking', () => {
   const wrapper = mount(Counter)
-  const paragraph = wrapper.find('.counter')
+  const paragraph = wrapper.find('.paragraph')
 
   expect(paragraph.text()).toBe('Times clicked: 0')
 
