@@ -9,7 +9,7 @@ import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 import Image from 'gatsby-image'
 
-import { scale, rhythm } from '../utils/typography'
+import { rhythm } from '../utils/typography'
 
 import PersonalLinks from '../components/personal-links'
 
