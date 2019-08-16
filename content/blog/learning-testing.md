@@ -1,6 +1,6 @@
 ---
 title: I became interested in something. This is how I learned about it.
-description: "I've been focusing on testing for the last few months. Here’s a non-compelling list of tools to learn about it."
+description: "I’ve been focusing on testing for the last few months. Here’s a non-compelling list of tools to learn about it."
 date: '2019-08-13T07:36:01.570Z'
 categories: ''
 tags: ['Testing', 'Random Thoughts']
@@ -31,7 +31,9 @@ It’s a win-win situation. On the one hand, I get to talk in front of people an
 
 Imposter syndrome will still kick in, but at least I’ll get the most of the experience.
 
-I take every opportunity I have: in-company talks, [local Meetups](https://www.eventbrite.com/e/edreamjs-frontend-dev-tech-talk-tickets-61779463037#tickets), the [VueJS Roadtrip](http://vuejsroadtrip.com/barcelona), and soon I’ll be spreading the word at [JS Day](https://jsdaycanarias.com/) in Canarias and [Commit](https://2019.commit-conf.com/) in Madrid.
+I take every opportunity I have. In-company talks, [local Meetups](https://www.eventbrite.com/e/edreamjs-frontend-dev-tech-talk-tickets-61779463037#tickets), the [VueJS Roadtrip](http://vuejsroadtrip.com/barcelona), and soon I’ll be spreading the word at [JS Day](https://jsdaycanarias.com/) in Canarias and [Commit](https://2019.commit-conf.com/) in Madrid.
+
+There’s no need to find a huge, industry-leading conference. Remember the main goal: to learn. Any public speaking opportunity will do.
 
 ## I read about it
 
@@ -45,14 +47,16 @@ One of the things that got me hooked into testing was the [Testing Library](http
 
 I discovered [Vue Testing Library](https://github.com/testing-library/vue-testing-library) after taking the [Testing JavaScript](https://testingjavascript.com/) course by Kent C. Dodds, and I ended up being one of its maintainers.
 
-It feels **great** to have found an Open Source project where I can provide value.
+Getting exposed to issues, doubts, and proposals is a great way of learning. Also, it feels **great** to have found an Open Source project where I can provide value.
 
 ## I evangelize about it as much as possible
 
-Discussing a topic with other people yields actionable results. Use those conversations to **challenge your assumptions**, and to find weak spots within your logic. When someone calls your opinion into question, use the opportunity to improve your argumentation.
+Discussing a topic with other people yields actionable results. Use those conversations to **challenge your assumptions**, and to find weak spots within your logic. When someone calls your opinion into question, use to improve your argumentation.
 
 What if you aren’t explaining it clearly enough? Smarter people than I once said that if you can’t explain it simply, **you don’t understand it well enough**.
 
 ---
 
-The additional benefit of speaking in public is that, well, I improve at public speaking. The same thing goes with writing, the same thing goes with open-sourcing — **practice makes perfect**.
+You might have noticed that a lot of these strategies come with extra benefits. That’s a feature, not a bug.
+
+Moreover, another added benefit of speaking in public is that, well, I improve at public speaking. The same thing goes with writing, the same thing goes with open-sourcing — **practice makes perfect**.
