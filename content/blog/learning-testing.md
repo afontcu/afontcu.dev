@@ -43,7 +43,7 @@ Reading, watching videos, and in general, consuming content, is obviously a grea
 
 ## I get involved in an online community
 
-One of the things that got me hooked into testing was the [Testing Library](https://testing-library) approach. **Keeping tests as close as possible to the end-user**, staying away from implementation details, and providing a clear, concise API.
+One of the things that got me hooked into testing was the [Testing Library](https://testing-library.com) approach. **Keeping tests as close as possible to the end-user**, staying away from implementation details, and providing a clear, concise API.
 
 I discovered [Vue Testing Library](https://github.com/testing-library/vue-testing-library) after taking the [Testing JavaScript](https://testingjavascript.com/) course by Kent C. Dodds, and I ended up being one of its maintainers.
 
