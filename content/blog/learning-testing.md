@@ -23,9 +23,9 @@ As explained in [Learning in public](https://afontcu.dev/learning-in-public/), I
 
 For example, today’s post is gonna remember my future self that there are several ways of learning. It’s also gonna be a reminder about the myriad of ways to learn if you have the right mindset.
 
-## I speak about it
+## I give talks about it
 
-For me, **speaking is one of the best learning tools out there**. 
+For me, **speaking in public is one of the best learning tools out there**. 
 
 It’s a win-win situation. On the one hand, I get to talk in front of people and get credit for the work I do. But also I end up exploring a topic deep enough for it to become second nature.
 
