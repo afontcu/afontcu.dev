@@ -11,7 +11,7 @@ In a perfect world, the lack of testing is what should require justification.
 
 Buuut we are far from there.
 
-## "...it is hard"
+## "...but it is hard"
 
 If your code is hard to test, it's because it's **doing too much**. There's a lot of mocking involved, a lot of possible assertions, a lot of edge cases...
 
