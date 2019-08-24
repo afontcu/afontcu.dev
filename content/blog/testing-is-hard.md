@@ -31,6 +31,16 @@ If you don’t have time to do it right, **when will you have time to do it over
 
 Skip testing, and you'll find yourself dealing with defects and poor quality (and thus a harder relationship with stakeholders). You will end up dying by reworks.
 
-Testing plays a considerable role when it comes to code quality. And we already know that [high-quality software is actually cheaper to produce](https://martinfowler.com/articles/is-quality-worth-cost.html). It took me a while to grasp the meaning of that statement, but it all makes sense.
+Testing plays a considerable role when it comes to code quality. And we already know that [high-quality software is actually cheaper to produce](https://martinfowler.com/articles/is-quality-worth-cost.html). It took me a while to grasp the meaning of that statement, but it makes total sense.
 
-Writing tested code is actually faster than writing untested code (after the short initial slow down).
+**Writing tested code is faster than writing untested code** (after the short initial slow down).
+
+## "...but don't worry, we'll add them later"
+
+Hahaha plain old lie.You are not gonna add them (and you know it).
+
+The feature is live, and you have moved on to the next one. Why adding them? After all, the feature already in production, and most of its bugs have been ironed out thanks to daily usage feedback. Bugs that tests might have avoided, but whatever.
+
+Also, adding tests afterwards is **way more harder** than doing it while writing the feature. Way harder.
+
+And way less useful. **Testing is a great design tool**. If you don't test _while_ you develop a feature, you are missing a great opportunity to come up with a maintainable, better designed codebase.
