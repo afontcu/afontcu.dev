@@ -7,40 +7,46 @@ tags: ['Testing']
 slug: testing-is-hard
 ---
 
-In a perfect world, the lack of testing is what should require justification.
+In a perfect world, you'd face charges for writing untested code.
 
-Buuut we are far from there.
+Buuut we are not there yet.
+
+We all "know" testing is important.
+
+But...
 
 ## "...but it is hard"
 
-If your code is hard to test, it's because it's **doing too much**. There's a lot of mocking involved, a lot of possible assertions, a lot of edge cases...
+If your code is hard to test, it's because it's **doing too much**.
 
-If it's doing too much, it's **hard to understand**.
+If it's doing too much, it's also **hard to understand**.
 
-If it's hard to understand, it's **hard to maintain**.
+If it's hard to understand, it's also **hard to maintain**.
 
 And one could argue that **unmaintainable code is not _good_ code**.
 
-If a test inflicts pain, we tend to blame the test - even when the root cause is somewhere else. And there's only one _other_ place: the code under testing.
+If testing hurts, we tend to blame the test. Usually, though, the root cause is the code being tested.
 
-In short: Testing highlights pieces of code that could use a redesign. Assume that something that feels "hard to test" is **poorly designed**.
+In short: Testing highlights pieces of code that could use a [redesign](https://practicingruby.com/articles/refactoring-is-not-redesign). Assume that something that feels "hard to test" is **poorly designed**.
 
-## "...but we're late, and we need to deliver this feature"
+## "...but we're late, we need to deliver this feature ASAP"
 
-If you don’t have time to do it right, **when will you have time to do it over?**
+The G in ASAP stands for "Good idea".
 
-Skip testing, and you'll find yourself dealing with defects and poor quality (and thus a harder relationship with stakeholders). You will end up dying by reworks.
+Let me get this straight. If you don’t have time to do it right, **when will you have time to do it over?**
 
-Testing plays a considerable role when it comes to code quality. And we already know that [high-quality software is actually cheaper to produce](https://martinfowler.com/articles/is-quality-worth-cost.html). It took me a while to grasp the meaning of that statement, but it makes total sense.
+Skip testing, and you'll find yourself dealing with defects and poor quality. You will end up dying by reworks and having your Product Owner talking your ear off.
+
+Testing plays a considerable role when it comes to code quality. And we already know that [high-quality software is actually cheaper to produce](https://martinfowler.com/articles/is-quality-worth-cost.html). We do, right? If the answer is no, go and read the linked article above. Pure gold.
 
 **Writing tested code is faster than writing untested code** (after the short initial slow down).
 
-## "...but don't worry, we'll add them later"
+## "...but don't worry, we are adding them later"
 
-Hahaha plain old lie.You are not gonna add them (and you know it).
+Hahaha, lie. You are not gonna add them (and you know it).
 
-The feature is live, and you have moved on to the next one. Why adding them? After all, the feature already in production, and most of its bugs have been ironed out thanks to daily usage feedback. Bugs that tests might have avoided, but whatever.
+The feature is live, and you have moved on to the next one. Ain't nobody got time for that anymore! After all, code's already in production. Most of its bugs are gone thanks to daily usage feedback. Bugs that tests might have avoided, but whatever.
 
-Also, adding tests afterwards is **way more harder** than doing it while writing the feature. Way harder.
+Also, adding tests afterward is **way harder** than doing it while writing the feature. Way harder.
 
-And way less useful. **Testing is a great design tool**. If you don't test _while_ you develop a feature, you are missing a great opportunity to come up with a maintainable, better designed codebase.
+And remember that **testing is a great design tool**. Test _while_ developing a feature is a great way to come up with a maintainable, better-designed codebase.
