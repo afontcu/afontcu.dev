@@ -25,17 +25,12 @@ class Layout extends React.Component {
         >
           <p style={{ margin: 0, color: 'black' }}>
             Oh, hi!{' '}
-            <span role="img" aria-label="waving hand">👋</span>{' '}
-            I'm{' '}
-            <a
-              href={`https://twitter.com/${social.twitter}`}
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              {author}
-            </a>
-            , a UI engineer interested in JavaScript, CSS, UX, lean software
-            development, clean code, and everything in between.
+            <span role="img" aria-label="waving hand">
+              👋
+            </span>{' '}
+            I'm <strong>{author}</strong>, a UI engineer interested in
+            JavaScript, CSS, UX, lean software development, clean code, and
+            everything in between.
           </p>
         </div>
       )
@@ -72,10 +67,7 @@ class Layout extends React.Component {
             <Newsletter />
             <br />
             <br />
-            <Bio css={{
-              width: 'max-content',
-              margin: '0 auto',
-            }} />
+            <Bio />
           </footer>
         </FullBleed>
       </div>
