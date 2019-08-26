@@ -1,7 +1,7 @@
 ---
 title: Rethinking Agile... to all business?
 description: ""
-date: '2019-08-31T12:06:01.976Z'
+date: '2019-08-25T22:06:01.976Z'
 categories: ''
 tags: ['Agile']
 slug: rethinking-agile
