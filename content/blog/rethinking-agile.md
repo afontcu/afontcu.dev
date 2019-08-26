@@ -1,5 +1,5 @@
 ---
-title: Rethinking Agile... to all business?
+title: Rethinking Agile... for all business?
 description: ""
 date: '2019-08-25T22:06:01.976Z'
 categories: ''
