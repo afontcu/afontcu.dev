@@ -57,7 +57,7 @@ After some years, I think that Agile boils down to:
 
 It seems easy, but it's not. It means better ways of communication, focus on simplicity, software best practices, continuous delivery...
 
-That's what I like to think the agile mindset (and XP's, for what it's worth) is about. [This is](https://www.youtube.com/watch?v=2NFH3VC6LNs) what Agile is about. [This is also it](https://www.youtube.com/watch?v=aoMfbgF2D_4). Coaching agile should mean helping teams achieve those items in the list above.
+That's what I like to think the agile mindset (and XP's, for what it's worth) is about. [This is](https://www.youtube.com/watch?v=2NFH3VC6LNs) what Agile is about. [This is also it](https://www.youtube.com/watch?v=aoMfbgF2D_4). Coaching agile should mean [helping teams achieve those items](http://www.eferro.net/2019/04/a-letter-to-agile-coaches-scrum-xp-and.html) in the list above.
 
 Sadly, that's not what was (mostly) discussed during the ALE.
 
