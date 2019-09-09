@@ -29,7 +29,7 @@ Okay, okay. Here's a non-exhaustive list of examples and some questions they mig
 
 **CI pipeline**: "Can we deploy that last feature we wrote? Is our build ready to deploy?"
 
-**Monitoring**: "Did something go wrong in production? Are we to know about it before our users do?"
+**Monitoring**: "Did something go wrong in production? Are we able to know about it before our users do?"
 
 **Daily standup**: "Are we set to work on the right thing for the next few hours?"
 
