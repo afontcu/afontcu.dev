@@ -59,7 +59,7 @@ As I see it, we can split those items in the list into two groups:
 
 To create as many feedback loops as possible, you need to keep things simple. Simplicity means maximizing the amount of work not done.
 
-Build simple things so they are simple to test, measure, and iterate on. Same goes with processes and team dynamics. Otherwise your feedback loops become slow and painful, and you'll skip them. Oh, by the way: if something hurts, [do it more often](https://martinfowler.com/bliki/FrequencyReducesDifficulty.html).
+Build simple things (and simple processes and team dynamics) so that they are simple to test, measure, and iterate on. Otherwise your feedback loops become slow and painful, and you'll skip them. Oh, by the way: if something hurts, [do it more often](https://martinfowler.com/bliki/FrequencyReducesDifficulty.html).
 
 Don't get me wrong – **simplicity is hard**. You can always make things _simpler_, right?
 
