@@ -9,7 +9,7 @@ slug: feedback-loops
 
 ## Gimme examples
 
-Okay, okay. Here's a non-exhaustive list.
+Okay, okay. Here's a non-exhaustive list of examples and some questions they might try to answer.
 
 **Static analysis** (type analysis and linting tools): "Does the code I wrote have valid syntax and grammar?"
 
