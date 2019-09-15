@@ -1,7 +1,7 @@
 ---
 title: It's all about feedback loops
 description: What if everything in software development was about creating feedback loops?
-date: '2019-09-09T08:35:47.809Z'
+date: '2019-09-16T08:35:47.809Z'
 categories: ''
 tags: ['Software Crafting', 'Agile', 'Testing']
 slug: feedback-loops
