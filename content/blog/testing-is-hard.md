@@ -1,7 +1,7 @@
 ---
 title: I know testing is important, but
 description: 'But but but.'
-date: '2019-08-22T07:36:01.570Z'
+date: '2019-09-30T17:36:01.570Z'
 categories: ''
 tags: ['Testing']
 slug: testing-is-hard
