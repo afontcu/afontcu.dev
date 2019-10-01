@@ -49,7 +49,7 @@ The feature is live, and you have moved on to the next one. Ain't nobody got tim
 
 Also, adding tests afterward is **way harder** than doing it while writing the feature. Way harder. You won't do that.
 
-And remember that **testing is a great design tool**. Test _while_ developing a feature is a great way to come up with a maintainable, better-designed codebase.
+And remember that **testing is a great design tool**. Testing _while_ developing a feature is a great way to come up with a maintainable, better-designed codebase.
 
 ---
 
