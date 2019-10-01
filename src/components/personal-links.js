@@ -19,8 +19,8 @@ export default () => (
       href="https://github.com/afontcu"
     >
       GitHub
-    </a>{' '}
-    and{' '}
+    </a>
+    ,{' '}
     <a
       target="_blank"
       rel="noopener noreferrer"
@@ -38,7 +38,8 @@ export default () => (
     >
       Strava
     </a>{' '}
-    🚴.<br />I also collect{' '}
+    🚴.
+    <br />I also collect{' '}
     <a
       target="_blank"
       rel="noopener noreferrer"
