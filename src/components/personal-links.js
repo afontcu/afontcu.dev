@@ -7,7 +7,7 @@ export default () => (
       target="_blank"
       rel="noopener noreferrer"
       title="Twitter"
-      href="https://twitter.com/afontcu_"
+      href="https://twitter.com/afontq"
     >
       Twitter
     </a>

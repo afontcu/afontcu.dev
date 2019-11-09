@@ -98,8 +98,6 @@ Oh, and by the way, I had a great time:
 
 ![](https://cdn-images-1.medium.com/max/800/1*pI_AHp40Dt2eUT7LF_3A8Q.png)
 
-[Lighthouse-driven development](https://twitter.com/afontcu_/status/1006205059313668096).
-
 ## The Result
 
 ![](https://cdn-images-1.medium.com/max/1200/1*PyYW7nCxUVTX2fqkPaNPFw.png)
@@ -122,7 +120,7 @@ From a technical point of view, I want to further explore Nuxt. I want to see ho
 
 ## That’s a wrap
 
-Feel free to give feedback in the comments section or on [Twitter](https://twitter.com/afontcu_), and check out the code in [Github](https://github.com/afontcu/uxstack)!
+Feel free to give feedback in the comments section or on [Twitter](https://twitter.com/afontq), and check out the code in [Github](https://github.com/afontcu/uxstack)!
 
 And, if you are a creator of some tool featured in UX Stack… well, you are cool! Drop me a word, I’d love to see what you think of this project.
 

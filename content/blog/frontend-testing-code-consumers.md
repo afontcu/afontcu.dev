@@ -185,4 +185,4 @@ A quick footnote: Everything exposed above is **also valid for plain functions**
 
 Phew, that was long!
 
-[Ping me on Twitter](https://twitter.com/afontcu_) if you have any doubts or additional insight :)
+[Ping me on Twitter](https://twitter.com/afontq) if you have any doubts or additional insight :)

@@ -31,7 +31,7 @@ I liked how [Jordi Medina](https://medium.com/u/433a241c70db) (our master of cer
 
 ![](https://cdn-images-1.medium.com/max/2560/0*2jhCwdlF-Fr9CxTT)
 
-Among other stuff, I was in charge of crafting the website (_hooray_ for [Lighthouse-driven development](https://twitter.com/afontcu_/status/1006205059313668096), 99/100 performance score) and also of the [official Twitter account](https://twitter.com/agileopenspain). Chief of Community Management.
+Among other stuff, I was in charge of crafting the website and also handling the [official Twitter account](https://twitter.com/agileopenspain). Chief of Community Management.
 
 ### Why did we decide to host the AOS 2018?
 

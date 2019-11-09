@@ -55,4 +55,4 @@ Ha. I’d still be in College if it wasn’t for Stack Overflow. Knowing all stu
 
 I don’t need to know regular expressions that much. I need to be able to identify situations where they can help me. And then know a couple of [sites](https://regexr.com/) that helps me writing a solid, concise code. That’s it. It’s harder than it looks, thou.
 
-Can you think of any other myth about software programming? Share it by answering this mail, or drop me a tweet at [@afontcu\_](https://twitter.com/afontcu_)! I’d love to hear from you.
+Can you think of any other myth about software programming? Share it by answering this mail, or drop me a tweet at [@afontq](https://twitter.com/afontq)! I’d love to hear from you.

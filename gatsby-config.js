@@ -5,7 +5,7 @@ module.exports = {
     description: `I'm Adrià Fontcuberta, a UI engineer interested in JavaScript, CSS, UX, lean software development, clean code, and everything in between`,
     siteUrl: `https://afontcu.dev/`,
     social: {
-      twitter: `afontcu_`,
+      twitter: `afontq`,
     },
   },
   plugins: [
@@ -73,7 +73,7 @@ module.exports = {
             options: {
               width: 675,
               related: false,
-            }
+            },
           },
           `gatsby-remark-responsive-iframe`,
           {
