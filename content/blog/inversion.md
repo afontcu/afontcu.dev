@@ -7,8 +7,6 @@ tags: ['Random Thoughts']
 slug: inversion
 ---
 
-When we think about the future, we tend to focus on things that will likely change. We like progress, shining new things.
-
 You know, everybody expected flying cars from this decade. We are gonna fail on this one, aren’t we?
 
 Anyway. What if we turned things upside down?
