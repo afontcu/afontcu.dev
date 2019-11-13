@@ -25,7 +25,7 @@ On the other hand, you could develop the feature locally while pair programming.
 
 Which one of the scenarios outlined above **feels cheaper**?
 
-However, which one of the scenarios outlined above **would you rather work with**?
+However, which one of them **would you rather work with**?
 
 Scenario #2 is **expensive**. It is, let's face it. Period. Learning how to pair program. Learning how to test. Running those tests. Defining a PR review strategy. Setting up the CI pipeline.
 
