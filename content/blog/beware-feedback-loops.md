@@ -1,7 +1,7 @@
 ---
 title: Beware the feedback loop
 description: I know, I know. Feedback loops rock the stage. But.
-date: '2019-11-07T09:17:04.326Z'
+date: '2019-11-14T09:17:04.326Z'
 categories: ''
 tags: ['Software Crafting', 'Agile']
 slug: agile-open-spain-2018
