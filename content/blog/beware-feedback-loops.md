@@ -36,6 +36,8 @@ All of these tools provide useful feedback loops. Sure, they are useful, but let
 
 We like feedback loops. They are cool. How would you know you are **building the right thing right** otherwise? 
 
+We're not here to discuss that.
+
 They are the cool kid in ton because they give us "feedback".
 
 And that's the challenge. Ahh, my friend, **feedback is hard**.
