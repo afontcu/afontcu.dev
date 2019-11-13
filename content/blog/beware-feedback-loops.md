@@ -38,11 +38,11 @@ We like feedback loops. They are cool. How would you know you are **building the
 
 We're not here to discuss that.
 
-They are the cool kid in ton because they give us "feedback".
+They are the cool kid in ton because they give us feedback.
 
 And that's the challenge. Ahh, my friend, **feedback is hard**.
 
-Well, getting feedback is quite easy, I'd say. I mean, you might have a failing test, a retrospective that felt wrong, a disappointed stakeholder after reviewing the sprint increment. That's "feedback".
+Well, getting feedback is quite easy, I'd say. I mean, you might have a failing test, a retrospective that felt wrong, a disappointed stakeholder after reviewing the sprint increment. That's feedback.
 
 The hard part, though, is to challenge the status quo once you get that feedback and act accordingly.
 
