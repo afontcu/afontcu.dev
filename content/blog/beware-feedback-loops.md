@@ -15,7 +15,7 @@ Turns out, feedback loops are harder than expected.
 
 Let's say you want to develop a new feature.
 
-You could access your production server by SSH. Cange a few lines here and there using `vim`. Press an undetermined number of random keys until you're able to save the file and quit. See your changes live.
+You could access your production server by SSH. Change a few lines here and there using `vim`. Press an undetermined number of random keys until you're able to save the file and quit. See your changes live.
 
 Done.
 
