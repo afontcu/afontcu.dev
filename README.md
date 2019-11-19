@@ -2,7 +2,7 @@
 
 Just my personal blog at https://afontcu.dev.
 
-It is built using [Gatsby](https://www.gatsbyjs.org/), tested with [Cypress](https://www.cypress.io/), and hosted on [Netlify](https://www.netlify.com/). CI pipeline relies on [CircleCI](http://circleci.com/).
+It is built using [Gatsby](https://www.gatsbyjs.org/), tested with [Cypress](https://www.cypress.io/), and hosted on [Netlify](https://www.netlify.com/). CI pipeline relies on [CircleCI](http://circleci.com/). Overkill? You bet it is.
 
 ---
 
