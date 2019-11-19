@@ -1,10 +1,10 @@
 ---
 title: Beware the feedback loop
 description: I know, I know. Feedback loops rock the stage. But.
-date: '2019-11-14T09:17:04.326Z'
+date: '2019-11-18T19:17:04.326Z'
 categories: ''
 tags: ['Software Crafting', 'Agile']
-slug: agile-open-spain-2018
+slug: beware-feedback-loops
 ---
 
 Not long ago we agreed that [software development is just about feedback loops](https://afontcu.dev/feedback-loops/). Not sure if we actually agreed on that, though, but nevermind.
@@ -38,7 +38,7 @@ We like feedback loops. They are cool. How would you know you are **building the
 
 We're not here to discuss that.
 
-They are the cool kid in ton because they give us feedback.
+They are the cool kid in town because they give us feedback.
 
 And that's the challenge. Ahh, my friend, **feedback is hard**.
 
