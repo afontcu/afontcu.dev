@@ -48,6 +48,15 @@ export default () => (
     >
       awesome
     </a>{' '}
-    links.
+    links and{' '}
+    <a
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Noti.st"
+      href="https://noti.st/afontcu"
+    >
+      speak here and there
+    </a>
+    .
   </div>
 )
