@@ -1,42 +1,50 @@
 ---
-title: In a perfect world
-description: "hum"
+title: "\"But, wait. So you don't write unit tests?\""
+description: "Recently I've been asked how I approach the unit vs. integration vs. e2e debate."
 date: '2019-12-13T07:36:01.570Z'
 categories: ''
 tags: ['Testing']
 slug: test-strategy
 ---
 
-Recently I've been asked how I approach the "unit vs. integration vs. e2e" debate.
+I've answered it twice below:
 
 ## Short answer
 
-I don't really care about naming.
+I don't really care about names.
 
-Write tests that gives you a higher degree of confidence in your application.
+Write tests that provide a **higher degree of confidence** in your application.
 
-Make sure they are fast and cheap to **run and maintain**.
+Write a test before writing the "production" code that should make it pass.
+
+Make sure your test suite is fast and cheap to **run and maintain**.
 
 ## Longer answer
 
-When I code a new feature, I like to start writing an application-level test using [Cypress](https://www.cypress.io/) and [Cypress Testing Library](https://github.com/testing-library/cypress-testing-library). This test is gonna stay in red until the whole feature (the happy path or paths) are developed. They serve me as a "finish line".
+When I code a new feature, I like to start writing an application-level test using [Cypress](https://www.cypress.io/) and [Cypress Testing Library](https://github.com/testing-library/cypress-testing-library). This test is gonna stay in red until the whole feature is developed. Or, at least, the happy path I was focused on.
 
-But having a single application-level test feels too detached from the code I write.
+But having a single application-level test feels too detached from the code I write. It's not enough, as I want faster and fine-grained feedback. 
 
-This is why I use [Vue Testing Library](https://github.com/testing-library/vue-testing-library) (and plain unit testing using [Jest](https://jestjs.io/)) to develop smaller parts of my app using a TDD approach. I "observe" the feature, trying to find a good place to start in, or trying to spot where decoupling could happen.
+This is why I use [Vue Testing Library](https://github.com/testing-library/vue-testing-library) and [Jest](https://jestjs.io/) to develop the internals of the app using a TDD approach.
 
-However, TDD is not always possible (because I suck at it). In those cases, I use [Vue Testing Library](https://github.com/testing-library/vue-testing-library) to test out critical components and edge cases. I drop component-level tests when I see they could provide me some value and confidence. 
+TDD doesn't mean skipping design, though. I try to observe and understand the feature. Then I try to find the right spot to start coding it, making small changes driven by my tests. I keep on coding until Cypress tells me I'm done.
 
-What are the most critical part of your app from a **business perspective**?
+However, TDD is not always possible. Sometimes I need to step out of its cycle – mostly because I suck at it. In those cases, I make sure critical components and their edge cases are tested no matter what.
 
-What are the files that **change more often**?
+### Don't skip testing this
 
-Those are the things I want to test no matter what.
+You might use TDD, you might not. However, I can think of three scenarios where testing should always happen:
 
-## Write down my tips and then burn the notebook
-This is not a recipe. My approach might not work for you. However, some of its principles could be useful regardless:
+1. What are the most critical parts of your app from a **business perspective**? Test them.
+
+2. What files **change more often**? Use git to answer this question. And then test them.
+
+3. What files **are introducing a higher number of bugs**? Test them (and write the test before fixing the bug!).
+
+## It might not work for you
+My approach might not work for you. However, some of its principles could be useful regardless:
 
 1. Start with a failing test.
-2. Do not refactor your code until test is passing. As [a wiser man](https://www.kentbeck.com/) once said, "Make it work, make it right, make it fast".
-3. Alternate between bird's eye view and down-to-metal testing. App-level tests cover more lines of code at once, while component-level tests provide faster and more granular feedback.
-4. If not following a TDD aproach, focus on business value when deciding what to test.
+2. Do not refactor your code until the test is passing. As [a wiser man](https://www.kentbeck.com/) once said, *"Make it work, make it right, make it fast"*.
+3. Alternate between bird's eye view and down-to-metal testing. App-level tests cover more lines of code at once, while component-level and function-level tests provide faster and more focused feedback. Combine them.
+4. When not using TDD, focus on business value and bugs density to decide what to test.
