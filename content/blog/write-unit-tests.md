@@ -1,7 +1,7 @@
 ---
 title: "\"But, wait. So you don't write unit tests?\""
 description: "Recently I've been asked how I approach the unit vs. integration vs. e2e debate."
-date: '2019-12-18T07:36:01.570Z'
+date: '2019-12-17T17:36:01.570Z'
 categories: ''
 tags: ['Testing']
 slug: write-unit-tests
