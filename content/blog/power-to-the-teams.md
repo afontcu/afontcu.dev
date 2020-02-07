@@ -37,9 +37,9 @@ I'd rather have a team change its goals rather than split its members apart.
 
 Teams should not forget the big picture. They do not live in isolation – there might be other teams, other goals, urgencies. Yet, they should be the ones figuring out the best way to help the organization move forward.
 
-Make sure it has a **purpose**, enough **autonomy**, and hunger for **mastery**.
+Make sure teams have a **purpose**, enough **autonomy**, and hunger for **mastery**.
 
-Say it louder! Make sure they have agreed upon a purpose. Autonomy without a purpose is like running in circles. You might see some sort of movement, but it will get you so far.
+Say it louder! Make sure their purpose is clear, and over-comunicate it. Can't stress this enough. Autonomy without purpose is like running in circles. You might see some sort of movement, but it will get you so far.
 
 Also: a team should know the **constraints** they work with. What is the team supposed to do? What's its goal? What are the organization expectations of it? What's the [circle of competence](https://fs.blog/2013/12/circle-of-competence/) people is expecting from it?
 
