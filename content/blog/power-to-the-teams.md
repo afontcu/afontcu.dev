@@ -31,15 +31,17 @@ Does it mean team stability should be a top priority? From my point of view, it 
 
 Does it mean teams should have a voice when decisions are made about the team itself? Oh, folks, yes it does. Sure it does. A team's autonomy diminishes after each imposed decision.
 
-I'd rather have a team change goals rather than split its members apart.
+I'd rather have a team change its goals rather than split its members apart.
 
 ## The Big Picture
 
 Teams should not forget the big picture. They do not live in isolation – there might be other teams, other goals, urgencies. Yet, they should be the ones figuring out the best way to help the organization move forward.
 
-Make sure they have a **purpose**, enough **autonomy**, and hunger for **mastery**.
+Make sure it has a **purpose**, enough **autonomy**, and hunger for **mastery**.
 
-Set expectations and **constraints**, and let teams figure out the best possible way. Bear in mind that it doesn't happen overnight.
+Say it louder! Make sure they have agreed upon a purpose. Autonomy without a purpose is like running in circles. You might see some sort of movement, but it will get you so far.
+
+Also: a team should know the **constraints** they work with. What is the team supposed to do? What's its goal? What are the organization expectations of it? What's the [circle of competence](https://fs.blog/2013/12/circle-of-competence/) people is expecting from it?
 
 ---
 
