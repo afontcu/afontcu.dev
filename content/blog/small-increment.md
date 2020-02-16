@@ -9,9 +9,9 @@ slug: small-increment
 
 ("us" as in "my team").
 
-Turns out, we deployed a contrived new version of a form they were using. Among other stuff, there was an input to introduce a bank account number. A single text field where you could paste the number from somewhere else.
+Turns out, we deployed a contrived new version of a form they were using. Among other stuff, there was an input to introduce the bank account. A single text field where you could paste the number from somewhere else.
 
-How exciting, a form with an input. You're so senior developer.
+How exciting, a form with an input. You're such a [senior developer](https://afontcu.dev/senior-developer-meaning/).
 
 We didn't know back then, but before this new version, our users had to type it into several inputs. So they would copy the account number into notepad, split where necessary, and then paste it back to our form.
 
@@ -39,7 +39,7 @@ That piece of code is not gonna end up in a museum. Such a museum would need to 
 
 Yet, **we helped someone**. You know when we folks say "whatever whatever providing value to users"? Well, this is it.
 
-I work at Holaluz. I don't sell energy, I don't manage clients. I'd suck at selling, I'd suck at managing (not only) clients. My only skill, if any, is to create software to let people do such activities.
+I work at [Holaluz](https://holaluz.com). I don't sell energy, I don't manage clients. I'd suck at selling, I'd suck at managing (not only) clients. My only skill, if any, is to create software to let people do such activities.
 
 We made someone's life a bit better. This is why we (software developers) were here in the first place.
 
