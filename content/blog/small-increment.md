@@ -1,6 +1,6 @@
 ---
 title: A small increment
-description: Someone was really happy with us last week.
+description: Someone was pleased with us last week.
 date: '2020-02-20T17:36:01.570Z'
 categories: ''
 tags: ['Agile']
@@ -9,11 +9,11 @@ slug: small-increment
 
 ("us" as in "my team").
 
-Turns out we deployed a contrived new version of a form they were using. Among other stuff, there was an input to introduce a bank account number. A single input where you could paste the number from somewhere else.
+Turns out, we deployed a contrived new version of a form they were using. Among other stuff, there was an input to introduce a bank account number. A single text field where you could paste the number from somewhere else.
 
-How exciting, a form with an input.
+How exciting, a form with an input. You're so senior developer.
 
-We didn't know back then, but previously our users had to introduce the same number but split it into several input fields. So they would copy the account number into notepad, split it into groups, and then paste it back to our form.
+We didn't know back then, but before this new version, our users had to type it into several inputs. So they would copy the account number into notepad, split where necessary, and then paste it back to our form.
 
 t-w-e-n-t-y-f-i-r-s-t c-e-n-t-u-r-y, my friends.
 
@@ -59,7 +59,7 @@ I mean, it took me more to come up with this text than to develop that stupid ba
 
 Small things do provide value.
 
-So, keep things small. No, not *that* small. Smaller. Smaller I said. Break stuff until you can do it in... a day, or two.
+So, keep things small. No, not *that* small. Smaller. Smaller I, said. Break stuff until you can do it in... a day, or two.
 
 Then do it. Test it. Integrate it. Deploy it. Check it is useful to someone. Then focus on the next small (noooo, smaller!) item on the list.
 
