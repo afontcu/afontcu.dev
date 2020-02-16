@@ -1,19 +1,19 @@
 ---
 title: A small increment
-description: ""
+description: Someone was really happy with us last week.
 date: '2020-02-20T17:36:01.570Z'
 categories: ''
 tags: ['Agile']
 slug: small-increment
 ---
 
-Someone was really happy with us ("us" as in "my team") last week.
+("us" as in "my team").
 
 Turns out we deployed a contrived new version of a form they were using. Among other stuff, there was an input to introduce a bank account number. A single input where you could paste the number from somewhere else.
 
 How exciting, a form with an input.
 
-We didn't know back then, but previously our users had to introduce the same number but splitting it in several input fields. So they would copy the account number into notepad, split it into groups, and then paste it back to our form.
+We didn't know back then, but previously our users had to introduce the same number but split it into several input fields. So they would copy the account number into notepad, split it into groups, and then paste it back to our form.
 
 t-w-e-n-t-y-f-i-r-s-t c-e-n-t-u-r-y, my friends.
 
@@ -35,7 +35,7 @@ Would you say that's a **software increment** worth developing and deploying?
 
 Yeah, we added a better text input.
 
-That piece of code is not gonna end up in a museum. Such museum would need to feature reaaally weird stuff, to be honest.
+That piece of code is not gonna end up in a museum. Such a museum would need to feature reaaally weird stuff, to be honest.
 
 Yet, **we helped someone**. You know when we folks say "whatever whatever providing value to users"? Well, this is it.
 
