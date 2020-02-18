@@ -61,6 +61,6 @@ Small things do provide value.
 
 So, keep things small. No, not *that* small. Smaller. Smaller I, said. Break stuff until you can do it in... a day, or two.
 
-Then do it. Test it. Integrate it. Deploy it. Check it is useful to someone. Then focus on the next small (noooo, smaller!) item on the list.
+Then do it. Test it. Integrate it. Deploy it. Check if it is useful to someone. Then focus on the next small (noooo, smaller!) item on the list.
 
 
