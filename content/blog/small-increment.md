@@ -47,7 +47,7 @@ We delivered a **small increment**.
 
 Was that enough? Well, that really depends on your definition of "enough".
 
-Is the app done? Not for a bit.
+Is the app done? Is the "bigger" feature finished? Not for a bit. Again, I'd argue that "finished" is a vague word in the software development world.
 
 Was it an "integrated, running, tested version of the software" ([that's a quote](https://ronjeffries.com/articles/017-08ff/new-framework-increment))? It was.
 
