@@ -19,7 +19,9 @@ t-w-e-n-t-y-f-i-r-s-t c-e-n-t-u-r-y, my friends.
 
 The form contained other goodies, but that blew up.
 
-## Hey, but you didn't know
+I know what you're thinking.
+
+## "But hey, you didn't know"
 
 That's true, and that's a shame. We should have known better. We should've been aware of such an issue waaay before.
 
