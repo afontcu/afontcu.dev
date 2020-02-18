@@ -57,10 +57,10 @@ I mean, it took me more to come up with this text than to develop that stupid ba
 
 ## Bottom line
 
-Small things do provide value.
+Small things do provide value. And they are easier to come up with.
 
 So, keep things small. No, not *that* small. Smaller. Smaller I, said. Break stuff until you can do it in... a day, or two.
 
 Then do it. Test it. Integrate it. Deploy it. Check if it is useful to someone. Then focus on the next small (noooo, smaller!) item on the list.
 
-
+Rinse and repeat.
