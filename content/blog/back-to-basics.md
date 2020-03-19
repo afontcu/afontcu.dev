@@ -1,11 +1,13 @@
 ---
 title: Back to Basics
-description: Sometimes we face hard situations, where there's no clear path or direction. Actually, we might not even have a clear goal.
+description: Sometimes we face hard choices, where there's no clear path or direction. Actually, we might not even have a clear goal.
 date: '2020-03-18T09:17:04.326Z'
 categories: ''
 tags: ['Software Crafting', 'Agile']
 slug: back-to-basics
 ---
+
+You've probably been there before. Think about it. Situations where the line dividing "the right call" and "a fucked up mess" seems blurry.
 
 On such occasions, the temptation is to take a step back. To go back to a previously known state. Back to safety.
 
@@ -31,7 +33,7 @@ Things change. If you don't like it, you'll have a hard time working in the soft
 
 **The software should be easy to change.** Easy to delete.
 
-To make it happen, software should be simple. Everything should be. Making hard things is making stuff that's hard to change.
+Thus, software should be simple. Everything should be. Making hard things is making stuff that's hard to change.
 
 ## Maintain a constant pace
 
