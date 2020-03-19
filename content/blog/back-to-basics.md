@@ -29,17 +29,19 @@ Shipping working software in opposition to shipping... shit.
 
 ## Welcome changing requirements
 
-Things change. If you don't like it, you'll have a hard time working in the software industry.
+Things change. It's a fact. If you don't like it, you'll have a hard time working in the software industry.
 
 **The software should be easy to change.** Easy to delete.
 
-Thus, software should be simple. Everything should be. Making hard things is making stuff that's hard to change.
+Thus, software should be simple. Everything should be. Making things complex is making stuff that's hard to change.
+
+It's so hard to make things simple. But it's the only way.
 
 ## Maintain a constant pace
 
 If you try to go faster and faster, you'll set unreasonable expectations and eventually burn out. Don't do that.
 
-To do so, you need to keep the code clean, the architecture clean, the design clean. As clean as possible.
+To do so, you need to keep the code clean, the architecture clean, the design clean. As clean as possible. Set a constant flow of delivery that you can sustain for a long period of time. That's the best way we can provide value.
 
 ## Cover for each other
 
