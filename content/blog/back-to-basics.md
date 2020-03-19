@@ -9,7 +9,7 @@ slug: back-to-basics
 
 You've probably been there before. Think about it. Situations where the line dividing "the right call" and "a fucked up mess" seems blurry.
 
-On such occasions, the temptation is to take a step back. To go back to a previously known state. Back to safety.
+On such occasions, the temptation is to take a step back. To go back to a previously known state. **Back to safety**.
 
 You might end up suggesting things you would not consider given other circumstances.
 
@@ -25,7 +25,7 @@ Shipping working software in opposition to shipping... shit.
 
 **The software should be ready to deploy** at the end of every iteration. The fundamental measure of progress is working software.
 
-"Working" software is not an empty work. It means software we agreed upon. Tested. Integrated. Solid.
+"Working" software is not an empty word. It means software we agreed upon. Tested. Integrated. Solid.
 
 ## Welcome changing requirements
 
