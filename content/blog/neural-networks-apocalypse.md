@@ -2,7 +2,7 @@
 title: 'Neural networks: The apocalypse is (almost) here'
 description: >-
   AlphaZero has become the ultimate King of the gaming Artificial Intelligences.
-  The algorithm, developed by DeepMind (a.k.a. Google), beat…
+  The algorithm, developed by DeepMind (a.k.a. Google), beat everyone at everything.
 date: '2019-02-18T08:01:00.845Z'
 categories: ''
 tags: ['Random Thoughts']
