@@ -9,15 +9,15 @@ slug: harry-shoemaker-build-software
 
 Harry has a small shoe factory. Yeah, that's Harry. And he's quite good at it, I must say. An excellent small shoe factory manager.
 
-Over time, Harry came to the conclusion that one can measure the factory *productivity*. It's merely the **number of shoes produced by a unit of time**.
+Over time, Harry came to the conclusion that he could measure the factory *productivity*. It's merely the **number of shoes produced by a unit of time**.
 
 If you would make 10 shoes a day and now you produce 15, well, you go faster.
 
 You're more efficient.
 
-More productive.
+More *productive*.
 
-And there's no turn of the page: you are *always faster* if you end up with 15 shoes a day instead of 10.
+And that's it: you are *always faster* if you end up with 15 shoes a day instead of 10.
 
 ![Picture of shoes](./shoemaker.jpeg)
 
@@ -27,15 +27,15 @@ And there's no turn of the page: you are *always faster* if you end up with 15 s
   </i>
 </p>
 
-Harry can measure its system productivity by looking at the outputs of it (i.e., the shoes) given a set of inputs (i.e., time, raw material, people).
+Harry can measure its system productivity by looking at the outputs of it (i.e., the shoes) given a set of inputs (i.e., time, raw materials, people).
 
-He knows the stuff, and he can measure it. So he's happy. He sleeps well at night. He gets back home every day, kisses his children goodnight, plays at Counter Strike for a bit, and watches Netflix. All good.
+He knows the stuff. So he's happy. He sleeps well at night. He gets back home every day, kisses his children goodnight, plays at Counter Strike for a bit, and watches Netflix. All good.
 
 But Harry has a brother, Ron. And Ron is not as lucky as Harry.
 
 Because…
 
-## Harry's brother builds software
+## Ron, the software builder
 
 *(Aaah! Software! Screams and shouts all over the place. Software!).*
 
@@ -47,17 +47,17 @@ Boomer.
 
 — Yes, but…
 
-— No buts, Ron. Mmm… Say you work on a movie. The *output* is its length. Does it make any sense to measure its **performance** based on the total amount of minutes?
+— No buts, Ron. Mmm… Say you work on a movie. One *output* is its length. Does it make any sense to evaluate a movie **performance** based on the total amount of minutes?
 
 — Yes, but…
 
 — No buts, Ron. You could measure, for instance, how many tickets are sold. Or the average review score. Those could be easily interpreted as **results**, and it is quite different from measuring *outputs*.
 
-— Oh, so you mean…
+— Yes, but…
 
-— No means, Ron. I'm 100% positive that the metrics you were working with were flawed or could be tempered easily. You track Story Points, you said, right? lol.
+— I'm 100% positive that the metrics you were working with were flawed or could be tempered easily. You track Story Points, you said, right? lol.
 
-— Of course, I do. It's my way of knowing how much work we deliver, so I can track if we perform better or worse. Points help me establish our velocity. The faster, the better.
+— Of course, I do. It's my way of knowing how much work we deliver, so I can track if we perform better or worse. They help me establish our velocity. The faster, the better.
 
 — Ok. Notice that you are now measuring the play length. I mean, **you're measuring the output of the team**. Lines of code, features, wireframes, story points… team outputs.
 
