@@ -1,5 +1,5 @@
 ---
-title: "Luna, the shoemaker"
+title: "Ron, the shoemaker"
 description: 'You either make shoes or you build software.'
 date: '2020-04-27T16:56:01.115Z'
 categories: ''
@@ -7,9 +7,9 @@ tags: ['Agile']
 slug: shoe-factory-build-software
 ---
 
-Luna has a small shoe factory. Yeah, that's Luna. And she's quite good at it, I must say. An excellent small shoe factory manager.
+Ron has a small shoe factory. Yeah, that's Ron. And she's quite good at it, I must say. An excellent small shoe factory manager.
 
-Over time, Luna came to the conclusion that he could measure the factory *productivity*. It's merely the **number of shoes produced by a unit of time**.
+Over time, Ron came to the conclusion that he could measure the factory *productivity*. It's merely the **number of shoes produced by a unit of time**.
 
 If you would make 10 shoes a day and now you produce 15, well, you go faster.
 
@@ -27,31 +27,31 @@ And that's it: you are *always faster* if you end up with 15 shoes a day instead
   </i>
 </p>
 
-Luna can measure its system productivity by looking at the outputs of it (i.e., the shoes) given a set of inputs (i.e., time, raw materials, people).
+Ron can measure its system productivity by looking at the outputs of it (i.e., the shoes) given a set of inputs (i.e., time, raw materials, people).
 
-He knows the stuff. So he's happy. He sleeps well at night. He gets back home every day, kisses her children goodnight, plays at Counter Strike for a bit, and watches Netflix. All good.
+He knows the stuff. So he's happy. He sleeps well at night. He gets back home every day, kisses his children goodnight, plays at Counter Strike for a bit, and watches Netflix. All good.
 
-But Luna has a brother, Rolf. And Rolf is not that lucky.
+But Ron has a sister, Luna. And Luna isn't that lucky.
 
 Because…
 
-## Rolf, the software builder
+## Luna, the software builder
 
 *(Aaah! Software! Screams and shouts all over the place. Software!).*
 
 Boomer.
 
-— Hey, Luna — says Rolf — how come you're so happy? You sleep like a baby. And I can't even… Dunno, can't figure it out at work. I don't know how to measure *how much work* my team's doing, so I can't sleep. And I suck at Counter Strike.
+— Hey, Ron — says Luna — how come you're so happy? You sleep like a baby. And I can't even… Dunno, can't figure it out at work. I don't know how to measure *how much work* my team's doing, so I can't sleep. And I suck at Counter Strike.
 
 — OK, one step at a time. Do you make shoes? No, you don't. You don't work in a factory. You don't have a physical product, do you? Then you cannot measure as I do.
 
 — Yes, but…
 
-— No buts, Rolf. Mmm… Say you work on a movie. One *output* is its length. Does it make any sense to evaluate a movie **performance** based on the total amount of minutes?
+— No buts, Luna. Mmm… Say you work on a movie. One *output* is its length. Does it make any sense to evaluate a movie **performance** based on the total amount of minutes?
 
 — Yes, but…
 
-— No buts, Rolf. You could measure, for instance, how many tickets are sold. Or the average review score. Those could be easily interpreted as **results**, and it is quite different from measuring *outputs*.
+— No buts, Luna. You could measure, for instance, how many tickets are sold. Or the average review score. Those could be easily interpreted as **results**, and it is quite different from measuring *outputs*.
 
 — Yes, but…
 
@@ -73,7 +73,7 @@ So, **Team #2**: "Hey, we noticed the content around the form wasn't quite clear
 
 ## Outcomes instead of outputs
 
-— You see that, Rolf? Both teams got the same result, the same outcome: they boosted conversions. But each team had different velocities. Which one would you pick?
+— You see that, Luna? Both teams got the same result, the same outcome: they boosted conversions. But each team had different velocities. Which one would you pick?
 
 — Yeah, OK, I see… they managed to get the same result while creating less output. So they generated less stuff, too…
 
@@ -85,7 +85,7 @@ So, **Team #2**: "Hey, we noticed the content around the form wasn't quite clear
 
 > **Simplicity** — the art of maximizing the amount of work not done — is essential.
 
-— OK, you got me, Luna. Let me see if I got it. **Are you saying a team isn't any "better" because it goes faster** because we're not a shoe factory?
+— OK, you got me, Ron. Let me see if I got it. **Are you saying a team isn't any "better" because it goes faster** because we're not a shoe factory?
 
 — This is it.
 
