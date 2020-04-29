@@ -9,7 +9,6 @@ import FullBleed from '../components/full-bleed'
 class Layout extends React.Component {
   render() {
     const { location, children, siteMetadata = {} } = this.props
-    const { author, social } = siteMetadata
     const rootPath = `${__PATH_PREFIX__}/`
     let header
 
@@ -28,8 +27,8 @@ class Layout extends React.Component {
             <span role="img" aria-label="waving hand">
               👋
             </span>{' '}
-            I'm <strong>{author}</strong>, a UI engineer interested in
-            JavaScript, CSS, UX, lean software development, clean code, and
+            I'm <strong>{siteMetadata.author}</strong>, a UI engineer interested
+            in JavaScript, CSS, UX, lean software development, clean code, and
             everything in between.
           </p>
         </div>
