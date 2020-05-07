@@ -4,7 +4,7 @@ description: Why someone pays me money to type weird stuff in my computer?
 date: '2020-05-07T11:12:00.000Z'
 categories: ''
 tags: ['Software craftsmanship']
-slug: goal-of-software
+slug: goal-of-software-development
 ---
 
 Why would anyone pay for it? We programmers are picky. We want newer tools each day. We want to work on what we please. We want to go to conferences.
