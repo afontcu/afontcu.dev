@@ -1,27 +1,13 @@
 ---
 title: The goal of software development
-description: Why do we get paid for creating software?
+description: Why someone pays me money to type weird stuff in my computer?
 date: '2020-05-07T11:12:00.000Z'
 categories: ''
 tags: ['Software craftsmanship']
 slug: goal-of-software
 ---
 
-It is funny because someone is paying me money so I can write weird stuff in my computer.
-
-*(Actually, I'm gonna assume that most of you, my fellow readers, face a similar situation).*
-
-You know we the code writers are quite picky these days. High salaries. Job security. Expensive tools and courses and workshops and conferences.
-
-It turns out we - folks who help building software- have the upper hand because most modern businesses are software-based. And we know that. So other people *have* to listen to us, because we're *The Software Creators™*. Even if we don't know shit about what's going in the business.
-
-We were blessed by the gods because we can type weird stuff in a computer.
-
-(*disclaimer*: There are other critical roles involved in the process of building software. Building software is not (only) writing software. But I don't think they usually feel like this.)
-
-So, my question is:
-
-Why would anyone pay me for this? Are they mad? Why would anyone have individuals like me in their company?
+Why would anyone pay for it? We programmers are picky. We want newer tools each day. We want to work on what we please. We want to go to conferences.
 
 Well, one of the advantages of having people like us is that we might produce software.
 
@@ -29,11 +15,11 @@ And software has an interesting goal.
 
 ## The goal of software development
 
-*(Did I just write a subtitle that reads almost as the post title? Yeah I did).*
+*(Did I just write a subtitle using the post title? You bet I did).*
 
 The main goal of software is to **reduce the lead time to deliver business value**.
 
-("Lead Time" as in "the time elapsed between identifying a business opportunity and providing the tools to fulfill it").
+("Lead Time" as in "the time elapsed between identifying a business opportunity and providing the tools to fulfill it". Or [this](https://leanandkanban.wordpress.com/2009/04/18/lead-time-vs-cycle-time/).).
 
 Also, the goal of software development is **to do so in a sustainable pace**. Not once, not for a week, but for an indeterminate amount of time. That's critical.
 
@@ -43,7 +29,7 @@ In an ideal world more software always leads to more business value. But we all 
 
 More software means more maintainability, more defects, less understanding.
 
-Do you see the **conflict** there? To provide more value, we'd need to reduce the amount of code.
+Do you see the **paradox** there? To provide more value, we'd need to reduce the amount of code.
 
 We'd need to produce less of what we just agreed that gives us value.
 
