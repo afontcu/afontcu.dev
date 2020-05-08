@@ -51,7 +51,7 @@ It is just the best way we could come up with – for now.
 
 Software development is not about moving Jira tickets. I wish software development had nothing to do with Jira, actually.
 
-Software development is not about over-engineering stuff and feeling smart about it because *it is cool* and then you can look at people over the shoulder.
+Software development is not about over-engineering stuff and feeling smart about it because *it is cool* and because then you can look at people over the shoulder.
 
 Software development is about **sustainably reduce lead time to business impact.**
 
