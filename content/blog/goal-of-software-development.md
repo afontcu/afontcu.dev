@@ -7,9 +7,9 @@ tags: ['Software craftsmanship']
 slug: goal-of-software-development
 ---
 
-Why would anyone do it? I mean, let's face it. We, programmers, are picky. We want to work on what we please to. We want to go to expensive conferences. We feel entitled to call the shots.
+Why would anyone do it? I mean, let's face it. We, programmers, are picky. We want to work on what we please. We want to go to expensive conferences. We feel entitled to call the shots.
 
-I guess one of the reasons is that we might produce software – eventually.
+I guess one of the reasons is that we produce software – eventually.
 
 Yet, we keep forgetting *why* are we doing this. We forget why do we get paid.
 
@@ -35,7 +35,7 @@ Do you see the **paradox** there? To provide more value, we'd need to reduce the
 
 We'd need to produce less of what we just agreed that gives us value.
 
-Writing code is in conflict with its main goal. I feel this is quite uncommon in other realities: it doesn't happen [in a factory](https://afontcu.dev/shoe-factory-build-software/).
+Writing code is in conflict with its main goal. This is quite uncommon in other realities: it doesn't happen [in a factory](https://afontcu.dev/shoe-factory-build-software/).
 
 ## Code is not an asset
 
@@ -43,7 +43,7 @@ If that's true, then code cannot be an asset. Right? It isn't something you want
 
 **Code is the cost of getting that business impact**. It is what gets in the way between us and creating that value.
 
-It is just the best way we could come up with – for now.
+Code is the best way we could come up with to achieve this goal – for now.
 
 "Wait, what?" you might ask. Well, there are several "costs" involved when creating software. The cost of writing it. Of maintaining it. Even the cost of understanding past code. The **opportunity cost** of writing a piece of software instead of that other one.
 
@@ -51,7 +51,7 @@ It is just the best way we could come up with – for now.
 
 Software development is not about moving Jira tickets. I wish software development had nothing to do with Jira, actually.
 
-Software development is not about over-engineering stuff and feeling smart about it because *it is cool* and because then you can look at people over the shoulder.
+Software development is not about over-engineering stuff. It is not about feeling smart because *it is cool* and because lets you look at people over the shoulder.
 
 Software development is about **sustainably reduce lead time to business impact.**
 
