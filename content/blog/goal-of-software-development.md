@@ -7,7 +7,7 @@ tags: ['Software craftsmanship']
 slug: goal-of-software-development
 ---
 
-Why would anyone do it? I mean, let's face it. We programmers are picky. We want to work on what we please to. We want to go to expensive conferences. We feel entitled to call the shots.
+Why would anyone do it? I mean, let's face it. We, programmers, are picky. We want to work on what we please to. We want to go to expensive conferences. We feel entitled to call the shots.
 
 I guess one of the reasons is that we might produce software – eventually.
 
@@ -19,7 +19,7 @@ And no, it is not because we type weird stuff.
 
 *(Did I just write a subtitle using the post title? You bet I did).*
 
-In short: the main goal of software is to **reduce the lead time to deliver business value**.
+In short: the primary goal of software development is to **reduce the lead time to deliver business value**.
 
 ("Lead Time" as in "the time elapsed between identifying a business opportunity and providing the tools to fulfill it". Or [this](https://leanandkanban.wordpress.com/2009/04/18/lead-time-vs-cycle-time/).).
 
@@ -27,7 +27,7 @@ Also, the goal of software development is **to do so in a sustainable pace**. No
 
 ## The goal is not producing software
 
-In an ideal world more software always leads to more business value. But we all know that's not true.
+In an ideal world, more software always leads to more business value. But we all know that's not true.
 
 More software means more maintainability, more defects, less understanding.
 
@@ -35,11 +35,11 @@ Do you see the **paradox** there? To provide more value, we'd need to reduce the
 
 We'd need to produce less of what we just agreed that gives us value.
 
-Writing code is in conflict with its main goal. I feel this is quite uncommon in other worlds: it doesn't happen in a factory.
+Writing code is in conflict with its main goal. I feel this is quite uncommon in other realities: it doesn't happen [in a factory](https://afontcu.dev/shoe-factory-build-software/).
 
 ## Code is not an asset
 
-Using that perspective, code cannot be an asset, right? It isn't something you want to pile up, to have a stock.
+If that's true, then code cannot be an asset. Right? It isn't something you want to pile up, to have a stock.
 
 **Code is the cost of getting that business impact**. It is what gets in the way between us and creating that value.
 
