@@ -1,23 +1,25 @@
 ---
 title: The goal of software development
-description: Why someone pays me money to type weird stuff in my computer?
-date: '2020-05-07T11:12:00.000Z'
+description: Why would anyone give me money to type weird stuff?
+date: '2020-05-08T11:12:00.000Z'
 categories: ''
 tags: ['Software craftsmanship']
 slug: goal-of-software-development
 ---
 
-Why would anyone pay for it? We programmers are picky. We want newer tools each day. We want to work on what we please. We want to go to conferences.
+Why would anyone do it? I mean, let's face it. We programmers are picky. We want to work on what we please to. We want to go to expensive conferences. We feel entitled to call the shots.
 
-Well, one of the advantages of having people like us is that we might produce software.
+I guess one of the reasons is that we might produce software – eventually.
 
-And software has an interesting goal.
+Yet, we keep forgetting *why* are we doing this. We forget why do we get paid.
+
+And no, it is not because we type weird stuff.
 
 ## The goal of software development
 
 *(Did I just write a subtitle using the post title? You bet I did).*
 
-The main goal of software is to **reduce the lead time to deliver business value**.
+In short: the main goal of software is to **reduce the lead time to deliver business value**.
 
 ("Lead Time" as in "the time elapsed between identifying a business opportunity and providing the tools to fulfill it". Or [this](https://leanandkanban.wordpress.com/2009/04/18/lead-time-vs-cycle-time/).).
 
