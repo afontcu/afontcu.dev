@@ -53,7 +53,7 @@ And we must not confuse the end with the means. Yet, more often than not, we do 
 
 ## This is / This is not
 
-Software development is not about moving Jira tickets. I wish software development had nothing to do with Jira, actually.
+Software development is not about updating tickets in Jira. If only software development had nothing to do with Jira…
 
 Software development is not about over-engineering stuff. It is not about feeling smart because *it is cool* and because lets you look at people over the shoulder.
 
