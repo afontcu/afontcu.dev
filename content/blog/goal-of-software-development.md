@@ -1,7 +1,7 @@
 ---
 title: The goal of software development
-description: Why would anyone give me money to type weird stuff?
-date: '2020-05-08T11:12:00.000Z'
+description: Why would anyone give me money to type weird stuff on a computer?
+date: '2020-05-11T11:12:00.000Z'
 categories: ''
 tags: ['Software craftsmanship']
 slug: goal-of-software-development
@@ -25,27 +25,31 @@ In short: the primary goal of software development is to **reduce the lead time 
 
 Also, the goal of software development is **to do so in a sustainable pace**. Not once, not for a week, but for an indeterminate amount of time. That's critical.
 
+To goal of software development is not technical excellence. It is the other way around. Technical excellence is the best way to provide value through software **over time**.
+
 ## The goal is not producing software
 
 In an ideal world, more software always leads to more business value. But we all know that's not true.
 
-More software means more maintainability, more defects, less understanding.
+You could then argue that more software translated to more business value.
 
-Do you see the **paradox** there? To provide more value, we'd need to reduce the amount of code.
+However, we know that more software means more maintainability, more defects, more effort needed to understand it.
 
-We'd need to produce less of what we just agreed that gives us value.
+Thus, to provide more value, we'd need to reduce the amount of code.
 
-Writing code is in conflict with its main goal. This is quite uncommon in other realities: it doesn't happen [in a factory](https://afontcu.dev/shoe-factory-build-software/).
+Thus, we'd need to produce less of what we just agreed that gives us value.
+
+Thus, writing code is in conflict with its primary goal. A lovely paradox we got there.
 
 ## Code is not an asset
 
-If that's true, then code cannot be an asset. Right? It isn't something you want to pile up, to have a stock.
+If that's true, then code cannot be considered an asset. Right? It is not something you want to pile up, to have a stock.
 
 **Code is the cost of getting that business impact**. It is what gets in the way between us and creating that value.
 
-Code is the best way we could come up with to achieve this goal – for now.
+Code is the way we came up with to achieve this goal – for now.
 
-"Wait, what?" you might ask. Well, there are several "costs" involved when creating software. The cost of writing it. Of maintaining it. Even the cost of understanding past code. The **opportunity cost** of writing a piece of software instead of that other one.
+And we must not confuse the end with the means. Yet, more often than not, we do so.
 
 ## This is / This is not
 
