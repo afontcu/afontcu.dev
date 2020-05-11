@@ -1,6 +1,6 @@
 ---
 title: The goal of software development
-description: Why would anyone give me money to type weird stuff on a computer?
+description: Why would anyone give money to me to type weird stuff on a computer?
 date: '2020-05-11T11:12:00.000Z'
 categories: ''
 tags: ['Software craftsmanship']
