@@ -27,9 +27,9 @@ class Layout extends React.Component {
             <span role="img" aria-label="waving hand">
               👋
             </span>{' '}
-            I'm <strong>{siteMetadata.author}</strong>, a UI engineer interested
-            in JavaScript, CSS, UX, lean software development, clean code, and
-            everything in between.
+            I'm <strong>{siteMetadata.author}</strong>, a software engineer
+            interested in lean development, mostly focused on the front end, UX,
+            and everything in between.
           </p>
         </div>
       )
