@@ -4,7 +4,6 @@ it.only('All tags are accessible', () => {
 
   cy.getByRole('main')
     .within(() => {
-
       // there must be a better way... I just want to collect all href attrs
       // so that I can navigate them afterwards.
       cy.getAllByRole('link').each(post => {
