@@ -37,7 +37,7 @@ We confuse clarity and alignment with detail.
 
 When this happens, we tend to ask for more reporting. What have you been doing? How are you going to organize today? What are you spending your time with?
 
-We confuse [outcomes with outputs](http://localhost:8000/ways-telling-problem-oriented/).
+We confuse [outcomes with outputs](https://afontcu.dev/ways-telling-problem-oriented/).
 
 ## Gaps
 
@@ -59,8 +59,9 @@ I'm afraid (pun intended) there's no silver bullet to finish this post with. I w
 
 All I can tell is that these gaps resonated with me several times.
 
-So, my bet is that you, fellow reader, have been through the same. My only suggestion is to be aware of this. Identify which gap you are trying to close – and, more importantly, your requests to "build the bridge" and shut down fear.
+So, my bet is that you, fellow reader, have been through the same. My only suggestion is to be aware of this. Identify which gap you are trying to close – and, more importantly, your requests to "build the bridge" to shut down fear.
 
+Here's an idea, though. "When things derail, you might want to go [back to basics](https://afontcu.dev/back-to-basics/)".
 
 ---
 
