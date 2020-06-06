@@ -15,7 +15,7 @@ Recently, I experienced a match between theory<sup>1</sup> and reality. And oh, 
 
 ## Fear-inducing gaps
 
-I noticed how fear appeared when one of the following gaps was so evident and dangerous that someone eventually took action.
+I noticed how fear appeared when one of the following gaps was so evident and dangerous that someone eventually took action:
 
 ### The gap between what you'd like to know and what you actually know
 
@@ -43,13 +43,15 @@ We confuse [outcomes with outputs](http://localhost:8000/ways-telling-problem-or
 
 Did you notice the trend in these gaps? We close them by **taking a step back** and seize more power and control. We sacrifice autonomy, trust, and empowerment.
 
-From the outside, it may look like you've never believed in these things in the first place.
-
 It is obvious that **we need to close the gaps**. Mostly because in a gap, information is lost, and more coordination is required. Overhead emerges.
 
 If there's a gap, you'll need to build a bridge.
 
 To sacrifice trust, quality, and all we agreed upon only to close a gap, feels like a high price to pay.
+
+From the outside, it may look like **you've never believed in these things in the first place**.
+
+It may look like they are replaceable. Something not worth standing up for. A *nice to have*.
 
 ## Feel related yet?
 
