@@ -6,20 +6,18 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import { rhythm, scale } from '../utils/typography'
 
-function TagList ({ tags }) {
-  return tags.map(tag => {
-    const urlTag = replace(toLower(tag), ' ', '-')
+function TagList({ tags }) {
+  return tags
+    .map((tag) => {
+      const urlTag = replace(toLower(tag), ' ', '-')
 
-    return (
-      <Link
-        key={tag}
-        to={`/tags/${urlTag}/`}
-        style={{ fontSize: '0.8rem'}}
-      >
-        {tag}
-      </Link>
-    )
-  }).reduce((a, b) => [a, ', ', b])
+      return (
+        <Link key={tag} to={`/tags/${urlTag}/`} style={{ fontSize: '0.8rem' }}>
+          {tag}
+        </Link>
+      )
+    })
+    .reduce((a, b) => [a, ', ', b])
 }
 
 class BlogPostTemplate extends React.Component {
@@ -50,18 +48,12 @@ class BlogPostTemplate extends React.Component {
             >
               {date}
             </time>
-            <div style={{marginBottom: rhythm(1.5),}}>
-            {tags.length > 0 && 
-              <TagList tags={tags} />
-            }
+            <div style={{ marginBottom: rhythm(1.5) }}>
+              {tags.length > 0 && <TagList tags={tags} />}
             </div>
           </header>
 
-          {description && (
-            <p>
-            {description}
-            </p>
-          )}
+          {description && <p>{description}</p>}
 
           <div
             style={{

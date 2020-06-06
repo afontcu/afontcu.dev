@@ -12,6 +12,7 @@ export default class Newsletter extends React.Component {
         action="https://buttondown.email/api/emails/embed-subscribe/afontcu"
         method="post"
         target="popupwindow"
+        data-testid="form"
         onSubmit={this.handleSubmit}
         style={{
           backgroundColor: `white`,

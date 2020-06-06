@@ -11,7 +11,6 @@ import PostList from '../components/post-list'
 import { rhythm, scale } from '../utils/typography'
 
 const Tags = ({ pageContext, data }) => {
-  
   const siteTitle = data.site.siteMetadata.title
   const { tag } = pageContext
   const { edges: posts } = data.allMarkdownRemark
@@ -28,12 +27,18 @@ const Tags = ({ pageContext, data }) => {
     const link = `https://github.com/afontcu/awesome-learning#${kebabCase(tag)}`
     return (
       <FullBleed>
-        <p style={{textAlign: 'center', ...scale(1 / 3) }}>
-          Hey! <span role="img" aria-label="waving hand">👋</span>
+        <p style={{ textAlign: 'center', ...scale(1 / 3) }}>
+          Hey!{' '}
+          <span role="img" aria-label="waving hand">
+            👋
+          </span>
         </p>
-        <p style={{margin: 0, textAlign: 'center'}}>
+        <p style={{ margin: 0, textAlign: 'center' }}>
           Make sure you check my awesome list of <br />
-          <a href={link} target="_blank" rel="noopener noreferrer">learning material about {tag}</a>!
+          <a href={link} target="_blank" rel="noopener noreferrer">
+            learning material about {tag}
+          </a>
+          !
         </p>
       </FullBleed>
     )
@@ -42,20 +47,22 @@ const Tags = ({ pageContext, data }) => {
   return (
     <Layout title={siteTitle} location={{}}>
       <SEO title={`${tag} posts`} />
-      <h1 style={{
-        textAlign: 'center',
-        marginTop: rhythm(2.5),
-        marginBottom: rhythm(1.5)
-      }}>
+      <h1
+        style={{
+          textAlign: 'center',
+          marginTop: rhythm(2.5),
+          marginBottom: rhythm(1.5),
+        }}
+      >
         {headerTitle}
       </h1>
       <TagAwesomeLink />
-      <div style={{marginTop: rhythm(2.25)}}>
+      <div style={{ marginTop: rhythm(2.25) }}>
         <PostList posts={posts} />
       </div>
-      <div style={{textAlign: 'center', marginTop: rhythm(2) }}>
-        <Link to="/tags" >All tags</Link>
-      </div>      
+      <div style={{ textAlign: 'center', marginTop: rhythm(2) }}>
+        <Link to="/tags">All tags</Link>
+      </div>
     </Layout>
   )
 }

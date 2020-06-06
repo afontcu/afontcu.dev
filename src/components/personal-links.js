@@ -29,16 +29,7 @@ export default () => (
     >
       LinkedIn
     </a>
-    . Oh, and{' '}
-    <a
-      target="_blank"
-      rel="noopener noreferrer"
-      title="Strava"
-      href="https://www.strava.com/athletes/5716746"
-    >
-      Strava
-    </a>{' '}
-    🚴.
+    .
     <br />I also collect{' '}
     <a
       target="_blank"
@@ -48,7 +39,7 @@ export default () => (
     >
       awesome
     </a>{' '}
-    links and{' '}
+    links,{' '}
     <a
       target="_blank"
       rel="noopener noreferrer"
@@ -56,6 +47,15 @@ export default () => (
       href="https://noti.st/afontcu"
     >
       speak here and there
+    </a>{' '}
+    and{' '}
+    <a
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Newsletter"
+      href="https://buttondown.email/afontcu"
+    >
+      write a newsletter
     </a>
     .
   </div>

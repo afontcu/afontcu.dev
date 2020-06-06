@@ -15,14 +15,14 @@ import PersonalLinks from '../components/personal-links'
 
 const AVATAR_SIZE = 80
 
-function Bio({css = {}} = {}) {
+function Bio({ css = {} } = {}) {
   return (
     <StaticQuery
       query={bioQuery}
-      render={data => {
+      render={(data) => {
         const { author } = data.site.siteMetadata
         return (
-          <div style={{display: 'flex', alignItems: 'center', ...css }}>
+          <div style={{ display: 'flex', alignItems: 'center', ...css }}>
             <Image
               fixed={data.avatar.childImageSharp.fixed}
               alt={author}
@@ -34,6 +34,7 @@ function Bio({css = {}} = {}) {
                 height: AVATAR_SIZE,
                 borderRadius: `100%`,
               }}
+              title="Hey, this is me! :D"
               imgStyle={{
                 borderRadius: `50%`,
                 marginBottom: 0,

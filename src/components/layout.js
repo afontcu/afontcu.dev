@@ -64,9 +64,15 @@ class Layout extends React.Component {
         <FullBleed>
           <footer style={{ marginTop: rhythm(-5.5) }}>
             <Newsletter />
-            <br />
-            <br />
-            <Bio />
+            <Bio
+              css={{
+                margin: `${rhythm(1.5)} auto 0`,
+                gap: '1rem',
+                flexDirection: 'column',
+                textAlign: 'center',
+                maxWidth: '40ch',
+              }}
+            />
           </footer>
         </FullBleed>
       </div>
