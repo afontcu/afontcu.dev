@@ -96,5 +96,11 @@ module.exports = {
     },
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-netlify`,
+    {
+      resolve: 'gatsby-plugin-preconnect',
+      options: {
+        domains: ['https://google.com', 'https://marketingplatform.google.com'],
+      },
+    },
   ],
 }
