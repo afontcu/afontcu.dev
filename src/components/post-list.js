@@ -6,7 +6,7 @@ import { isEmpty } from 'lodash'
 import { rhythm, scale } from '../utils/typography'
 import PostListTags from './post-list-tags'
 
-const PostList = ({ posts }) => (
+const PostList = ({ posts }) =>
   posts.map(({ node: post }) => {
     const { slug } = post.fields
     const {
@@ -27,16 +27,16 @@ const PostList = ({ posts }) => (
         <div style={{ ...scale(-1 / 5), fontStyle: `italic` }}>
           <time dateTime={dateTime}>{date}</time>
           {!isEmpty(tags) && (
-            <span>{' · '}<PostListTags tags={tags} /></span>
+            <span>
+              {' · '}
+              <PostListTags tags={tags} />
+            </span>
           )}
         </div>
-        <p
-          dangerouslySetInnerHTML={{ __html: description }}
-        />
+        <p dangerouslySetInnerHTML={{ __html: description }} />
       </div>
     )
   })
-)
 
 PostList.propTypes = {
   posts: PropTypes.arrayOf(
@@ -52,6 +52,5 @@ PostList.propTypes = {
     }).isRequired
   ),
 }
-
 
 export default PostList

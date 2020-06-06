@@ -15,26 +15,25 @@ const TagsPage = ({
     },
   },
 }) => (
-    <div>
-      <Helmet title={title} />
-      <Layout title={title} location={{}}>
-        <h1 style={{ textAlign: 'center', marginTop: rhythm(2) }}>
-          Stuff I write about
+  <div>
+    <Helmet title={title} />
+    <Layout title={title} location={{}}>
+      <h1 style={{ textAlign: 'center', marginTop: rhythm(2) }}>
+        Stuff I write about
       </h1>
-        <ul style={{ listStyle: 'none', marginTop: rhythm(1) }}>
-          {group.map(tag => {
-            const urlTag = replace(toLower(tag.fieldValue), ' ', '-')
-            return (
-              <li key={tag.fieldValue} style={{ textAlign: 'center' }}>
-                <Link to={`/tags/${urlTag}/`}>
-                  {tag.fieldValue}
-                </Link>
-              </li>)
-          })}
-        </ul>
-      </Layout>
-    </div>
-  )
+      <ul style={{ listStyle: 'none', marginTop: rhythm(1) }}>
+        {group.map((tag) => {
+          const urlTag = replace(toLower(tag.fieldValue), ' ', '-')
+          return (
+            <li key={tag.fieldValue} style={{ textAlign: 'center' }}>
+              <Link to={`/tags/${urlTag}/`}>{tag.fieldValue}</Link>
+            </li>
+          )
+        })}
+      </ul>
+    </Layout>
+  </div>
+)
 
 TagsPage.propTypes = {
   data: PropTypes.shape({

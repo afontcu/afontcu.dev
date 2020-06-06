@@ -19,7 +19,7 @@ function Bio({ css = {} } = {}) {
   return (
     <StaticQuery
       query={bioQuery}
-      render={data => {
+      render={(data) => {
         const { author } = data.site.siteMetadata
         return (
           <div style={{ display: 'flex', alignItems: 'center', ...css }}>
