@@ -7,7 +7,7 @@
 
 import React from 'react'
 import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
+import { Helmet } from 'react-helmet'
 import { useStaticQuery, graphql } from 'gatsby'
 
 function SEO({ description, lang, meta, title, type = 'website' }) {
@@ -27,9 +27,10 @@ function SEO({ description, lang, meta, title, type = 'website' }) {
 
   const metaDescription = description || site.siteMetadata.description
 
-  const titleTemplate = site.siteMetadata.title === title
-    ? title
-    : `%s | ${site.siteMetadata.title}`
+  const titleTemplate =
+    site.siteMetadata.title === title
+      ? title
+      : `%s | ${site.siteMetadata.title}`
 
   return (
     <Helmet
@@ -72,8 +73,7 @@ function SEO({ description, lang, meta, title, type = 'website' }) {
           name: `twitter:description`,
           content: metaDescription,
         },
-      ]
-        .concat(meta)}
+      ].concat(meta)}
     />
   )
 }
