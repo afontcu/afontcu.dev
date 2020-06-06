@@ -63,8 +63,8 @@
     "typography-theme-wordpress-2016": "^0.16.19"
   },
   "devDependencies": {
-    "@testing-library/cypress": "^4.2.0",
-    "cypress": "^3.8.3",
+    "@testing-library/cypress": "^6.0.0",
+    "cypress": "^4.7.0",
     "prettier": "^1.19.1",
     "start-server-and-test": "^1.11.0"
   }

@@ -1,7 +1,7 @@
 it('All posts are accessible from homepage', () => {
   cy.visit('/')
 
-  cy.getAllByTestId('post-list-link').each(post => {
+  cy.findAllByTestId('post-list-link').each(post => {
     cy.get(post)
       .should('have.attr', 'href')
       .then(href => {
