@@ -65,4 +65,4 @@ Here's an idea, though. "When things derail, you might want to go [back to basic
 
 ---
 
-<sup>1</sup>: these ideas around "fears" or "gaps" are not an invention of mine – obviously. I've learned about them in [Escaping the Build Trap](https://melissaperri.com/book) and [The Art of Action](https://www.stephenbungay.com/Books.ink).
+<sup>1</sup>: these ideas around "fears" or "gaps" are not an invention of mine – obviously. I've learned about them in [Escaping the Build Trap](https://melissaperri.com/book) and [The Art of Action](https://www.stephenbungay.com/Books).
