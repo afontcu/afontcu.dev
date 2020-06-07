@@ -13,9 +13,13 @@ You read books, posts, watch videos, whatever, and that's cool. But the true pow
 
 Recently, I experienced a match between theory<sup>1</sup> and reality. And oh, you bet it felt good.
 
+So, fear. This was about fear. We experience it when we face uncertainty – I'm by no means a psychologist. Still, I read a couple articles on Wikipedia so you can call me an expert.
+
+And uncertainty comes in many forms in the software development world. It's at its core.
+
 ## Fear-inducing gaps
 
-I noticed how fear appeared when one of the following gaps was so evident and dangerous that someone eventually took action:
+Uncertainty and fear appear when there's a gap between reality and expectations. And there are several of these gaps.
 
 ### The gap between what you'd like to know and what you actually know
 
