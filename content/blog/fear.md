@@ -1,7 +1,7 @@
 ---
 title: "Fear"
 description: 'In theory, theory and practice are the same. In practice, they are not.'
-date: '2020-06-08T10:56:01.115Z'
+date: '2020-06-15T07:56:01.115Z'
 categories: ''
 tags: ['Random Thoughts']
 slug: fear
