@@ -57,11 +57,13 @@ As I see it, we can split items in the list into two groups:
 
 ## Here's the tradeoff
 
-To create as many feedback loops as possible, you need to keep things simple. [Simplicity](http://www.extremeprogramming.org/rules/simple.html) means maximizing the amount of work not done. I'm afraid it is a requirement, not a suggestion. 
+To create as many feedback loops as possible, you need to keep things simple. [Simplicity](http://www.extremeprogramming.org/rules/simple.html) means maximizing the amount of work not done. I'm afraid it is a requirement, not a suggestion.
 
 Build simple things (and simple processes and team dynamics) so that they are simple to test, measure, and iterate on. Otherwise your feedback loops become slow and painful, and you'll skip them. Oh, by the way: if something hurts, [do it more often](https://martinfowler.com/bliki/FrequencyReducesDifficulty.html).
 
-Don't get me wrong – **simplicity is hard**. You can always make things _simpler_, right? It is the only way, thou, to provide useful feedback loops. And we want as many of them as possible.
+Don't get me wrong – **simplicity is hard**. You can always make things _simpler_, right? It is the only way, thou, to provide useful feedback loops.
+
+And we want as many of them as possible – even though [they are not free](https://afontcu.dev/beware-feedback-loops/).
 
 ## Wait, wait a minute. Agile, DevOps, Software Crafting, Extreme Programming...
 
