@@ -33,7 +33,7 @@ In short: Testing highlights pieces of code that could use a [redesign](https://
 
 The G in ASAP stands for "Good idea".
 
-Let me get this straight. If you don’t have time to do it right, **when will you have time to do it over?** It takes longer to find a bug, and fix it, that simply prevent it in the first place.
+Let me get this straight. If you don’t have time to do it right, **when will you have time to do it over?** It takes longer to find a bug, and fix it, than simply prevent it in the first place.
 
 Skip testing, and you'll find yourself dealing with defects and poor quality. You will end up dying by reworks and having business people talking your ear off.
 
