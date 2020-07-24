@@ -1,68 +1,71 @@
 ---
-title: The only way to go fast is to go well
-description: A lot have been said regarding software development teams going slow.
-date: '2020-06-22T14:06:07.866Z'
+title: You say slow
+description: I've been told I was going slow in every project I ever participated in.
+date: '2020-07-24T20:06:07.866Z'
 categories: ''
 tags: ['Software Crafting']
 slug: slow
 ---
 
+Every. Single. One.
 
-To be honest, I've been told I was going slow on every project I ever participated in.
+You end up developing a hard skin on the subject. It is not easy, though. It requires time and strong convictions.
 
-You end up developing a hard skin on the subject. It is hard. It requires time and strong convictions.
+The truth is, "slow" is a big word.
 
-"Slow" is a big word. There are a shitton of things hidden behind "Slow".
+It's a facade.
 
-High WIP. Reworks. Context switching. Tech (or knowledge) debt. Poor tooling and infrastructure. Knowledge silos. Handoffs.
+## You say slow
 
-[All of these](https://twitter.com/johncutlefish/status/1139824204931485696/photo/1
-) translate into slowness.
+But this is all I hear:
 
-This is not new. What I wanted to do here is two share two additional ideas.
+"We're fighting against unrealistic expectations (and you told your boss about them, "so now we're both fucked)".
 
-## We think in averages, but reality works on margins.
+"We're measuring [outputs over outcomes](https://afontcu.dev/shoe-factory-build-software/)".
 
-https://pbs.twimg.com/media/D9F4ESpU8AI6J0O?format=jpg&name=large
+"We're doing too much at once".
 
-Economists like to talk about marginal changes. What that means is how much it takes to do one more. Why it matters is that the cost of doing something is rarely constant.
+"We're trying to please everyone at once".
 
-Marginal benefits tend to experience diminishing returns.
-https://en.wikipedia.org/wiki/Diminishing_returns
-Eating the twentieth piece of cake isn’t as good as the first. Marginal costs, in contrast, can often decline. Writing the twentieth essay takes less effort than the first, because it gets easier with practice.
-https://policonomics.com/economies-of-learning/
+"We're dying by reworks".
 
-The mistake is to think in averages.
+"We're waiting for handoffs".
 
-We think in terms of "how much it was in the past", rather than asking how much the next one will likely be.
+"We're switching context too often".
+
+"We have poor a infrastructure to develop, test, and deploy".
+
+"We need to fight against knowledge silos".
+
+"We don't know [what we're doing](https://afontcu.dev/goal-of-software-development/)".
+
+"We don't know better".
+
+## Take a break
+
+and read the list above again. Do it slowly (heh).
+
+How many situations apply to your team? Some of them? All of them? That's possible – been there, done that. I encourage you (and your team) to come up with your list.
+
+You must understand that each of these sentences **looks like slowness from the outside**.
+
+Notice that each item hides other underlying issues and limitations. You won't find a root cause, because **a team is a system**, and it behaves like one. Sadly enough, this means that there are several actors it comes to "speed". It is not about a single metric or KPI.
+
+[Your team](https://afontcu.dev/power-to-the-teams/) has to call these blockers by its name and fight the "slow" label – one issue at a time. Then, rinse and repeat.
 
 
-## Cost of Change
+## I stopped trying to go faster
 
-The time required to fix errors increases exponentially the later they are detected in the development lifecycle.
+The bright side of the story is that you become immune to the slowness complain – eventually.
 
-If you missed something while sketching the initial requirements of a feature, that's cheap to fix.
+So I stopped trying to go faster. Now I try to go **less slow** instead.
+
+To do so, I went [back to basics](https://afontcu.dev/back-to-basics/) and tried to think in terms of Cost of Change. The time required to fix errors increases exponentially the later they are detected in the development lifecycle.
+
+If you missed something while sketching the requirements of a feature, that's cheap to fix.
 
 If you missed something while developing a feature, that's still cheap.
 
-However, if you fuck up something in production, cost might grow exponentially. Opportunity cost + rollbacks + database migrations… a nightmare.
+But, if you fuck up something in production, cost skyrockets. Opportunity cost + rollbacks + database migrations… a nightmare.
 
-This is why shorter feedback loops are encouraged: they help you find errors as soon as possible.
-
-It is also true that creating and maintaining feedback loops make things look slow.
-
-In the short term.
-
-
-
-## A team is a system
-
-You can't explore a single variable, reach a conclusion, and call it a day.
-
-## Do not try to be faster
-
-Just try to be less slower.
-
----
-
-Try to determine if the team is actually going slow or if you set unrealistic expectations.
+This is why shorter [feedback loops](https://afontcu.dev/feedback-loops/) shine: they help you flatten the cost of change by finding errors as soon as possible.
