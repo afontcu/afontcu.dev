@@ -33,7 +33,7 @@ But this is all I hear:
 
 "We're switching context too often".
 
-"We have poor a infrastructure to develop, test, and deploy".
+"We have a poor infrastructure to develop, test, and deploy".
 
 "We need to fight against knowledge silos".
 
@@ -69,3 +69,11 @@ If you missed something while developing a feature, that's still cheap.
 But, if you fuck up something in production, cost skyrockets. Opportunity cost + rollbacks + database migrations… a nightmare.
 
 This is why shorter [feedback loops](https://afontcu.dev/feedback-loops/) shine: they help you flatten the cost of change by finding errors as soon as possible.
+
+# Too long; didn't read
+
+Slowness is a **perception**. Sometimes it is an excuse, too.
+
+Try to uncover what hides behind that label. It's usually a **sum of factors**.
+
+You can't go faster, but you can focus on going **less slow**.
