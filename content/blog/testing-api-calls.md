@@ -128,7 +128,7 @@ So, how can we test that the DOM gets updated when the API call has succeeded? R
 
 We need to make it a bit smarter by setting some return values.
 
-```js{8,9,17-24}
+```js{8,9,17-20,22,24}
 import { render, waitFor } from '@testing-library/vue'
 import ItemsList from './ItemsList.vue'
 import { fetchItems } from './api/items'
@@ -166,14 +166,14 @@ After making sure that happened, we can iterate over all our items and make sure
 Now, let's write a test to make sure we warn the user in case of an error.
 
 
-```js{8,16}
+```js{8,15}
 import { render, waitFor } from '@testing-library/vue'
 import ItemsList from './ItemsList.vue'
 import { fetchItems } from './api/items'
 
 jest.mock('./api/items')
 
-test('It displays an error message if API call fails', async () => {
+test('displays an error message if API call fails', async () => {
   fetchItems.mockRejectedValueOnce('Oops, something went wrong')
 
   const { getByText, queryByText } = render(ItemsList)
