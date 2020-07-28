@@ -129,13 +129,13 @@ So, how can we test that the DOM gets updated when the API call has succeeded? R
 We need to make it a bit smarter by setting some return values.
 
 ```js{8,9,17-24}
-import { render, wait } from '@testing-library/vue'
+import { render, waitFor } from '@testing-library/vue'
 import ItemsList from './ItemsList.vue'
 import { fetchItems } from './api/items'
 
 jest.mock('./api/items')
 
-test('It displays a list of items', async () => {
+test('displays a list of items', async () => {
   const items = [{ title: 'An amazing item' }]
   fetchItems.mockResolvedValueOnce(items)
 
@@ -145,11 +145,11 @@ test('It displays a list of items', async () => {
   expect(fetchItems).toHaveBeenCalledTimes(1)
   expect(fetchItems).toHaveBeenCalledWith()
 
-  // wait() will retry until the callback function stops failing
-  // (or a timeout is reached).
-  // So, line reads as follows: "Wait until 'An amazing item' exists"
-  await wait(() => getByText('An amazing item'))
- 
+  // waitFor() will retry until the callback function stops failing
+  // (or a times out).
+  // So, line reads as follows: "Wait for 'An amazing item' to exist"
+  await waitFor(() => getByText('An amazing item'))
+
   expect(queryByText(/loading/i)).toBeNull()
 
   items.forEach(item => getByText(item.title))
@@ -167,7 +167,7 @@ Now, let's write a test to make sure we warn the user in case of an error.
 
 
 ```js{8,16}
-import { render, wait } from '@testing-library/vue'
+import { render, waitFor } from '@testing-library/vue'
 import ItemsList from './ItemsList.vue'
 import { fetchItems } from './api/items'
 
@@ -180,9 +180,8 @@ test('It displays an error message if API call fails', async () => {
   getByText(/loading/i)
 
   expect(fetchItems).toHaveBeenCalledTimes(1)
-  expect(fetchItems).toHaveBeenCalledWith()
 
-  await wait(() => getByText('Oops, something went wrong'))
+  await waitFor(() => getByText('Oops, something went wrong'))
 })
 ```
 
