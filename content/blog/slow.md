@@ -13,13 +13,13 @@ You end up developing a hard skin on the subject. It is not easy, though. It req
 
 The truth is, "slow" is a big word.
 
-It's a facade.
+It is also a facade.
 
 ## You say slow
 
 But this is all I hear:
 
-"We're fighting against unrealistic expectations (and you told your boss about them, "so now we're both fucked)".
+"We're fighting against unrealistic expectations (*and you told your boss about them, so now we're both fucked*)".
 
 "We're measuring [outputs over outcomes](https://afontcu.dev/shoe-factory-build-software/)".
 
@@ -27,7 +27,7 @@ But this is all I hear:
 
 "We're trying to please everyone at once".
 
-"We're dying by reworks".
+"We're overloaded with reworks".
 
 "We're waiting for handoffs".
 
@@ -45,7 +45,7 @@ But this is all I hear:
 
 and read the list above again. Do it slowly (heh).
 
-How many situations apply to your team? Some of them? All of them? That's possible – been there, done that. I encourage you (and your team) to come up with your list.
+How many of these situations apply to your team? Some of them? All of them? That's possible – been there, done that. I encourage you (and your team) to come up with your list.
 
 You must understand that each of these sentences **looks like slowness from the outside**.
 
