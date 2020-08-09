@@ -70,7 +70,7 @@ But, if you fuck up something in production, cost skyrockets. Opportunity cost +
 
 This is why shorter [feedback loops](https://afontcu.dev/feedback-loops/) shine: they help you flatten the cost of change by finding errors as soon as possible.
 
-# Too long; didn't read
+## Too long; didn't read
 
 Slowness is a **perception**. Sometimes it is an excuse, too.
 
