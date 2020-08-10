@@ -17,7 +17,7 @@ Okay, okay. Here's a non-exhaustive list of examples and some questions they mig
 
 **Unit test**: "Does that small unit of code do what I think it does?"
 
-**Integration test** (whatever that means): "Does that last piece of code works as expected when used in its environment?"
+**Integration test** ([whatever that means](https://afontcu.dev/write-unit-tests/)): "Does that last piece of code works as expected when used in its environment?"
 
 **Application-level tests**: "Does that last feature behave as expected, from a user standpoint?"
 
