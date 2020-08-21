@@ -56,17 +56,7 @@ export default class Newsletter extends React.Component {
         <button
           className="btn"
           style={{
-            width: `100%`,
-            color: `white`,
-            border: 0,
-            textTransform: `uppercase`,
-            letterSpacing: `-0.5px`,
-            fontSize: `0.9rem`,
-            backgroundColor: `rgb(19, 72, 150)`,
             padding: `${rhythm(0.25)} ${rhythm(0.5)}`,
-            borderRadius: `4px`,
-            cursor: `pointer`,
-            transition: `all 0.15s ease`,
           }}
         >
           <span>Subscribe</span>
