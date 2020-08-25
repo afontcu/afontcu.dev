@@ -1,0 +1,1 @@
+There are several "costs" involved when creating software. The cost of writing it. Of maintaining it. The cost of understanding past code. The **opportunity cost** of writing a piece of software instead of another one.
