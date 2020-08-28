@@ -1,9 +1,9 @@
 ---
 title: Challenge your assumptions
 description: The status quo is dull.
-date: '2020-08-26T12:35:47.809Z'
+date: '2020-08-28T12:35:47.809Z'
 categories: ''
-tags: ['Software Crafting', 'Agile']
+tags: ['Random Thoughts']
 slug: challenge-assumptions
 ---
 
