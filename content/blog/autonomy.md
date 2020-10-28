@@ -1,6 +1,6 @@
 ---
-title: About autonomy
-description: Autonomy is good
+title: Autonomy, vision, and constraints
+description: Autonomy is good.
 date: '2020-10-29T12:03:11.976Z'
 categories: ''
 tags: ['Random Thoughts']
@@ -35,7 +35,7 @@ What would a group of people or a group of teams look like when **granted with a
 
 *(Yes, I actually drew this on a post-it. I was in the middle of a totally unrelated conversation so I had to pretend like I was listening).*
 
-## Constraints
+## The constraints
 
 Mark Twain once said "*I didn't have time to write a short letter, so I wrote a long one instead*".
 
@@ -71,7 +71,7 @@ Dunno, mate. It depends on your context. Here are some random ideas:
 
 **#6**: any web application should load in less than 2 seconds.
 
-## Expanding constraints
+## The expansion
 
 There's a flaw, though, with fixed constraints: We never get people (or teams) back if they lose track.
 
