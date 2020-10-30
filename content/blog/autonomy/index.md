@@ -1,5 +1,5 @@
 ---
-title: Autonomy, vision, and constraints
+title: Softaware development, autonomy, and constraints
 description: Autonomy is good.
 date: '2020-10-29T12:03:11.976Z'
 categories: ''
@@ -15,7 +15,7 @@ Autonomy can also get you running in circles.
 
 ## The baseline
 
-This one is easy – to avoid running in circles, a team (or group of them) needs a shared vision, a goal.
+This one is easy – to avoid running in circles, a team (or group of them) needs **a shared vision, a goal**.
 
 Alignment is the stepping stone that enables autonomy. Without it, the result is apathy.
 
@@ -26,8 +26,6 @@ One might think about autonomy as the absence of constraints or limitations.
 And I grant you that – having constraints sounds "bad".
 
 We tend to blame constraints when things don't go as expected.
-
-Yet, I try to challenge this assumption and frame them as challenges.
 
 What would a group of people/teams look like when **granted with autonomy**, but also **with no constraints**?
 
@@ -40,6 +38,8 @@ What would a group of people/teams look like when **granted with autonomy**, but
 
 _(Yes, I actually drew this on a post-it. I was in the middle of a totally unrelated conversation, and I had to pretend I was taking notes)._
 
+What if we thought about constraints as challenges?
+
 ## The constraints
 
 Mark Twain once said, "_I didn't have time to write a short letter, so I wrote a long one instead_".
@@ -48,13 +48,11 @@ David Ogilvy once said, "_Give me the freedom of a tight brief_".
 
 (These quotes might be fake. I didn't check).
 
-When the surface area for exploration is limited, it forces everyone to focus on the most critical problem.
+Without constraints, the exploration area is enormous. Everything is permitted. Even if you have the guidance of a clear vision, that's not enough.
 
-This is **the art of simplicity**: focus only on the important stuff. Do fewer things. Do what's actually essential. Take away all the irrelevance.
+This is why starting an essay from a blank page is so damn hard. Too many damn options end up leading to paralysis by analysis.
 
-Also, you'll need some slack time so that you can define (and refine) more constraints. You can not have a system mindset with your head stuck in the ground.
-
-This is why starting an essay from a blank page is so damn hard.
+However, when the surface area is limited, it forces everyone to focus creatively on the important stuff.
 
 <p>
 <figure class="figure" style="max-width:360px">
@@ -63,7 +61,10 @@ This is why starting an essay from a blank page is so damn hard.
 </figure>
 </p>
 
-### Gimme some examples
+
+It is **the art of simplicity**: do fewer things to do what's essential. Take away all the irrelevance.
+
+### Gimme some constraint examples
 
 Dunno, mate. It depends on your context. Here are some random ideas:
 
@@ -79,13 +80,15 @@ Dunno, mate. It depends on your context. Here are some random ideas:
 
 **#6**: any web application should load in less than 2 seconds.
 
-Constraints trigger the "How might we…" challenge.
+Constraints trigger the "How might we…?" mindset.
+
+And please, please. Notice that you'll need some slack time so that you can define (and refine) more constraints. You can not have a system mindset with your head stuck in the ground.
 
 ## The expansion
 
-However, there are some flaws with fixed constraints: We never get people (or teams) back if they lose track. Also, they don't strive for improvement.
+However, there are some flaws with fixed constraints: We never get people (or teams) back if they lose track. Also, they don't trigger any improvement.
 
-Without a common ground, there's no baseline where we can agree upon. No way to get back.
+Without a common ground, there's no baseline where we can agree upon. No way to get back on track.
 
 What if constraints were incremental? They would expand to allow for growth.
 
