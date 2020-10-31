@@ -1,7 +1,7 @@
 ---
 title: Softaware development, autonomy, and constraints
 description: Autonomy is good.
-date: '2020-10-29T12:03:11.976Z'
+date: '2020-10-31T10:03:11.976Z'
 categories: ''
 tags: ['Random Thoughts']
 slug: autonomy
