@@ -126,7 +126,8 @@ a.gatsby-resp-image-link {
   margin: 0 auto;
 }
 
-.figure figcaption {
+.gatsby-resp-image-figcaption {
   font-size: 0.8rem;
-  margin-top: 0.2rem;
+  margin-top: 0.25rem;
+  text-align: center;
 }

@@ -27,12 +27,9 @@ One might think about autonomy as the absence of constraints or limitations.
 
 What would a group of people/teams look like when **granted autonomy and no constraints**?
 
-<p>
 <figure class="figure" style="max-width:360px">
-  <img src="./no-constraint.png" alt="People or teams within a constraint-free environment">
-  <figcaption>People or teams within a constraint-free environment</figcaption>
+  <img src="./no-constraint.jpg" alt="People or teams within a constraint-free environment">
 </figure>
-</p>
 
 _(Yes, I actually drew this on a post-it. I was in the middle of an unrelated conversation, and I had to pretend I was taking notes)._
 
@@ -56,13 +53,9 @@ This is why starting an essay from a blank page is so damn hard. Too many damn o
 
 A limited surface area forces everyone to focus creatively on the important stuff.
 
-<p>
 <figure class="figure" style="max-width:360px">
-  <img src="./fixed-constraint.png" alt="People or teams within a constraint-fixed environment">
-  <figcaption>People or teams within a constraint-fixed environment</figcaption>
+  <img src="./fixed-constraint.jpg" alt="People or teams within a constraint-fixed environment">
 </figure>
-</p>
-
 
 It is **the art of simplicity**: do fewer things to do what's essential. Take away all the irrelevance.
 
@@ -96,12 +89,9 @@ Without a common ground, there's no baseline where we can agree upon. No way to 
 
 What if constraints were incremental? They would expand to allow for growth.
 
-<p>
 <figure class="figure" style="max-width:360px">
-  <img src="./cone-constraint.png" alt="People or teams within a constraint-expanding environment">
-  <figcaption>People or teams within a constraint-expanding environment</figcaption>
+  <img src="./cone-constraint.jpg" alt="People or teams within a constraint-expanding environment">
 </figure>
-</p>
 
 Some of the restrictions might be fundamental. Some are built upon each other: they allow for improvement once everyone feels comfortable enough. The team can then iterate them.
 
