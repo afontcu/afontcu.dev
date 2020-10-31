@@ -15,19 +15,17 @@ Autonomy can also get you running in circles.
 
 ## The baseline
 
-This one is easy – to avoid running in circles, a team (or group of them) needs **a shared vision, a goal**.
+This one is easy – to avoid running in circles, a team (or group of them) needs **a shared vision, a goal** to reach. Why does the team exist? What does success look like? This helps team members (or, again, several teams) to align towards the goal.
 
-Alignment is the stepping stone that enables autonomy. Without it, the result is apathy.
+And alignment is **the stepping stone that enables autonomy**. Without it, the result is apathy.
+
+Okay, so we have a clear, shared, engaging vision. Now what?
 
 ## The paradox
 
 One might think about autonomy as the absence of constraints or limitations.
 
-And I grant you that – having constraints sounds "bad".
-
-We tend to blame constraints when things don't go as expected.
-
-What would a group of people/teams look like when **granted with autonomy**, but also **with no constraints**?
+What would a group of people/teams look like when **granted autonomy and no constraints**?
 
 <p>
 <figure class="figure" style="max-width:360px">
@@ -36,7 +34,11 @@ What would a group of people/teams look like when **granted with autonomy**, but
 </figure>
 </p>
 
-_(Yes, I actually drew this on a post-it. I was in the middle of a totally unrelated conversation, and I had to pretend I was taking notes)._
+_(Yes, I actually drew this on a post-it. I was in the middle of an unrelated conversation, and I had to pretend I was taking notes)._
+
+While movement exists because there's a goal, it is hard to track progress. Things move, but you might not see real progress.
+
+I grant you that – having constraints sounds "bad". They don't look like a cool thing, and we tend to blame them when things don't go as expected.
 
 What if we thought about constraints as challenges?
 
@@ -48,11 +50,11 @@ David Ogilvy once said, "_Give me the freedom of a tight brief_".
 
 (These quotes might be fake. I didn't check).
 
-Without constraints, the exploration area is enormous. Everything is permitted. Even if you have the guidance of a clear vision, that's not enough.
+Without constraints, **possibilities are endless**. Everything is permitted. Even if you have the guidance of a clear vision, that's not enough.
 
 This is why starting an essay from a blank page is so damn hard. Too many damn options end up leading to paralysis by analysis.
 
-However, when the surface area is limited, it forces everyone to focus creatively on the important stuff.
+A limited surface area forces everyone to focus creatively on the important stuff.
 
 <p>
 <figure class="figure" style="max-width:360px">
@@ -70,15 +72,17 @@ Dunno, mate. It depends on your context. Here are some random ideas:
 
 **#1**: deploy software to production every working day.
 
-**#2**: all code should be developed in pairs.
+**#2**: develop all features in pairs.
 
 **#3**: a team can only be working on 2 different things simultaneously.
 
-**#4**: any git branch older than two days should be merged or deleted.
+**#4**: merge or delete any git branch older than two days.
 
 **#5**: assume all your users have a shitty internet connection.
 
 **#6**: any web application should load in less than 2 seconds.
+
+**#7**: back up all projects (as in "big chunk of work") with a hypothesis to improve a business metric.
 
 Constraints trigger the "How might we…?" mindset.
 
@@ -86,7 +90,7 @@ And please, please. Notice that you'll need some slack time so that you can defi
 
 ## The expansion
 
-However, there are some flaws with fixed constraints: We never get people (or teams) back if they lose track. Also, they don't trigger any improvement.
+Yet, there are some flaws with fixed constraints: We never get people (or teams) back if they lose track. Also, they don't trigger any improvement.
 
 Without a common ground, there's no baseline where we can agree upon. No way to get back on track.
 
@@ -99,7 +103,14 @@ What if constraints were incremental? They would expand to allow for growth.
 </figure>
 </p>
 
-Some of the restrictions might be fundamental. Non-negotiable. Some are built upon each other, so they allow for improvement once the team feels comfortable enough. They can be iterated.
+Some of the restrictions might be fundamental. Some are built upon each other: they allow for improvement once everyone feels comfortable enough. The team can then iterate them.
+
+So, next steps:
+
+1) To identify those constraints which are non-negotiable.
+2) To let "rules" evolve: what was restraining several months ago might be too broad today.
+
+This is left as an exercise to the reader.
 
 ## Too long; didn't read
 
@@ -107,4 +118,4 @@ Autonomy is something worth fighting for. But!
 
 Autonomy requires vision. It also requires constraints.
 
-Get freedom by having focus. And if you are one of those people who lead/manage: Give freedom by giving focus.
+Get freedom by having focus. And if you are one of those people who lead/manage: Give freedom by **giving** focus.
