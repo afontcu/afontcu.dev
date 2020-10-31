@@ -1,5 +1,5 @@
 ---
-title: Softaware development, autonomy, and constraints
+title: Software development, autonomy, and constraints
 description: Autonomy is good.
 date: '2020-10-31T10:03:11.976Z'
 categories: ''
