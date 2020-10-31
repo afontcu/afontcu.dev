@@ -1,7 +1,7 @@
 ---
 title: Software development, autonomy, and constraints
 description: Autonomy is good.
-date: '2020-10-31T10:03:11.976Z'
+date: '2020-11-01T11:03:11.976Z'
 categories: ''
 tags: ['Random Thoughts']
 slug: autonomy
