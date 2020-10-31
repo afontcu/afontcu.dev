@@ -37,11 +37,11 @@ What would a group of people/teams look like when **granted autonomy and no cons
 
 _(Yes, I actually drew this on a post-it. I was in the middle of an unrelated conversation, and I had to pretend I was taking notes)._
 
-While movement exists because there's a goal, it is hard to track progress. Things move, but you might not see real progress.
+While movement exists because there's a goal, it is hard to track progress. Things move, but you might not see **real progress**.
 
-I grant you that – having constraints sounds "bad". They don't look like a cool thing, and we tend to blame them when things don't go as expected.
+I grant you that – constraints sounds "bad". They don't look like a cool thing, and we tend to blame them when things don't go as expected.
 
-What if we thought about constraints as challenges?
+But what if we thought about constraints as challenges?
 
 ## The constraints
 
@@ -51,7 +51,7 @@ David Ogilvy once said, "_Give me the freedom of a tight brief_".
 
 (These quotes might be fake. I didn't check).
 
-Without constraints, **possibilities are endless**. Everything is permitted. Even if you have the guidance of a clear vision, that's not enough.
+Without challenging constraints, **possibilities are endless**. Everything is permitted. Even if you have the guidance of a clear vision, that's not enough.
 
 This is why starting an essay from a blank page is so damn hard. Too many damn options end up leading to paralysis by analysis.
 
@@ -91,13 +91,13 @@ Yet, there are some flaws with fixed constraints: We never get people (or teams)
 
 Without a common ground, there's no baseline where we can agree upon. No way to get back on track.
 
-What if constraints were incremental? They would expand to allow for growth.
+What if constraints were incremental?
 
 <figure class="figure" style="max-width:360px">
   <img src="./cone-constraint.jpg" alt="People or teams within a constraint-expanding environment">
 </figure>
 
-Some of the restrictions might be fundamental. Some are built upon each other: they allow for improvement once everyone feels comfortable enough. The team can then iterate them.
+Here, some restrictions are fundamental. Some are built upon each other: they allow for improvement once everyone feels comfortable enough.
 
 So, next steps:
 
