@@ -13,17 +13,21 @@ But.
 
 Autonomy can also get you running in circles.
 
+Here are a few thoughts on how to foster *useful* autonomy – that is, autonomy that delivers.
+
 ## The baseline
 
-This one is easy – to avoid running in circles, a team (or group of them) needs **a shared vision, a goal** to reach. Why does the team exist? What does success look like? This helps team members (or, again, several teams) to align towards the goal.
+The first one is quite obvious. To avoid running in circles, a team (or group of them) needs **a shared vision, a goal** to reach. In short, a direction. Why does the team exist? What does success look like? This helps team members (or, again, several teams) to align towards the goal.
 
 And alignment is **the stepping stone that enables autonomy**. Without it, the result is apathy.
 
 Okay, so we have a clear, shared, engaging vision. Now what?
 
+Now we need limitations.
+
 ## The paradox
 
-One might think about autonomy as the absence of constraints or limitations.
+One might think about autonomy as the absence of limitations (constraints).
 
 What would a group of people/teams look like when **granted autonomy and no constraints**?
 
