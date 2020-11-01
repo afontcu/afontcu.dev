@@ -19,7 +19,7 @@ Here are a few thoughts on how to foster *useful* autonomy – that is, autonom
 
 The first one is quite obvious. To avoid running in circles, a team (or group of them) needs **a shared vision, a goal** to reach. In short, a direction. Why does the team exist? What does success look like? This helps team members (or, again, several teams) to align towards the goal.
 
-And alignment is **the stepping stone that enables autonomy**. Without it, the result is apathy.
+This alignment is **the stepping stone that enables autonomy**. Without it, the result is apathy.
 
 Okay, so we have a clear, shared, engaging vision. Now what?
 
@@ -37,11 +37,13 @@ What would a group of people/teams look like when **granted autonomy and no cons
 
 _(Yes, I actually drew this on a post-it. I was in the middle of an unrelated conversation, and I had to pretend I was taking notes)._
 
-While movement exists because there's a goal, it is hard to track progress. Things move, but you might not see **real progress**.
+It's a free for all.
 
-I grant you that – constraints sounds "bad". They don't look like a cool thing, and we tend to blame them when things don't go as expected.
+While movement exists (there's a goal, after all!), it is hard to track progress. Things move, but you might not see **real progress**.
 
-But what if we thought about constraints as challenges?
+But yeah, I grant you that – constraints sounds "bad". They don't look like a cool thing, and we tend to blame them when things don't go as expected.
+
+What if we thought about constraints as challenges, though?
 
 ## The constraints
 
@@ -79,7 +81,7 @@ Dunno, mate. It depends on your context. Here are some random ideas:
 
 **#6**: any web application should load in less than 2 seconds.
 
-**#7**: back up all projects (as in "big chunk of work") with a hypothesis to improve a business metric.
+**#7**: all projects (as in "big chunk of work") need to come from a hypothesis to improve a business metric.
 
 Constraints trigger the "How might we…?" mindset.
 
@@ -101,7 +103,7 @@ Here, some restrictions are fundamental. Some are built upon each other: they al
 
 So, next steps:
 
-1) To identify those constraints which are non-negotiable.
+1) To identify the non-negotiable constraints.
 2) To let "rules" evolve: what was restraining several months ago might be too broad today.
 
 This is left as an exercise to the reader.
