@@ -104,7 +104,7 @@ Here, some restrictions are fundamental. Some are built upon each other: they al
 So, next steps:
 
 1) To identify the non-negotiable constraints.
-2) To let "rules" evolve: what was restraining several months ago might be too broad today.
+2) To let "rules" evolve: what would a constraint look like a few months from now?
 
 This is left as an exercise to the reader.
 
