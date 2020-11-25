@@ -49,7 +49,7 @@ How many of these situations apply to your team? Some of them? All of them? That
 
 You must understand that each of these sentences **looks like slowness from the outside**.
 
-Notice that each item hides other underlying issues and limitations. You won't find a root cause, because **a team is a system**, and it behaves like one. Sadly enough, this means that there are several actors it comes to "speed". It is not about a single metric or KPI.
+Notice that each item hides other underlying issues and limitations. You won't find a root cause, because **a team is a system**, and it behaves like one. Sadly enough, this means that there are several actors when it comes to "speed". It is not about a single metric or KPI.
 
 [Your team](https://afontcu.dev/power-to-the-teams/) has to call these blockers by its name and fight the "slow" label – one issue at a time. Then, rinse and repeat.
 
