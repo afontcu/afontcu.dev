@@ -56,8 +56,8 @@
     "react-helmet": "^6.0.0",
     "react-typography": "^0.16.19",
     "typeface-lora": "0.0.72",
-    "typeface-merriweather": "0.0.72",
     "typeface-patua-one": "0.0.71",
+    "typeface-source-sans-pro": "^1.1.13",
     "typography": "^0.16.19",
     "typography-theme-lincoln": "^0.16.19",
     "typography-theme-wordpress-2016": "^0.16.19"

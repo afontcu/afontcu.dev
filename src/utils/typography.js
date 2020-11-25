@@ -11,10 +11,10 @@ TypographyTheme.overrideThemeStyles = () => {
 
 delete TypographyTheme.googleFonts
 
-TypographyTheme.headerFontFamily = ['Merriweather', 'sans-serif']
+TypographyTheme.headerFontFamily = ['Source Sans Pro', 'sans-serif']
 TypographyTheme.bodyFontFamily = ['Lora', 'Georgia', 'serif']
-TypographyTheme.baseFontSize = '19px'
-TypographyTheme.scaleRatio = 2.7
+TypographyTheme.baseFontSize = '24px'
+TypographyTheme.scaleRatio = 3.7
 
 const typography = new Typography(TypographyTheme)
 

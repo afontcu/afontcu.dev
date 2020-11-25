@@ -16,7 +16,7 @@ class Layout extends React.Component {
       header = (
         <div
           style={{
-            ...scale(1 / 2),
+            ...scale(1 / 3),
             display: `flex`,
             marginBottom: rhythm(1.5),
             alignItems: `center`,
@@ -42,6 +42,7 @@ class Layout extends React.Component {
               textDecoration: `none`,
               backgroundImage: `none`,
               color: `inherit`,
+              fontWeight: `100`,
             }}
             to={`/`}
           >
@@ -55,7 +56,7 @@ class Layout extends React.Component {
         style={{
           marginLeft: `auto`,
           marginRight: `auto`,
-          maxWidth: rhythm(24),
+          maxWidth: rhythm(25),
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)} 0`,
         }}
       >

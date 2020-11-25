@@ -41,7 +41,7 @@ class BlogPostTemplate extends React.Component {
             <time
               dateTime={dateTime}
               style={{
-                ...scale(1 / 3),
+                ...scale(1 / 6),
                 display: `block`,
                 fontStyle: `italic`,
               }}
