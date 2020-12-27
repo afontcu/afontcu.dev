@@ -55,7 +55,11 @@ Isn't it…
 
 Yes, folks, this is obvious. Nobody would expect that adding more customers would make things faster, right?
 
-In fact, we have two tools to reduce the time customers spend inside the coffee shop:
+
+![Increasing the input of the system won't make it faster!](./pic2.png)
+
+
+We two ways to reduce the time spent by our customers:
 
 1. Reduce the total amount of customers waiting, or
 2. Increase the rate at which they get out.
@@ -63,7 +67,9 @@ In fact, we have two tools to reduce the time customers spend inside the coffee 
 
 ## We've known this for ages
 
-Then, why do we keep managing software development teams by doing the exact opposite?
+Yes, we have!
+
+Then, **why do we keep managing software development teams by doing the exact opposite?**
 
 "*But Adri, we don't*" – I can hear you saying.
 
@@ -79,17 +85,21 @@ We tend to work in large chunks. Imagine a customer ordering 50 coffees. That su
 
 ## You can see where I'm going, here
 
-A software development team (and a software-based company) has a limited capacity. Pushing more work into it won't make it faster – just like a coffee shop. It will inevitably lead to lower quality.
+A software development team (and a software-based company) has a limited capacity. Pushing more work into it won't make it faster – just like a coffee shop.
 
-The coffee shop is our team, and we replace "customers" by "features".
+Instead, it will lead to lower quality.
 
-The number of customers waiting, then, is the total tasks we're currently working on.
+## Enough with the coffee shop
 
-The amount of features (customers) passing into and out of the system is the throughput of the system.
+The coffee shop is the team. The customers are the features.
 
-Finally, the average amount of time a feature spends in the system is known as lead time.
+The average number of features waiting in the system is our **work in progress**. It is measured in "*amount of stuff*."
 
-Soo, replacing concepts in the formula above…
+The average amount of features passing into and out of the system is the **throughput** of the system. It is measured in "*amount of stuff per unit of time*."
+
+Finally, the average amount of time a feature spends in the system is known as **lead time**. It is measured in "*unit of time*."
+
+Soo, replacing concepts in the formula we discussed before…
 
 <pre class="language-html" style="width:100%;margin-left:0">
 Work In Progress = Throughput * Lead Time
@@ -114,24 +124,22 @@ Here's the answer: Do you want more features? Then reduce the WIP.
 
 This only leads to a decrease in the overall quality, which will creep you out in the long run. You'll get more WIP, which means an increased Lead Time.
 
-Instead, reduce the things a team handles at the same time.
+Instead, reduce the amount of things handled at the same time.
 
 Bottom line: Do not [try to go faster, just go less slow](https://afontcu.dev/slow/).
 
 
 ## A reinforcing loop
 
-With less WIP, you get a shorter cycle time…
+With less WIP, you get a shorter lead time…
 
-…meaning the throughput increases even if you are not doing "more" stuff…
+…meaning the throughput increases without doing "more" stuff…
 
 …meaning you get slack time…
 
-…and with slack time you can improve tools, processes, skills. Morale gets up. And all of these allows you to reduce the WIP.
+…which you can use to improve tools, processes, skills. Morale gets up. And all of these allows you to reduce the WIP.
 
 
 ## In short
 
-Sometimes a team might not deliver as expected. You might not know what levers to pull. In case of doubt, **reduce the WIP** and see what happens next.
-
-Do you want to ship things quicker? Focus on the important ones and kill the others. This is way simpler than increasing the rate at which your team completes stuff.
+Do you want to ship things quicker? Focus on the important ones and kill the others. This is way **simpler** (and cheaper) than increasing the rate at which your team completes stuff.
