@@ -9,7 +9,7 @@ slug: reduce-wip
 
 You know the drill. You wait there a bit, order your espresso, pay for it, and get out. No big deal.
 
-What do we know about this *system*?
+What do we know about this *system* (that is, the coffee shop)?
 
 Well, we know that more customers queueing up don't make the system go faster. Right? Quite the opposite! The bartender might get stressed if people start to pile up, its performance may suffer.
 
@@ -73,19 +73,19 @@ We make people switch context all the time – meetings, priorities, whatever�
 
 We tend to work in large chunks. Imagine a customer ordering 50 coffees. That surely takes a while, right?
 
+*This turned into a software development metaphor. Who would've thought!*
+
 ## You can see where I'm going, here
 
-Every software development team (and a software-based company) has a limited capacity. Pushing more work into it won't make it faster – quite the opposite. It will inevitably lead to lower quality.
-
-Wow, this turned into a software metaphor. Who would've thought!
+A software development team (and a software-based company) has a limited capacity. Pushing more work into it won't make it faster – just like a coffee shop. It will inevitably lead to lower quality.
 
 The coffee shop is our team, and we replace "customers" by "features".
 
 The number of customers waiting, then, is the total tasks we're currently working on.
 
-The time spent by tasks is the lead time, that is, the total time
+The amount of features (customers) passing into and out of the system is the throughput of the system.
 
-Finally, the speed at which features get out is the lead time.
+Finally, the average amount of time a feature spends in the system is known as lead time.
 
 Soo, replacing concepts in the formula above…
 
