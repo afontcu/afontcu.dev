@@ -15,7 +15,9 @@ Well, we know that more customers queueing up don't make the system go faster. R
 
 Also, we could make the shop serve more coffees by opening more hours or buying better coffee makers.
 
-Finally, we know the system is made of customers, coffees and queues.
+
+![A coffee shop (our system) with our friendly customers](./pic1.png)
+
 
 ## Customers, coffees, and queues
 
@@ -28,7 +30,7 @@ Time spent by customers =
   (Number of customers waiting) / (Speed at which customers get out)
 </pre>
 
-*(in average).*
+(*disclaimer: I obviously didn't discover that. It is called [Little's Law](https://en.wikipedia.org/wiki/Little%27s_law) and it is one of the essential pillars which [upholds Kanban](https://itsadeliverything.com/littles-law-the-basis-of-lean-and-kanban)*).
 
 Now let's do some basic algebra!
 
@@ -99,7 +101,6 @@ Throughput = WIP / Lead Time
 
 <p />
 
-(*disclaimer: I obviously didn't discover that. It is called [Little's Law](https://en.wikipedia.org/wiki/Little%27s_law) and it is one of the essential pillars which [upholds Kanban](https://itsadeliverything.com/littles-law-the-basis-of-lean-and-kanban)*).
 
 ## So you want more coffees out. I mean, more features
 
