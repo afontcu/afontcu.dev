@@ -82,11 +82,13 @@ We tend to work in large chunks. Imagine a customer ordering 50 coffees. That su
 
 *This turned into a software development metaphor. Who would've thought!*
 
+
 ## You can see where I'm going, here
 
 A software development team (and a software-based company) has a limited capacity. Pushing more work into it won't make it faster – just like a coffee shop.
 
 Instead, it will lead to lower quality.
+
 
 ## Enough with the coffee shop
 
