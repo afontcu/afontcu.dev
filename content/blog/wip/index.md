@@ -7,21 +7,20 @@ tags: ['Agile']
 slug: reduce-wip
 ---
 
-You know the drill. You wait there a bit, order your espresso, pay for it, and get out. No big deal.
+You know the drill. You wait there a bit, order your espresso, pay for it, and get out—no big deal.
 
 What do we know about this *system* (that is, the coffee shop)?
 
 Well, we know that more customers queueing up don't make the system go faster. Right? Quite the opposite! The bartender might get stressed if people start to pile up, its performance may suffer.
 
-Also, we could make the shop serve more coffees by opening more hours or buying better coffee makers.
-
+We could also serve more coffees by opening more hours or buying better coffee makers.
 
 ![A coffee shop (our system) with our friendly customers](./pic1.png)
 
 
 ## Customers, coffees, and queues
 
-Let's examine the relationships between the speed that customers enter and exit the shop, the capacity of the shop, and the time they spend "waiting".
+Let's examine the relationships between the speed that customers enter and exit the shop, shop's capacity, and the time they spend "waiting".
 
 It is as follows:
 
@@ -30,13 +29,13 @@ Time spent by customers =
   (Number of customers waiting) / (Speed at which customers get out)
 </pre>
 
-(*disclaimer: I obviously didn't discover that. It is called [Little's Law](https://en.wikipedia.org/wiki/Little%27s_law) and it is one of the essential pillars which [upholds Kanban](https://itsadeliverything.com/littles-law-the-basis-of-lean-and-kanban)*).
+(*disclaimer: I obviously didn't discover that. It is called [Little's Law](https://en.wikipedia.org/wiki/Little%27s_law), and it is one of the essential pillars which [uphold Kanban](https://itsadeliverything.com/littles-law-the-basis-of-lean-and-kanban)*).
 
 Now let's do some basic algebra!
 
 If you take the average speed at which people get to the line and multiply it by the time they spend in line, you get the average number of people waiting for its coffee.
 
-Also: The number of items in the system is the product of the arrival rate and the time an item spends in the system.
+Also: number of items in the system is the product of the arrival rate and the time an item spends in the system.
 
 Wait.
 
@@ -93,9 +92,9 @@ Instead, it will lead to lower quality.
 
 The coffee shop is the team. The customers are the features.
 
-The average number of features waiting in the system is our **work in progress**. It is measured in "*amount of stuff*."
+The average number of features waiting in the system is our **work in progress**. It is measured in "*amounts of stuff*."
 
-The average amount of features passing into and out of the system is the **throughput** of the system. It is measured in "*amount of stuff per unit of time*."
+The average amount of features passing into and out of the system is the **throughput** of the system. It is measured in "*amounts of stuff per unit of time*."
 
 Finally, the average amount of time a feature spends in the system is known as **lead time**. It is measured in "*unit of time*."
 
@@ -114,9 +113,9 @@ Throughput = WIP / Lead Time
 
 ## So you want more coffees out. I mean, more features
 
-I hear you. Who wouldn't.
+I hear you. Who wouldn't?
 
-We've seen that the Lead time of a system is a ratio between the tasks WIP and the throughput of the system.
+We've learned that the Lead time of a system is a ratio between the tasks inside the system and its throughput.
 
 Here's the answer: Do you want more features? Then reduce the WIP.
 
@@ -124,9 +123,9 @@ Here's the answer: Do you want more features? Then reduce the WIP.
 
 This only leads to a decrease in the overall quality, which will creep you out in the long run. You'll get more WIP, which means an increased Lead Time.
 
-Instead, reduce the amount of things handled at the same time.
+Instead, reduce the number of things handled at the same time.
 
-Bottom line: Do not [try to go faster, just go less slow](https://afontcu.dev/slow/).
+**Bottom line**: Do not [try to go faster, just go less slow](https://afontcu.dev/slow/).
 
 
 ## A reinforcing loop
@@ -137,7 +136,7 @@ With less WIP, you get a shorter lead time…
 
 …meaning you get slack time…
 
-…which you can use to improve tools, processes, skills. Morale gets up. And all of these allows you to reduce the WIP.
+…which you can use to improve tools, processes, skills. Morale gets up. And all of these allow you to reduce the WIP.
 
 
 ## In short
