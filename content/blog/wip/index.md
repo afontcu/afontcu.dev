@@ -29,11 +29,11 @@ Time spent by customers =
   (Number of customers waiting) / (Speed at which customers get out)
 </pre>
 
-(*disclaimer: I obviously didn't discover that. It is called [Little's Law](https://en.wikipedia.org/wiki/Little%27s_law), and it is one of the essential pillars which [uphold Kanban](https://itsadeliverything.com/littles-law-the-basis-of-lean-and-kanban)*).
+(*disclaimer: I didn't discover that (lol of course I did not). It is called [Little's Law](https://en.wikipedia.org/wiki/Little%27s_law), and it is one of the essential pillars which [uphold Kanban](https://itsadeliverything.com/littles-law-the-basis-of-lean-and-kanban)*).
 
 Now let's do some basic algebra!
 
-If you take the average speed at which people get to the line and multiply it by the time they spend in line, you get the average number of people waiting for its coffee.
+First, take the average speed at which people get to the line. Then, multiply it by the time they spend in line. The result is the average number of people waiting for its coffee.
 
 Also: number of items in the system is the product of the arrival rate and the time an item spends in the system.
 
@@ -136,7 +136,7 @@ With less WIP, you get a shorter lead time…
 
 …meaning you get slack time…
 
-…which you can use to improve tools, processes, skills. Morale gets up. And all of these allow you to reduce the WIP.
+…which you can use to improve tools, processes, skills. Morale gets up. And all these allow you to reduce the WIP.
 
 
 ## In short
