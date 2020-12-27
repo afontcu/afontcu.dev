@@ -58,7 +58,7 @@ Yes, folks, this is obvious. Nobody would expect that adding more customers woul
 ![Increasing the input of the system won't make it faster!](./pic2.png)
 
 
-We two ways to reduce the time spent by our customers:
+There are only two ways to reduce the time spent by customers in our shop:
 
 1. Reduce the total amount of customers waiting, or
 2. Increase the rate at which they get out.
@@ -92,9 +92,9 @@ Instead, it will lead to lower quality.
 
 ## Enough with the coffee shop
 
-The coffee shop is the team. The customers are the features.
+As you might have guessed, the coffee shop is the team. The customers are the features.
 
-The average number of features waiting in the system is our **work in progress**. It is measured in "*amounts of stuff*."
+The average number of features waiting in the system is our **work in progress** (WIP). It is measured in "*amounts of stuff*."
 
 The average amount of features passing into and out of the system is the **throughput** of the system. It is measured in "*amounts of stuff per unit of time*."
 
@@ -113,21 +113,17 @@ Throughput = WIP / Lead Time
 <p />
 
 
-## So you want more coffees out. I mean, more features
+You want more features out?
 
-I hear you. Who wouldn't?
+Here's the answer.
 
-We've learned that the Lead time of a system is a ratio between the tasks inside the system and its throughput.
+Reduce the WIP. Do it because **reducing WIP is way easier than improving throughput**.
 
-Here's the answer: Do you want more features? Then reduce the WIP.
-
-**Reducing WIP (work in progress) is way easier than improving throughput**. Yet, it is what people usually aim for. Ask to go faster(?), put in more hours, add more Jira tickets.
-
-This only leads to a decrease in the overall quality, which will creep you out in the long run. You'll get more WIP, which means an increased Lead Time.
+Yet, this is what we usually aim for. We ask teams to go faster(?), put in more hours, finish more Jira tickets, start more projects, hire more people.
 
 Instead, reduce the number of things handled at the same time.
 
-**Bottom line**: Do not [try to go faster, just go less slow](https://afontcu.dev/slow/).
+In short: Do not [try to go faster, just go less slow](https://afontcu.dev/slow/).
 
 
 ## A reinforcing loop
@@ -143,4 +139,6 @@ With less WIP, you get a shorter lead time…
 
 ## In short
 
-Do you want to ship things quicker? Focus on the important ones and kill the others. This is way **simpler** (and cheaper) than increasing the rate at which your team completes stuff.
+Do you want to ship things quicker? Focus on the important ones and kill the others. Improve the flow within your system.
+
+This is way **simpler** (and cheaper) than increasing the rate at which your team completes stuff.
