@@ -1,0 +1,136 @@
+---
+title: In case of doubt, reduce the WIP
+description: Have you ever lined up at the coffee shop? Chances are you have.
+date: '2020-12-27T17:36:01.570Z'
+categories: ''
+tags: ['Agile']
+slug: reduce-wip
+---
+
+You know the drill. You wait there a bit, order your espresso, pay for it, and get out. No big deal.
+
+What do we know about this *system*?
+
+Well, we know that more customers queueing up don't make the system go faster. Right? Quite the opposite! The bartender might get stressed if people start to pile up, its performance may suffer.
+
+Also, we could make the shop serve more coffees by opening more hours or buying better coffee makers.
+
+Finally, we know the system is made of customers, coffees and queues.
+
+## Customers, coffees, and queues
+
+Let's examine the relationships between the speed that customers enter and exit the shop, the capacity of the shop, and the time they spend "waiting".
+
+It is as follows:
+
+<pre class="language-html" style="width:100%;margin-left:0">
+Time spent by customers =
+  (Number of customers waiting) / (Speed at which customers get out)
+</pre>
+
+*(in average).*
+
+Now let's do some basic algebra!
+
+If you take the average speed at which people get to the line and multiply it by the time they spend in line, you get the average number of people waiting for its coffee.
+
+Also: The number of items in the system is the product of the arrival rate and the time an item spends in the system.
+
+Wait.
+
+Wait.
+
+Isn't it…
+
+…well…
+
+…obvious?
+
+
+## Yes, this is obvious
+
+*Thank you for the confirmation, Mr. heading.*
+
+Yes, folks, this is obvious. Nobody would expect that adding more customers would make things faster, right?
+
+In fact, we have two tools to reduce the time customers spend inside the coffee shop:
+
+1. Reduce the total amount of customers waiting, or
+2. Increase the rate at which they get out.
+
+
+## We've known this for ages
+
+Then, why do we keep managing software development teams by doing the exact opposite?
+
+"*But Adri, we don't*" – I can hear you saying.
+
+"*Yes, we do*" – you should hear me saying.
+
+We shove more features into a jam-packed backlog.
+
+We make people switch context all the time – meetings, priorities, whatever–. It clearly increases the time a task (a feature) stays in the system (the team).
+
+We tend to work in large chunks. Imagine a customer ordering 50 coffees. That surely takes a while, right?
+
+## You can see where I'm going, here
+
+Every software development team (and a software-based company) has a limited capacity. Pushing more work into it won't make it faster – quite the opposite. It will inevitably lead to lower quality.
+
+Wow, this turned into a software metaphor. Who would've thought!
+
+The coffee shop is our team, and we replace "customers" by "features".
+
+The number of customers waiting, then, is the total tasks we're currently working on.
+
+The time spent by tasks is the lead time, that is, the total time
+
+Finally, the speed at which features get out is the lead time.
+
+Soo, replacing concepts in the formula above…
+
+<pre class="language-html" style="width:100%;margin-left:0">
+Work In Progress = Throughput * Lead Time
+
+Lead Time = WIP / Throughput
+
+Throughput = WIP / Lead Time
+</pre>
+
+<p />
+
+(*disclaimer: I obviously didn't discover that. It is called [Little's Law](https://en.wikipedia.org/wiki/Little%27s_law) and it is one of the essential pillars which [upholds Kanban](https://itsadeliverything.com/littles-law-the-basis-of-lean-and-kanban)*).
+
+## So you want more coffees out. I mean, more features
+
+I hear you. Who wouldn't.
+
+We've seen that the Lead time of a system is a ratio between the tasks WIP and the throughput of the system.
+
+Here's the answer: Do you want more features? Then reduce the WIP.
+
+**Reducing WIP (work in progress) is way easier than improving throughput**. Yet, it is what people usually aim for. Ask to go faster(?), put in more hours, add more Jira tickets.
+
+This only leads to a decrease in the overall quality, which will creep you out in the long run. You'll get more WIP, which means an increased Lead Time.
+
+Instead, reduce the things a team handles at the same time.
+
+Bottom line: Do not [try to go faster, just go less slow](https://afontcu.dev/slow/).
+
+
+## A reinforcing loop
+
+With less WIP, you get a shorter cycle time…
+
+…meaning the throughput increases even if you are not doing "more" stuff…
+
+…meaning you get slack time…
+
+…and with slack time you can improve tools, processes, skills. Morale gets up. And all of these allows you to reduce the WIP.
+
+
+## In short
+
+Sometimes a team might not deliver as expected. You might not know what levers to pull. In case of doubt, **reduce the WIP** and see what happens next.
+
+Do you want to ship things quicker? Focus on the important ones and kill the others. This is way simpler than increasing the rate at which your team completes stuff.
