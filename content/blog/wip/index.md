@@ -1,7 +1,7 @@
 ---
 title: In case of doubt, reduce the WIP
 description: Have you ever lined up at the coffee shop? Chances are you have.
-date: '2020-12-28T17:36:01.570Z'
+date: '2021-01-03T17:36:01.570Z'
 categories: ''
 tags: ['Agile']
 slug: reduce-wip
@@ -24,10 +24,7 @@ Let's examine the relationships between the speed that customers enter and exit 
 
 It is as follows:
 
-<pre class="language-html" style="width:100%;margin-left:0">
-Time spent by customers =
-  (Number of customers waiting) / (Speed at which customers get out)
-</pre>
+![asd](./pic5.png)
 
 (*disclaimer: I didn't discover that (lol of course I did not). It is called [Little's Law](https://en.wikipedia.org/wiki/Little%27s_law), and it is one of the essential pillars which [uphold Kanban](https://itsadeliverything.com/littles-law-the-basis-of-lean-and-kanban)*).
 
@@ -103,19 +100,9 @@ Finally, the average amount of time a feature spends in the system is known as *
 
 Soo, replacing concepts in the formula we discussed before…
 
-<pre class="language-html" style="width:100%;margin-left:0">
-Work In Progress = Throughput * Lead Time
-
-Lead Time = WIP / Throughput
-
-Throughput = WIP / Lead Time
-</pre>
-
-<p />
+![asd](./pic4.png)
 
 Do you want more features out, sooner? (That is, do you want a better Lead Time?)
-
-Here's the answer.
 
 Reduce the WIP. Do it because **reducing WIP is way easier than improving throughput**.
 
@@ -139,6 +126,6 @@ With less work in progress, you get a shorter lead time…
 
 ## In short
 
-Do you want to ship things quicker? Focus on the important ones and kill the others. Improve the flow within your system.
+Do you want to ship things quicker? Focus on the important ones and kill the others. Improve the flow of the system over the throughput.
 
 This is way **simpler** (and cheaper) than increasing the rate at which your team completes stuff.
