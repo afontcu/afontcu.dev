@@ -9,33 +9,50 @@ slug: reduce-wip
 
 You know the drill. You wait there a bit, order your espresso, pay for it, and get out—no big deal.
 
-What do we know about this *system* (that is, the coffee shop)?
+Here it is in all its glory:
 
-![A coffee shop (our system) with our friendly customers. I'm an artist.](./pic1.png)
+![A coffee shop with our friendly customers. I'm an artist.](./pic1.png)
 
 ## An example
 
-Say the coffee shop, with its 4 employees, receive an average of 50 customers every hour.
+Say the coffee shop employs 4 bartenders and receive an average of 60 customers every hour.
 
-You could collect all 50 orders, brew every coffee, and then deliver them at once. The WIP of this strategy is 50: you're working on 50 coffees at the same time.
+What could things look like?
 
-It doesn't sound brilliant, does it?
+They could collect all 60 orders, brew every coffee, and then deliver them at once. They would be working on 60 coffees at the same time, so the shop's "work in progress" is 60.
 
-On the other hand, you could collect a single order, have all the bartenders work on it, and deliver the coffee as soon as it's ready. That's a WIP of 1 because you're working on a single coffee at the same time.
+It doesn't sound like a brilliant strategy, does it?
 
-That's… undesirable, too. As a customer, you would have a hard time trying to "guess" how long you'd need to wait.
+On the other hand, they could collect a single order, have all the bartenders work on it, and deliver the coffee as soon as it's ready. That's a WIP of 1 because they would be working on a single coffee at the same time.
 
-Sigh, every alternative suck. We're missing a key factor here.
+That's… not cool, either. As a customer, you would have a hard time trying to "guess" how long you'd need to wait. Also, why would four people work on a single coffee. It is not *that* hard.
 
-Now, this is where maths help us.
+Sigh, every alternative suck. What are they doing wrong?
 
-Yes, really. Maths.
+Now, this is where maths could help.
+
+Yes, really, I said it. Maths.
 
 There's this smart theorem called [Little's Law](https://en.wikipedia.org/wiki/Little%27s_law). It states that the average **number of items on a queue** (our coffee shop) is equal to the average **time of arrival** to that queue multiplied by each order's average **waiting time**.
 
 That, put nicely, looks as the following:
 
 ![asd](./pic6.png)
+
+Let's say it takes 6 minutes (a tenth of an hour) for a bartender to brew the perfect coffee.
+
+Applying the formula we just learned about…
+
+Number of customers waiting in line = 60 * 0.1 = 6.
+
+In average, the shop will have 6 customers waiting. So, is it enough with 4 bartenders? Well, that's for them to tell.
+
+## Let's take a step back
+
+Because something amazing just happened.
+
+We said that "the number of items in a system is the product of the arrival rate and the time an item spends in the system."
+
 <!-- ![asd](./pic5.png) -->
 
 
@@ -64,8 +81,6 @@ Also: the number of items in the system is the product of the arrival rate and t
 Wait.
 
 Wait.
-
-"The number of items in a system is the product of the arrival rate and the time an item spends in the system."
 
 Isn't it…
 
