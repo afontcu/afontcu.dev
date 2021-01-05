@@ -8,7 +8,7 @@ import PostListTags from './post-list-tags'
 
 const PostList = ({ posts }) =>
   posts.map(({ node: post }) => {
-    const { slug } = post.fields
+    const { slug, readingTime } = post.fields
     const {
       title = slug,
       description = post.excerpt,
@@ -26,6 +26,8 @@ const PostList = ({ posts }) =>
         </h3>
         <div style={{ ...scale(-1 / 5), fontStyle: `italic` }}>
           <time dateTime={dateTime}>{date}</time>
+          {' · '}
+          {readingTime.text}
           {!isEmpty(tags) && (
             <span>
               {' · '}
@@ -47,6 +49,9 @@ PostList.propTypes = {
         }),
         fields: PropTypes.shape({
           slug: PropTypes.string.isRequired,
+          readingTime: PropTypes.shape({
+            time: PropTypes.string.isRequired,
+          }),
         }),
       }),
     }).isRequired
