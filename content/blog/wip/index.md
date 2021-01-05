@@ -1,7 +1,7 @@
 ---
 title: In case of doubt, reduce the WIP
 description: Have you ever lined up at the coffee shop? Chances are you have.
-date: '2021-01-03T17:36:01.570Z'
+date: '2021-01-05T17:36:01.570Z'
 categories: ''
 tags: ['Agile']
 slug: reduce-wip
@@ -13,7 +13,35 @@ What do we know about this *system* (that is, the coffee shop)?
 
 ![A coffee shop (our system) with our friendly customers. I'm an artist.](./pic1.png)
 
+## An example
 
+Say the coffee shop, with its 4 employees, receive an average of 50 customers every hour.
+
+You could collect all 50 orders, brew every coffee, and then deliver them at once. The WIP of this strategy is 50: you're working on 50 coffees at the same time.
+
+It doesn't sound brilliant, does it?
+
+On the other hand, you could collect a single order, have all the bartenders work on it, and deliver the coffee as soon as it's ready. That's a WIP of 1 because you're working on a single coffee at the same time.
+
+That's… undesirable, too. As a customer, you would have a hard time trying to "guess" how long you'd need to wait.
+
+Sigh, every alternative suck. We're missing a key factor here.
+
+Now, this is where maths help us.
+
+Yes, really. Maths.
+
+There's this smart theorem called [Little's Law](https://en.wikipedia.org/wiki/Little%27s_law). It states that the average **number of items on a queue** (our coffee shop) is equal to the average **time of arrival** to that queue multiplied by each order's average **waiting time**.
+
+That, put nicely, looks as the following:
+
+![asd](./pic6.png)
+<!-- ![asd](./pic5.png) -->
+
+
+<!-- (*disclaimer: I didn't discover that (lol of course I did not). It is called [Little's Law](https://en.wikipedia.org/wiki/Little%27s_law), and it is one of the essential pillars which [uphold Kanban](https://itsadeliverything.com/littles-law-the-basis-of-lean-and-kanban)*). -->
+
+<!--
 ## Customers, coffees, and queues
 
 Well, we know that more customers queueing up won't make the system faster. Right? Quite the opposite! The bartender might get stressed if people start to pile up.
@@ -24,21 +52,20 @@ Let's examine the relationships between the speed that customers enter and exit 
 
 It is as follows:
 
-![asd](./pic5.png)
 
-(*disclaimer: I didn't discover that (lol of course I did not). It is called [Little's Law](https://en.wikipedia.org/wiki/Little%27s_law), and it is one of the essential pillars which [uphold Kanban](https://itsadeliverything.com/littles-law-the-basis-of-lean-and-kanban)*).
+
 
 Now we can do some basic algebra! Don't worry, we'll keep this simple.
 
 First, take the average speed at which people get to the line. Then, multiply it by the time they spend in line. The result is the average number of people waiting for its coffee.
 
-Also: the number of items in the system is the product of the arrival rate and the time an item spends in the system.
+Also: the number of items in the system is the product of the arrival rate and the time an item spends in the system. -->
 
 Wait.
 
 Wait.
 
-Read that last bit.
+"The number of items in a system is the product of the arrival rate and the time an item spends in the system."
 
 Isn't it…
 
@@ -56,6 +83,8 @@ Yes, folks, this is obvious. Nobody would expect that adding more customers woul
 ![Increasing the input of the system won't make it faster!](./pic2.png)
 
 In fact, we discovered that there are only two ways to reduce the time spent by our customers:
+
+![Same thing as above, but switching the focus](./pic5.png)
 
 1. Reduce the total amount of customers waiting in the shop, or
 2. Increase the rate at which they get out.
@@ -81,10 +110,10 @@ We add more teams, more people, more processes.
 
 We tend to work in large chunks. Imagine a customer ordering 50 coffees. That surely takes a while, right?
 
-*This turned into a software development metaphor. Who would've thought!*
-
 
 ## Enough with the coffee shop
+
+*This turned into a software development metaphor. Who would've thought!*
 
 As you might have guessed, the coffee shop is the team. Surprise! Also, customers are features.
 
@@ -106,11 +135,11 @@ Do you want more features out, sooner? (That is, do you want a better Lead Time?
 
 Reduce the WIP. Do it because **reducing WIP is way easier than improving throughput**.
 
-Yet, this is what we usually aim for. We ask teams to go faster(?), put in more hours, finish more Jira tickets, start more projects, hire more people.
+Yet, we usually aim for increasing throughput. We ask teams to go faster(?), put in more hours, finish more Jira tickets, start more projects, hire more people.
 
 Instead, reduce the number of things handled at the same time.
 
-In short: Do not [try to go faster, just go less slow](https://afontcu.dev/slow/).
+Do not [try to go faster, just go less slow](https://afontcu.dev/slow/).
 
 
 ## A reinforcing loop
@@ -126,6 +155,6 @@ With less work in progress, you get a shorter lead time…
 
 ## In short
 
-Do you want to ship things quicker? Focus on the important ones and kill the others. Improve the flow of the system over the throughput.
+Do you want to ship things quicker? Focus on the important ones and kill the others. Focus on improving the flow of the system over its throughput. Make things run smooth, sharpen your tools, reduce the waste.
 
 This is way **simpler** (and cheaper) than increasing the rate at which your team completes stuff.
