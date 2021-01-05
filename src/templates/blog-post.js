@@ -38,16 +38,18 @@ class BlogPostTemplate extends React.Component {
         <article>
           <header style={{ textAlign: `center`, marginTop: rhythm(2) }}>
             <h1>{title}</h1>
-            <time
-              dateTime={dateTime}
+            <span
               style={{
-                ...scale(1 / 6),
+                ...scale(1 / 12),
                 display: `block`,
                 fontStyle: `italic`,
+                color: `rgba(0, 0, 0, 0.5)`,
               }}
             >
-              {date}
-            </time>
+              <time dateTime={dateTime}>{date}</time>
+              {' · '}
+              {post.fields.readingTime.text}
+            </span>
             <div style={{ marginBottom: rhythm(1.5) }}>
               {tags.length > 0 && <TagList tags={tags} />}
             </div>
@@ -109,9 +111,14 @@ export const pageQuery = graphql`
       id
       excerpt(pruneLength: 160)
       html
+      fields {
+        readingTime {
+          text
+        }
+      }
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "D MMMM YY")
         dateTime: date
         description
         tags
