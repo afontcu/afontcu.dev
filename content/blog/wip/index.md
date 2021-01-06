@@ -13,23 +13,29 @@ Here it is in all its glory:
 
 ![A coffee shop with our friendly customers. I'm an artist.](./pic1.png)
 
+
 ## An example
 
-Say the coffee shop employs 4 bartenders and receive an average of 60 customers every hour.
+Say the coffee shop receive an average of 60 customers every hour.
 
 What could things look like?
 
-They could collect all 60 orders, brew every coffee, and then deliver them at once. They would be working on 60 coffees at the same time, so the shop's "work in progress" is 60.
+They could wait for an hour, collect all orders, brew every coffee, and deliver them. They would be working on 60 coffees at the same time, so the shop's WIP (work in progress) would be 60.
 
 It doesn't sound like a brilliant strategy, does it?
 
-On the other hand, they could collect a single order, have all the bartenders work on it, and deliver the coffee as soon as it's ready. That's a WIP of 1 because they would be working on a single coffee at the same time.
+On the other hand, they could collect an order, have all the bartenders work on it, and deliver it as soon as it's ready. Then, take the next one. That's a WIP of 1.
 
-That's… not cool, either. As a customer, you would have a hard time trying to "guess" how long you'd need to wait. Also, why would four people work on a single coffee. It is not *that* hard.
+That's… not cool. As a customer, you wouldn't be able to "guess" how long you'd need to wait. Also, why would four people work on a single coffee? It is not *that* hard.
 
-Sigh, every alternative suck. What are they doing wrong?
+Sigh, every alternative suck.
 
-Now, this is where maths could help.
+What are they doing wrong? What are we missing?
+
+This is where maths could help.
+
+
+## Maths
 
 Yes, really, I said it. Maths.
 
@@ -37,48 +43,30 @@ There's this smart theorem called [Little's Law](https://en.wikipedia.org/wiki/L
 
 That, put nicely, looks as the following:
 
-![asd](./pic6.png)
+![](./pic6.png)
 
-Let's say it takes 6 minutes (a tenth of an hour) for a bartender to brew the perfect coffee.
+Now let's use it.
 
-Applying the formula we just learned about…
+Let's say it takes 6 minutes for any bartender to brew the perfect coffee.
 
-Number of customers waiting in line = 60 * 0.1 = 6.
+Number of customers waiting in line = 60 customers per hour * 0.1 hours spent per customer = 6.
 
-In average, the shop will have 6 customers waiting. So, is it enough with 4 bartenders? Well, that's for them to tell.
+On average, the shop will have 6 customers waiting.
+
+So… back to our initial question.
+
+You should not work on a single coffee, but you shouldn't start working on 60, either. What's a sensible number?
+
+The answer really depends on the context. We now know we expect an average of 6 customers waiting.
+
+It is easy to see see how this information is helpful to decide how/when to collect a new order.
+
 
 ## Let's take a step back
 
 Because something amazing just happened.
 
 We said that "the number of items in a system is the product of the arrival rate and the time an item spends in the system."
-
-<!-- ![asd](./pic5.png) -->
-
-
-<!-- (*disclaimer: I didn't discover that (lol of course I did not). It is called [Little's Law](https://en.wikipedia.org/wiki/Little%27s_law), and it is one of the essential pillars which [uphold Kanban](https://itsadeliverything.com/littles-law-the-basis-of-lean-and-kanban)*). -->
-
-<!--
-## Customers, coffees, and queues
-
-Well, we know that more customers queueing up won't make the system faster. Right? Quite the opposite! The bartender might get stressed if people start to pile up.
-
-What else do we know? Well, that we could serve more coffees by opening more hours or buying better coffee makers.
-
-Let's examine the relationships between the speed that customers enter and exit the shop, shop's capacity, and the time they spend "waiting".
-
-It is as follows:
-
-
-
-
-Now we can do some basic algebra! Don't worry, we'll keep this simple.
-
-First, take the average speed at which people get to the line. Then, multiply it by the time they spend in line. The result is the average number of people waiting for its coffee.
-
-Also: the number of items in the system is the product of the arrival rate and the time an item spends in the system. -->
-
-Wait.
 
 Wait.
 
@@ -93,7 +81,7 @@ Isn't it…
 
 *Thank you for the confirmation, Mr. heading.*
 
-Yes, folks, this is obvious. Nobody would expect that adding more customers would make things faster, right?
+Yes, folks, this is obvious. Nobody expects that adding more customers makes things faster, right?
 
 ![Increasing the input of the system won't make it faster!](./pic2.png)
 
@@ -119,18 +107,20 @@ Then, **why do we keep managing software development teams by doing the exact op
 
 We shove more features into a jam-packed backlog.
 
-We make people switch context all the time – meetings, priorities, whatever–. It clearly increases the time a task (a feature) stays in the system (the team).
+We make people switch context all the time – meetings, priorities, whatever–.
 
 We add more teams, more people, more processes.
 
-We tend to work in large chunks. Imagine a customer ordering 50 coffees. That surely takes a while, right?
+We start more stuff.
 
 
 ## Enough with the coffee shop
 
 *This turned into a software development metaphor. Who would've thought!*
 
-As you might have guessed, the coffee shop is the team. Surprise! Also, customers are features.
+As you might have guessed, the coffee shop is the team. Surprise!
+
+Also, customers are actually features.
 
 So:
 
@@ -140,13 +130,15 @@ The average amount of features passing into and out of the system is the **throu
 
 Finally, the average amount of time a feature spends in the system is known as **lead time**. It is measured in *"units of time"*.
 
-![Requests line up to be transformed into features by team members. (disclaimer: there's more to it than requests and features; but that's beyond the scope of the post. Bear with me here)](./pic3.png)
+![Requests line up to be transformed into features by team members. (disclaimer: there's more to it than requests and features; but that's beyond the scope of the post. Bear with me here!)](./pic3.png)
 
 Soo, replacing concepts in the formula we discussed before…
 
 ![asd](./pic4.png)
 
-Do you want more features out, sooner? (That is, do you want a better Lead Time?)
+Do you want more features out, sooner?
+
+That is, do you want a better Lead Time?
 
 Reduce the WIP. Do it because **reducing WIP is way easier than improving throughput**.
 
