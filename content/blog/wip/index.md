@@ -134,34 +134,38 @@ Finally, the average amount of time a feature spends in the system is known as *
 
 Soo, replacing concepts in the formula we discussed before…
 
-![asd](./pic4.png)
+![](./pic4.png)
 
-Do you want more features out, sooner?
+Do you want features out sooner? That is, do you want a better (shorter) Lead Time?
 
-That is, do you want a better Lead Time?
+Reduce the WIP, because it is **easier than increasing throughput**.
 
-Reduce the WIP. Do it because **reducing WIP is way easier than improving throughput**.
+But that's not what we do.
 
-Yet, we usually aim for increasing throughput. We ask teams to go faster(?), put in more hours, finish more Jira tickets, start more projects, hire more people.
+We ask teams to go faster, put in more hours, close more Jira tickets, start projects, hire people.
+
+We try to increase the throughput.
 
 Instead, reduce the number of things handled at the same time.
 
-Do not [try to go faster, just go less slow](https://afontcu.dev/slow/).
+Do not [try to go faster. Go less slow](https://afontcu.dev/slow/).
 
 
 ## A reinforcing loop
 
-With less work in progress, you get a shorter lead time…
+With a stable system and less work in progress, you get a shorter lead time…
 
-…meaning the throughput increases without doing "more" stuff…
+…meaning throughput increases without working on "more" stuff…
 
 …meaning you get slack time…
 
-…which you can use to improve tools, processes, skills. Morale gets up. And all these allow you to reduce the WIP.
+…which you can use to improve tools, processes, skills. Morale gets up. And all of these allow you to reduce the WIP.
 
 
 ## In short
 
-Do you want to ship things quicker? Focus on the important ones and kill the others. Focus on improving the flow of the system over its throughput. Make things run smooth, sharpen your tools, reduce the waste.
+Do you want to ship things quicker? Focus on the important ones and kill the others.
 
-This is way **simpler** (and cheaper) than increasing the rate at which your team completes stuff.
+Focus on improving the flow of the system over its throughput. Make things run smooth, sharpen your tools, reduce the waste.
+
+Do it because it is way **simpler** (and cheaper) than increasing the rate at which your team completes stuff.
