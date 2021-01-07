@@ -47,11 +47,11 @@ That, put nicely, looks as the following:
 
 Now let's use it.
 
-Let's say it takes 6 minutes for any bartender to brew the perfect coffee.
+We already now we have 60 customers entering our coffee shop per hour, on average. Let's say it takes 6 minutes (0.1 hours) for any bartender to brew the perfect coffee.
 
-Number of customers waiting in line = 60 customers per hour * 0.1 hours spent per customer = 6.
+Number of customers waiting in line = 60 customers per hour * 0.1 hours spent per customer.
 
-On average, the shop will have 6 customers waiting.
+That is! On average, the shop will have 6 customers waiting in line.
 
 So… back to our initial question.
 
