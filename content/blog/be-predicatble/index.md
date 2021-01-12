@@ -13,9 +13,9 @@ If I wanted a team to be better, I’d ask them to be **predictable**.
 
 I'm not a dictionary, but I'll try to answer.
 
-I understand predictability as "the ability to improve the ratio between **a sustainable flow of value** and the amount of resources used to achieve it".
+I understand predictability as "the ability to **produce a stable flow of value** per unit of time by spending a similar amount of resources".
 
-To do so, they’d need to keep costs stable. You know: development costs, infrastructure costs, maintenance costs, opportunity costs…
+To do so, they’d need to keep off costs stable. You know: development costs, infrastructure costs, maintenance costs, opportunity costs…
 
 Keeping costs stable requires an investment. Our software and infrastructure degrades continuously (yeah, folks, I'm talking about [software entropy](https://agilepearls.wordpress.com/tag/software-entropy/)), so we need to **actively keep it clean and shiny**.
 
