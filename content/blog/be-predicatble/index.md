@@ -32,14 +32,14 @@ Keep things short so unexpected events can't mess with them.
 
 Also, being wrong on a large batch is expensive. On the other hand, if you fuck up a small feature, well, it is not that bad.
 
-Large batches are fragile because we have more to lose than to gain in the presence of disorder. And disorder shine in our world: time, uncertainty, lack of knowledge, and errors, among others, pile up to make our industry both challenging and exciting.
+Large batches are **fragile** because we have more to lose than to gain in the presence of disorder. And disorder shine in our world: time, uncertainty, lack of knowledge, and errors, among others, pile up to make our industry both challenging and exciting.
 
 
 ## Wrapping up
 
 Writing software is [the best way to deliver value in a sustainable pace](https://afontcu.dev/goal-of-software-development/).
 
-Having a **predictable team** is good for the team itself and also for the business. It's a team you can rely on and that it works to improve its environment.
+Having a **predictable team** is good for the team itself and also for the business. It's a team you can rely on. It will also keep improving its environment and others might benefit.
 
 The only way to make a team predictable is to **work on small batches**, **finish stuff before starting new one**, and to focus relentlessly on **improving** the overall system.
 
