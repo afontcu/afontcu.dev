@@ -36,7 +36,7 @@ class BlogPostTemplate extends React.Component {
           type="article"
         />
         <article>
-          <header style={{ textAlign: `center`, marginTop: rhythm(2) }}>
+          <header style={{ textAlign: `center` }}>
             <h1>{title}</h1>
             <span
               style={{
