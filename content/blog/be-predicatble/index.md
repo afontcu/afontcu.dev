@@ -1,5 +1,5 @@
 ---
-title: "Be predictable"
+title: "Be predictable, my friend"
 description: 'There are many virtues a team can show. But I’ve come to realize that it boils down to this:'
 date: '2021-01-13T08:25:01.115Z'
 categories: ''
