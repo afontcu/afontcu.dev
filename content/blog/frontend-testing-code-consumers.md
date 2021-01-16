@@ -150,20 +150,21 @@ import { render, fireEvent } from '@testing-library/vue'
 test('text updates on clicking', async () => {
   const { getByText } = render(Counter)
 
-  // getByText returns the first matching DOM node for the
-  // provided text, and throws an error if there's no match
-  // or if more than one element is found.
-  getByText('Times clicked: 0')
+  // Make sure "Times Clicked: 0" is available in the document,
+  // that is, user can read it.
+  expect(getByText('Times clicked: 0')).toBeInTheDocument()
 
   const button = getByText('increment')
-  
-  // Dispatch a native click event to our button element.
+
+  // Dispatch a click event to our button element.
   await fireEvent.click(button)
   await fireEvent.click(button)
 
-  getByText('Times clicked: 2')
+  expect(getByText('Times clicked: 2')).toBeInTheDocument()
 })
 ```
+
+*(sidenote: `toBeInTheDocument()` is one of the cool matchers [jest-dom](https://github.com/testing-library/jest-dom) offers. Check them out to write more expressive tests!).*
 
 **Notice how we query and act upon our component as our consumers would**. We are "reading" text, and we are interacting (as close as possible) as an end user.
 
