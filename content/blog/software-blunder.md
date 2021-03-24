@@ -23,19 +23,19 @@ Now, this is a principle. Putting it in action is another story.
 
 What I came up to discover is that this applies to my daily job, too.
 
-You are not supposed to find the hidden gem, you know? The ultimate feature that makes your product skyrocket or its performance to improve a thousand times.
+We are not supposed to find the hidden gem. You know, the ultimate feature that makes your product skyrocket or its performance to improve a thousand times.
 
-You could do so if you had infinite time to think, analyze the position and act accordingly. But that's not the case.
+We could do so if we had infinite time to think, analyze the position and act accordingly. But that's not the case.
 
-As in chess, you're simply supposed **not to blunder**.
+What if, as in chess, we were supposed **not to blunder**?
 
-You're supposed to take small, safe steps **that** leave you better than you were right before. Or exactly the same, [depending on your context](https://medium.com/@kentbeck_7670/the-product-development-triathlon-6464e2763c46).
+That would mean we would need to make software just slightly better. Then, rinse and repeat.
 
-Now – you don't have opponents here. Well, there's your competition, but that's way more… indirect than when you play chess.
+Now, software allows you to take a move back. That's a huge benefit – you're not allowed to do so in chess. However, opportunity cost comes into play. That's something to bear in mind. Taking a small step back is way cheaper than a giant leap.
 
-Yet, some software decisions might be really bad for your product and your business. There's also the opportunity cost – there are many good things you could be doing instead of making that terrible move.
+Some software decisions can be really bad for your product and business. In chess, making a terrible move spoils the whole game. Software nature is not so black and white, but still.
 
-By the way, feel free to translate *"that terrible move"* to *"that feature nobody is gonna use"* or *"that new framework that we need to start using on production"*.
+By the way, feel free to translate *"terrible move"* to *"a feature nobody is gonna use"* or *"a new framework we need to start using on production"*.
 
 Truth hurts.
 
