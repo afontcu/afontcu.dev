@@ -59,4 +59,4 @@ Moreover, it means knowing what direction you want to move.
 
 ## Try not to lose
 
-Playing it safe doesn't mean not taking risks. It means knowing that you take them and creating the required safety net around them.
+Playing it safe doesn't mean not taking risks. It means taking them knowingly and creating the required safety net around them.
