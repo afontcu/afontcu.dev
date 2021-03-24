@@ -1,6 +1,6 @@
 ---
 title: Three ways of telling if you are not problem-oriented
-description: Are you solving problems or just developing sotware?
+description: Are you solving problems or just developing software?
 date: '2019-07-05T08:46:01.976Z'
 categories: ''
 tags: ['Product Management']
