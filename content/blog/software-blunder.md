@@ -1,7 +1,7 @@
 ---
 title: "Blundering your software"
 description: 'Software development is like a chess game.'
-date: '2021-03-24T12:56:01.115Z'
+date: '2021-03-31T12:56:01.115Z'
 categories: ''
 tags: ['Random Thoughts']
 slug: software-blunder
