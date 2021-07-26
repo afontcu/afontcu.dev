@@ -26,10 +26,11 @@ class Layout extends React.Component {
             Oh, hi!{' '}
             <span role="img" aria-label="waving hand">
               👋
-            </span>{' '}
-            I'm <strong>{siteMetadata.author}</strong>, a software engineer
-            interested in lean development, mostly focused on the front end, UX,
-            and everything in between.
+            </span>
+            <br />
+            I'm {siteMetadata.author}, a product engineer interested in lean
+            software development, mostly focused on the front end. I simply try
+            to build the right thing right.
           </p>
         </div>
       )
