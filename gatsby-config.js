@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Adrià Fontcuberta`,
     author: `Adrià Fontcuberta`,
-    description: `I'm Adrià Fontcuberta, a product engineer interested in lean software development, mostly focused on the front end`,
+    description: `I'm Adrià Fontcuberta, a software product engineer interested in lean software development, mostly focused on the front end`,
     siteUrl: `https://afontcu.dev/`,
     social: {
       twitter: `afontq`,

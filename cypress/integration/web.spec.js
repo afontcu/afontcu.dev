@@ -2,7 +2,7 @@ it('Homepage renders', () => {
   cy.visit('/')
 
   cy.findByText(
-    /a product engineer interested in lean software development, mostly focused on the front end/
+    /a software product engineer interested in lean software development, mostly focused on the front end/
   )
 })
 
