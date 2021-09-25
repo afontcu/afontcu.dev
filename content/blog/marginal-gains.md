@@ -35,7 +35,7 @@ Imagine you kept doing that by a year.
 
 1.01<sup>365</sup> = **37.78**
 
-That's right. By improving a 1% daily, that process would become 37% better/faster/stronger in a year.
+That's right. By improving a 1% daily, that process would become 37 times better better/faster/stronger in a year.
 
 That right there is a compound effect: any future change builds upon the previous ones. So do not underestimate that 1%.
 
@@ -47,7 +47,7 @@ First of all, we assume you'd keep improving every single day. It requires commi
 
 It sounds daunting because it is.
 
-Yet, what's the alternative? Good look finding a great, **actionable**, realistic good idea that improves anything by 37%… at once!
+Yet, what's the alternative? Good look finding a great, **actionable**, realistic good idea that improves anything 37 times… at once!
 
 Also, it's easier to find those small improvements. You know some of them already because you face them every day! So finding and identifying those things could help you get closer to the desired outcome.
 
