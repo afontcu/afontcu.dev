@@ -1,63 +1,70 @@
 ---
 title: In case of doubt, reduce the WIP
-description: Have you ever lined up at the coffee shop? Chances are you have.
-date: '2021-01-05T17:36:01.570Z'
+description: Have you ever lined up at the coffee shop? I bet you have.
+date: '2021-10-04T17:36:01.570Z'
 categories: ''
 tags: ['Agile']
 slug: reduce-wip
 ---
 
-You know the drill. You wait there a bit, order your espresso, pay for it, and get out—no big deal.
+You know the drill: wou wait there a bit, order your espresso, pay for it, and get out. No big deal.
+
+Simple workflow.
 
 Here it is in all its glory:
 
-![A coffee shop with our friendly customers. I'm an artist.](./pic1.png)
+![A coffee shop with our friendly customers. Some may say I'm an artist.](./pic1.png)
 
 
 ## An example
 
 Say the coffee shop receive an average of 60 customers every hour.
 
-What could things look like?
-
-They could wait for an hour, collect all orders, brew every coffee, and deliver them. They would be working on 60 coffees at the same time, so the shop's WIP (work in progress) would be 60.
+They could wait for an hour, collect all orders, brew every coffee, and deliver them. They would be working on 60 coffees at the same time.
 
 It doesn't sound like a brilliant strategy, does it?
 
-On the other hand, they could collect an order, have all the bartenders work on it, and deliver it as soon as it's ready. Then, take the next one. That's a WIP of 1.
+On the other hand, they could collect an order, have all the bartenders work on it, and deliver it as soon as it's ready. Then, take the next one.
 
-That's… not cool. As a customer, you wouldn't be able to "guess" how long you'd need to wait. Also, why would four people work on a single coffee? It is not *that* hard.
+That's… not cool (or smart, to be honest). Why would four people work on a single coffee? It is not *that* hard.
 
-Sigh, every alternative suck.
+Sigh, every alternative sucks.
 
 What are they doing wrong? What are we missing?
 
-This is where maths could help.
+Well, this is where maths could help.
 
 
-## Maths
+## A bit of logic
 
-Yes, really, I said it. Maths.
+Let's think for a bit. You have 60 people arriving every hour.
 
-There's this smart theorem called [Little's Law](https://en.wikipedia.org/wiki/Little%27s_law). It states that the average **number of items on a queue** (our coffee shop) is equal to the average **time of arrival** to that queue multiplied by each order's average **waiting time**.
+Now, say it takes 6 minutes to serve the perfect coffee.
 
-That, put nicely, looks as the following:
+With that information, can we discover what's the number of customers that are gonna be waiting for their coffee?
+
+The answer is **yes**.
+
+Yes… as long as the system is stable, fluid, and some other stuff.
+
+
+Number of customers waiting in line = 60 customers per hour * 0.1 hours (6 minutes) spent per customer = 6.
+
+This is it! On average, the shop will have **6 customers waiting in line**.
+
+How do I know that?
+
+Because someone who was way smarter than me found (discover?) a theorem that maps to this situation.
+
+This smart theorem is called [Little's Law](https://en.wikipedia.org/wiki/Little%27s_law). It states that the average **number of items on a queue** (our coffee shop) is equal to the average **time of arrival** to that queue multiplied by each order's average **waiting time**.
 
 ![](./pic6.png)
 
-Now let's use it.
-
-We already now we have 60 customers entering our coffee shop per hour, on average. Let's say it takes 6 minutes (0.1 hours) for any bartender to brew the perfect coffee.
-
-Number of customers waiting in line = 60 customers per hour * 0.1 hours spent per customer.
-
-That is! On average, the shop will have 6 customers waiting in line.
-
-So… back to our initial question.
+## So… back to our initial question
 
 You should not work on a single coffee, but you shouldn't start working on 60, either. What's a sensible number?
 
-The answer really depends on the context. We now know we expect an average of 6 customers waiting.
+The answer really **depends on the context**. But we know we expect an average of 6 customers waiting.
 
 It is easy to see see how this information is helpful to decide how/when to collect a new order.
 
@@ -66,7 +73,7 @@ It is easy to see see how this information is helpful to decide how/when to coll
 
 Because something amazing just happened.
 
-We said that "the number of items in a system is the product of the arrival rate and the time an item spends in the system."
+We said that "the number of items in a [stationary](https://en.wikipedia.org/wiki/Stationary_process) system is the product of the arrival rate and the time an item spends in the system."
 
 Wait.
 
@@ -87,10 +94,12 @@ Yes, folks, this is obvious. Nobody expects that adding more customers makes thi
 
 In fact, we discovered that there are only two ways to reduce the time spent by our customers:
 
-![Same thing as above, but switching the focus](./pic5.png)
+![Same formula, but switching the focus](./pic5.png)
 
-1. Reduce the total amount of customers waiting in the shop, or
-2. Increase the rate at which they get out.
+You either:
+
+1. **Reduce the total amount** of customers waiting in the shop, or
+2. **Increase the rate** at which they get out.
 
 
 ## We've known this for ages
@@ -99,26 +108,24 @@ Yes, we have!
 
 It is 100% logical.
 
-Then, **why do we keep managing software development teams by doing the exact opposite?**
+Then, **why do we keep managing software and teams by doing the exact opposite?**
 
 "*But Adri, we don't*" – I can hear you saying.
 
-"*Yes, we do*" – you should hear me saying.
+"*Oh yes, yes we do*" – you should hear me saying.
 
-We shove more features into a jam-packed backlog.
+We shove more features into a jam-packed backlog. It's like queueing more customers.
 
-We make people switch context all the time – meetings, priorities, whatever–.
+We make people switch context all the time – meetings, priorities, whatever. It's like asking the poor folk who's brewing the coffee to stop and sweep the floor.
 
-We add more teams, more people, more processes.
-
-We start more stuff.
+We write architectures that are more unnecessarily complex. It's like using really complex coffee machines with a lot of buttons and gauges to make an espresso. Or worse: it's like building you own coffee machine!
 
 
 ## Enough with the coffee shop
 
-*This turned into a software development metaphor. Who would've thought!*
+*This turned into a software development metaphor. Surprise!*
 
-As you might have guessed, the coffee shop is the team. Surprise!
+As you might have guessed, the coffee shop is the team.
 
 Also, customers are actually features.
 
@@ -140,15 +147,15 @@ Do you want features out sooner? That is, do you want a better (shorter) Lead Ti
 
 Reduce the WIP, because it is **easier than increasing throughput**.
 
-But that's not what we do.
+## But that's not what we do
 
-We ask teams to go faster, put in more hours, close more Jira tickets, start projects, hire people.
+We ask teams to go faster, put in more hours, close more tickets, start more projects, hire people.
 
-We try to increase the throughput.
+We try to increase the throughput. More, more, more.
 
-Instead, reduce the number of things handled at the same time.
+Instead, what if we reduced the number of things handled at the same time?
 
-Do not [try to go faster. Go less slow](https://afontcu.dev/slow/).
+We would not be trying to go faster. [We would go less slow](https://afontcu.dev/slow/).
 
 
 ## A reinforcing loop
@@ -167,5 +174,7 @@ With a stable system and less work in progress, you get a shorter lead time…
 Do you want to ship things quicker? Focus on the important ones and kill the others.
 
 Focus on improving the flow of the system over its throughput. Make things run smooth, sharpen your tools, reduce the waste.
+
+Focus on finishing stuff instead of starting new one.
 
 Do it because it is way **simpler** (and cheaper) than increasing the rate at which your team completes stuff.
