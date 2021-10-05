@@ -1,6 +1,6 @@
 ---
 title: Burn your backlog
-description: What if you did so?
+description: What if…?
 date: '2020-05-03T08:35:47.809Z'
 categories: ''
 tags: ['Agile']
@@ -14,21 +14,29 @@ https://basecamp.com/shapeup/2.1-chapter-07#no-backlogs
 
 ## Ideas are cheap
 
-It’s easy to overvalue ideas. The truth is, ideas are cheap. They come up all the time and accumulate into big piles.
+We overvalue ideas. The truth is, ideas are cheap. They come up all the time and accumulate into big piles.
 
-Anybody can suggest expensive and complicated solutions. It takes work and design insight to get to a simple idea that fits in a small time box
+Anybody can suggest **expensive and complicated solutions**. It takes work and design insight to get to a simple idea that fits in a small time box.
 
 A backlog is a list of promises we made to ourselves. Stuff we agreed upon several months ago. That stupid feature a stakeholder requested and you'll never prioritize because, honestly, who would.
 
+Why would you spend time on storing stuff you will never do?
+
 ## Talk doesn't cook rice
 
-Backlogs are time-consuming. You refine them. You triage features, old tickets, stuff you honestly don't know who put there.
+Backlogs are time-consuming. They require refinement, triage, updating, asking that person whose team is gone what was that bug report about…
 
 And then, oh yes, you *prioritize* them.
 
+
+## Let it go
+
+Ask yourself – what's the backlog helping you achieve? A backlog only stresses people out. "We'll never get all this shit done!". No, of course you won't! A backlog is like a gift list: a collection of lost hopes, random ideas, one-time bugs, useless stuff.
+
+
 ## Clean sheet
 
-In a feedback loop, each iteration feeds you with information for the following one.
+In a (good) feedback loop, each iteration feeds you with information for the following one.
 
 Otherwise, well, it's not a feedback loop. It is running in circles.
 
