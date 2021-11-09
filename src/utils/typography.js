@@ -14,7 +14,7 @@ delete TypographyTheme.googleFonts
 TypographyTheme.headerFontFamily = ['Source Sans Pro', 'sans-serif']
 TypographyTheme.bodyFontFamily = ['Lora', 'Georgia', 'serif']
 TypographyTheme.baseFontSize = '24px'
-TypographyTheme.scaleRatio = 3.7
+TypographyTheme.scaleRatio = 3
 
 const typography = new Typography(TypographyTheme)
 
