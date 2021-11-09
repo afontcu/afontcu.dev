@@ -1,7 +1,7 @@
 ---
 title: The minefield of software development
 description: More often than not, we build software based on hope.
-date: '2021-11-07T14:06:07.866Z'
+date: '2021-11-09T14:06:07.866Z'
 categories: ''
 tags: ['Agile']
 slug: minefield-software-development
@@ -57,30 +57,36 @@ Notice that the business problem is still the same. Nothing changed; those block
 
 What does change is **our understanding of the context**. It is not until we start untangling things up that we face reality.
 
-No matter how hard you try to prevent these minor problems. There's no amount of experience or [seniority](https://afontcu.dev/senior-developer-meaning/) that helps avoid them 100%. The only way to uncover them is by advancing.
+No matter how hard you try to prevent these minor problems. There's no amount of experience or [seniority](https://afontcu.dev/senior-developer-meaning/) enough to avoid them. The only way to discover what's there is by advancing.
 
-[dibuix de "miniproblemes" apareixent?]
+<figure class="figure">
+  <img src="./fog-of-war.png" alt="It's like fog of war. You don't know what's out there until you explore the area.">
+</figure>
 
 The only way to cross this minefield of tiny problems is to improvise, communicate, and **get [feedback as soon as possible](https://afontcu.dev/feedback-loops/)**.
 
-## Minefields
+## The minefield of software development
 
 Imagine you were playing Minesweeper.
 
-Would you use a Gantt chart to win? No, right? (please, answer "no").
+Would you use a Gantt chart to win? No, right? Nah.
 
-[dibuix de buscamines amb un camí pre-marcat]
+<figure class="figure" style="max-width:400px">
+  <img src="./minesweeper-empty.png" alt="Minesweeper. Please don't use a Gantt. Friends don't let friends write Gantt charts">
+</figure>
 
 You would use every hint you could get instead of setting a plan from the very beginning. You would go one step at a time: click on a square, see how the landscape change, act accordingly.
 
 Notice the mental model here because **software development works the same way**.
 
-1. Check out the current situation.
+1. Assess the current situation.
 2. Take a step, the smallest possible one that gives helpful information.
 3. Reflect on what you just learned. What changed? What did go well?
 4. Go back to step 1.
 
-[dibuix de "arbre de buscamines", on cada una de les fulles és un resultat possible d'haver-se mogut]
+<figure class="figure" style="max-width:400px">
+  <img src="./minesweeper-paths.png" alt="Okay, now I have more info. Should I go here? Or here? Or there?">
+</figure>
 
 Now, this won't make you "faster" from an output point of view.
 
@@ -95,15 +101,19 @@ There's a subtle but critical difference between Minesweeper and software develo
 
 When you play Minesweeper, the map doesn't change. You simply reveal it.
 
-However, exploring the software development minefield modifies the map itself. It's a materialization of the Observer's paradox: **the layout we'll need to cross is modified by the team exploring it**.
+However, exploring the software development minefield modifies the map itself. It's a materialization of the Observer's paradox: **the layout we need to cross is modified by the team exploring it**.
 
-Software development is a matrix of interactions, dependencies, relationships. Adding, changing, or removing any part of a system might generate a whole new category of these small problems.
+Software development is a tangled web of of interactions, dependencies, relationships. Adding, changing, or removing any part of a system might generate a whole new category of these small problems.
 
-We define the final layout as we walk. There's no way we can predict it beforehand. By exploring the territory, **the map has effectively changed**.
+There's no way we can predict it beforehand. By exploring the territory, **the map has effectively changed**.
+
+Imagine a Minesweeper where every click makes the layout grow.
+
+<figure class="figure">
+  <img src="./minesweeper-expanded.png" alt="Well, things just got harder.">
+</figure>
 
 This is why a "stakeholder" handing off a specification doesn't work. It will never work on [a complex scenario](https://afontcu.dev/embrace-unknowns/).
-
-[com puc dibuixar això?]
 
 
 ## Kill all hope
