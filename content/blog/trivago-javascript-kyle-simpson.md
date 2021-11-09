@@ -74,5 +74,3 @@ Let me also share [Debbie O'Brien](https://medium.com/u/2104dd167a50)’s [post]
 ![](https://cdn-images-1.medium.com/max/800/1*qEA3CHBOFXwJfoivJfaF_A.png)
 
 A meeting room at Trivago. True story.
-
-Again, I’d like to thank [trivago_tech](https://medium.com/u/d91ecef33107) for such once in a lifetime opportunity. Trivago Headquarters is _ah-mah-zing_ and the people there are as cool as the offices. I just wish the workshop had taken us a month.

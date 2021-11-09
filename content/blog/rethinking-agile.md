@@ -65,4 +65,4 @@ Agile looked like the thing to *sell* to the upper-level. "Digital transformatio
 
 Agile mindset and XP principles are still valid. I'm not sure, though, the *label* is worth fighting anymore.
 
-[More Jenkins, less Jira](https://youtu.be/unDxq76JcvE?t=652).
+More Jenkins, less Jira.

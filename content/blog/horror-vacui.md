@@ -33,7 +33,7 @@ Where was this friction coming from? Were we running out of projects? No more wo
 
 This feeling was actually **fear**. Vacuum cannot exist, right? Yet, our board was almost there. It should be moving _ad infinitum_, so if it was stalling, there had to be something more powerful stopping it.
 
-Nah. Nothing was wrong. We were scared of the unknown. We just had [_slack time_](http://www.everydaykanban.com/2012/07/27/slack-is-not-a-dirty-word-how-slack-can-improve-your-products/+). No urgent work was required at that moment (for half a day or so — not a big deal). We had **free time**. This should be the norm, right?
+Nah. Nothing was wrong. We were scared of the unknown. We just had [_slack time_](http://www.everydaykanban.com/2012/07/27/slack-is-not-a-dirty-word-how-slack-can-improve-your-products/). No urgent work was required at that moment (for half a day or so — not a big deal). We had **free time**. This should be the norm, right?
 
 We were faced with an unexpectedly tricky question:
 

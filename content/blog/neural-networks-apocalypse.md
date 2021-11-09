@@ -65,4 +65,4 @@ We are still in control, though: we can set their boundaries, and decide where t
 
 That’s a pretty disturbing thought.
 
-Extra ball: If you happen to have a Netflix account, check out [the documentary](https://www.netflix.com/es-en/title/80190844) of the match between AlphaGo and the reigning World champion of Go. It’s fascinating.
+Extra ball: If you're interested, check out [the documentary](https://www.youtube.com/watch?v=WXuK6gekU1Y) about the match between AlphaGo and the reigning World champion of Go. It’s fascinating.

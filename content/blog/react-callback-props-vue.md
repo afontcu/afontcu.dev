@@ -38,7 +38,7 @@ So, this is how the same UI would look in React:
 
 <iframe src="https://codesandbox.io/embed/m45wnv5j6p?fontsize=14" title="React with callback props" allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
-As you can see, here we are providing a callback function to our component (a native input) to react (heh) when the native [onInput](https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XUL/Attribute/oninput) event gets fired.
+As you can see, here we are providing a callback function to our component (a native input) to react (heh) when the native `onInput` event gets fired.
 
 So, the main difference here:
 
@@ -69,7 +69,7 @@ In Vue, there’s this two-way communication between parents and children, so yo
 
 ### Vue events can’t be required
 
-When passing down props, you can use both React [PropTypes](https://reactjs.org/docs/typechecking-with-proptypes) or Vue [built-in prop validation system](https://vuejs.org/v2/guide/components-props.html#Prop-Validation) to make sure a required prop is actually provided.
+When passing down props, you can use both React [PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html) or Vue [built-in prop validation system](https://vuejs.org/v2/guide/components-props.html#Prop-Validation) to make sure a required prop is actually provided.
 
 You cannot do that with events.
 

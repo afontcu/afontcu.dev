@@ -11,6 +11,8 @@ slug: cool-ux-tools
 
 ![](https://cdn-images-1.medium.com/max/1200/1*PyYW7nCxUVTX2fqkPaNPFw.png)
 
+_update (12/2020): coolux.tools is now discontinued and not available. It was a really interesting project and I learned a lot, so I'm quite happy about it!_
+
 ## The Why
 
 I’m a front-end developer, and I love everything related to the web. The web is cool. It allows you to create things and people can then use them or hate them on Github issues.
@@ -27,11 +29,11 @@ So, back to Cool UX Tools. I’ve always kept lists of cool resources that could
 
 Why **Cool UX Tools**, then? This project has three goals:
 
-1.  **Discover the coolest UX resources out there.  
+1.  **Discover the coolest UX resources out there.
     **I want to be able to quickly select a tool to solve specific needs that might arise during a project. And I want to do it without having to navigate through hundreds of blog posts and lists.
-2.  **Share them with everyone.**  
+2.  **Share them with everyone.**
     If I find it useful, wouldn’t someone else found it too?
-3.  **Learn** [**Nuxt.js**](https://nuxtjs.org/) **and make sure I stay up to date with Vue.**  
+3.  **Learn** [**Nuxt.js**](https://nuxtjs.org/) **and make sure I stay up to date with Vue.**
     I’m in love with Vue. Due to my job, I cannot focus on a single stack as much as I’d like to. So this is the perfect excuse. And Nuxt.js is a cool framework that remained a mystery to me — until this very project.
 
 ![](https://cdn-images-1.medium.com/max/1200/1*1HLnuyCJ3nWt1rnQUd6m5A.png)
@@ -116,7 +118,7 @@ A detail resource page would be cool, too. There I could provide useful informat
 
 But again, this is a lot of work.
 
-From a technical point of view, I want to further explore Nuxt. I want to see how well works from an SEO perspective and try out more community plugins. I might end up evolving the project because of this (I want to play with an external API and Nuxt's`asyncData` hook, for instance).
+From a technical point of view, I want to further explore Nuxt. I want to see how well works from an SEO perspective and try out more community plugins. I might end up evolving the project because of this (I want to play with an external API and Nuxt's `asyncData` hook, for instance).
 
 ## That’s a wrap
 
