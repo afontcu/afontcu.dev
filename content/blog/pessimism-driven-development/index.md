@@ -7,8 +7,6 @@ tags: ['Agile']
 slug: pessimism-driven-development
 ---
 
-<!-- https://lizkeogh.com/2012/01/30/the-real-cost-of-change/ ("Assume you got it wrong") -->
-<!-- http://dannorth.net/2010/08/30/introducing-deliberate-discovery/ ("What if you assume something bad will happen?") -->
 
 Do you know that cool new feature? **It won't be used**.
 
@@ -57,12 +55,16 @@ Others are small nuances that won't derail the initiative or the feature we're w
 
 Some assumptions could be thoroughly explored and "figured out". But this is often not possible, and we need to **settle with a higher degree of confidence** on that assumption.
 
+![We can map assumptions depending on their uncertainty and potential impact](./assumption-1.png)
+
 That's good and what we aim for. We can't figure everything out at the beginning. I can't think of a worst approach to tackle [a complex problem](https://afontcu.dev/embrace-unknowns/).
 
 Instead, the goal is to **increase the confidence in critical assumptions**.
 
 If everything is uncertain, there's only one thing to do: look for **quick, cheap feedback that proves us wrong** (or right).
 
+
+![Start with the biggest, most critical assumptions!](./assumption-2.png)
 
 
 
