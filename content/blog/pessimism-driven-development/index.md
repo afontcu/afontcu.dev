@@ -1,7 +1,7 @@
 ---
 title: Pessimism-driven development
 description: 'A sad but realistic starting point for everything we do: Things can go wrong and will go wrong.'
-date: '2022-01-13T16:56:01.115Z'
+date: '2022-01-15T13:16:01.115Z'
 categories: ''
 tags: ['Agile']
 slug: pessimism-driven-development
