@@ -55,7 +55,7 @@ I’ve been struggling here. Sometimes it’s daunting. You are focused on an is
 
 And you need to understand that this is your role. You are not just developing alone inside a giant bubble. You are also providing value with these activities — a value that only you can provide, probably.
 
-You understand that being a senior developer is a responsibility, not a “gift” or a “promotion”. You can see things other people can’t, so you **must** act when they happen. [Vicky Harp](https://twitter.com/vickyharp/status/736228835046219779) got it right.
+You understand that being a senior developer is a responsibility, not a “gift” or a “promotion”. You can see things other people can’t, so you **must** act when they happen.
 
 ## **A growing mindset**
 
