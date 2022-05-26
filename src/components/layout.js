@@ -28,8 +28,8 @@ class Layout extends React.Component {
               👋
             </span>
             <br />
-            I'm {siteMetadata.author}, a software product engineer interested in
-            lean software development, mostly focused on the front end.
+            I'm {siteMetadata.author}, a software engineer interested in lean
+            software development, mostly focused on the front end.
             <br />I try to fix the right problems right.
           </p>
         </div>
