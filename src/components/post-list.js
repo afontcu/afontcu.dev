@@ -25,8 +25,6 @@ const PostList = ({ posts }) =>
           </Link>
         </h3>
         <div style={{ ...scale(-1 / 5), fontStyle: `italic` }}>
-          <time dateTime={dateTime}>{date}</time>
-          {' · '}
           {readingTime.text}
           {!isEmpty(tags) && (
             <span>
