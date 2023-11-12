@@ -46,8 +46,6 @@ class BlogPostTemplate extends React.Component {
                 color: `rgba(0, 0, 0, 0.5)`,
               }}
             >
-              <time dateTime={dateTime}>{date}</time>
-              {' · '}
               {post.fields.readingTime.text}
             </span>
             <div style={{ marginBottom: rhythm(1.5) }}>
