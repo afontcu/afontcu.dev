@@ -48,7 +48,7 @@ export default () => (
     >
       speak here and there
     </a>
-    ,{' '}
+    , and{' '}
     <a
       target="_blank"
       rel="noopener noreferrer"
@@ -56,14 +56,6 @@ export default () => (
       href="https://buttondown.email/afontcu"
     >
       write a newsletter
-    </a>
-    . Ah! I participo a{' '}
-    <a
-      target="_blank"
-      rel="noopener noreferrer"
-      href="https://anchor.fm/espetech-cast/"
-    >
-      Espetech Cast
     </a>
     .
   </div>
