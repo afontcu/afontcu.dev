@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Skill(ralph-wiggum:help)",
+      "Bash(npm install:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm run dev:*)",
+      "Bash(npm run test:e2e:*)",
+      "Bash(npx playwright install:*)",
+      "Bash(npx eleventy:*)",
+      "mcp__playwright__browser_snapshot",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_close",
+      "Bash(echo:*)",
+      "mcp__playwright__browser_wait_for",
+      "WebFetch(domain:localhost)",
+      "Bash(npx playwright test:*)",
+      "Bash(npx serve:*)",
+      "WebFetch(domain:afontcu.dev)",
+      "Bash(npm run test:e2e:run:*)",
+      "Bash(npm run:*)",
+      "Bash(~/dev/.envrc)",
+      "Bash(direnv allow:*)",
+      "Bash(GH_HOST=github.com gh run list:*)",
+      "Bash(GH_HOST=github.com gh run view:*)",
+      "Bash(GH_HOST=github.com gh api:*)",
+      "Bash(lsof:*)",
+      "Bash(git commit:*)",
+      "Bash(git push)"
+    ]
+  }
+}
