@@ -12,9 +12,15 @@ I'm a front-end engineer. Web stuff. JavaScript. I hadn't touched Swift or Xcode
 
 Holy shit.
 
-I did it using Claude Code, obviously. And yes, this is the part where I'm supposed to freak out. To feel replaced. To question my career choices.
+I did it with [Claude Code](https://claude.ai/code) (think ChatGPT, but it lives in your terminal and writes code directly in your project). And here's what I didn't expect: I was genuinely enjoying myself.
 
-But here's the thing. I don't (I did for a while, though).
+Not the performative "I love my job" kind. The real kind. The 2am-and-I-don't-want-to-stop kind. Somewhere along the way, between the meetings and the maintenance and the endless context-switching, I'd lost that feeling.
+
+I found it again.
+
+And yes, this is the part where I'm supposed to freak out. To feel replaced. To question my career choices.
+
+But I don't (I did for a while, though).
 
 ## The existential crisis
 
