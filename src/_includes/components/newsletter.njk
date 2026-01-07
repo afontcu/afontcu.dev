@@ -1,23 +1,97 @@
-<form
-  action="https://buttondown.email/api/emails/embed-subscribe/afontcu"
-  method="post"
-  target="popupwindow"
-  data-testid="form"
-  onsubmit="window.open('https://buttondown.email/afontcu', 'popupwindow')"
-  class="newsletter-form"
->
-  <p>
-    <strong>Subscribe to the newsletter</strong> to receive my posts a week earlier, right to your inbox 🚀
-  </p>
-  <input type="hidden" value="1" name="embed">
-  <label for="newsletter-email">Your email:</label>
-  <input
-    type="email"
-    name="email"
-    id="newsletter-email"
-    required
-  >
-  <button class="btn" type="submit">
-    <span>Subscribe</span>
-  </button>
-</form>
+<div id="mlb2-35450404" class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-35450404">
+  <div class="ml-form-embedWrapper embedForm">
+    <div class="ml-form-embedBody row-form">
+      <div class="ml-form-embedContent">
+        <p>
+          <strong>Subscribe to the newsletter</strong> to receive my posts a week earlier, right to your inbox 🚀
+        </p>
+      </div>
+
+      <form
+        class="ml-block-form"
+        action="https://assets.mailerlite.com/jsonp/2023533/forms/175955546996737528/subscribe"
+        method="post"
+        target="ml-hidden-iframe"
+        data-testid="form"
+      >
+        <div class="ml-form-formContent">
+          <div class="ml-form-fieldRow ml-last-item">
+            <div class="ml-field-group ml-field-email ml-validate-email ml-validate-required">
+              <label for="newsletter-email">Your email:</label>
+              <input
+                aria-required="true"
+                type="email"
+                class="form-control"
+                name="fields[email]"
+                id="newsletter-email"
+                autocomplete="email"
+                required
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="ml-form-recaptcha ml-validate-required">
+          <div class="g-recaptcha" data-sitekey="6Lf1KHQUAAAAAFNKEX1hdSWCS3mRMv4FlFaNslaD"></div>
+        </div>
+
+        <input type="hidden" name="ml-submit" value="1">
+        <input type="hidden" name="anticsrf" value="true">
+
+        <div class="ml-form-embedSubmit">
+          <button type="submit" class="primary btn">Subscribe</button>
+        </div>
+
+        <p class="ml-form-error" style="display: none; color: #c00; margin-top: 0.5rem; margin-bottom: 0;"></p>
+      </form>
+    </div>
+
+    <div class="ml-form-successBody row-success" style="display: none">
+      <div class="ml-form-successContent">
+        <p><strong>Thank you!</strong> You have successfully joined the newsletter.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Hidden iframe for form submission (avoids CORS) -->
+<iframe name="ml-hidden-iframe" style="display: none;"></iframe>
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var container = document.querySelector('.ml-subscribe-form-35450404');
+  var form = container.querySelector('.ml-block-form');
+  var errorEl = form.querySelector('.ml-form-error');
+  var formBody = container.querySelector('.row-form');
+  var successBody = container.querySelector('.row-success');
+
+  form.addEventListener('submit', function(e) {
+    errorEl.style.display = 'none';
+
+    // Check reCAPTCHA
+    if (typeof grecaptcha === 'undefined' || !grecaptcha.getResponse()) {
+      e.preventDefault();
+      errorEl.textContent = 'Please complete the reCAPTCHA';
+      errorEl.style.display = 'block';
+      return;
+    }
+
+    // Add reCAPTCHA response to form
+    var recaptchaInput = form.querySelector('input[name="g-recaptcha-response"]');
+    if (!recaptchaInput) {
+      recaptchaInput = document.createElement('input');
+      recaptchaInput.type = 'hidden';
+      recaptchaInput.name = 'g-recaptcha-response';
+      form.appendChild(recaptchaInput);
+    }
+    recaptchaInput.value = grecaptcha.getResponse();
+
+    // Show success after short delay (form submits to hidden iframe)
+    setTimeout(function() {
+      formBody.style.display = 'none';
+      successBody.style.display = 'block';
+    }, 1000);
+  });
+});
+</script>

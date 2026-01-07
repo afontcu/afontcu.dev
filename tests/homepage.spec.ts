@@ -16,13 +16,13 @@ test('Newsletter form has correct action', async ({ page }) => {
   const form = page.getByTestId('form');
   await expect(form).toHaveAttribute(
     'action',
-    'https://buttondown.email/api/emails/embed-subscribe/afontcu'
+    'https://assets.mailerlite.com/jsonp/2023533/forms/175955546996737528/subscribe'
   );
 
   const emailInput = form.getByLabel(/your email:/i);
   await expect(emailInput).toBeVisible();
   await emailInput.fill('random@email.com');
 
-  const submitButton = form.getByRole('button');
+  const submitButton = form.getByRole('button', { name: 'Subscribe' });
   await expect(submitButton).toBeVisible();
 });

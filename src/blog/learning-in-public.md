@@ -11,7 +11,7 @@ slug: learning-in-public
 
 “Expand my brain, learning juice!” — Homer Simpson, poet (Episode s17e06)
 
-When [I started my newsletter](https://buttondown.email/afontcu), I stated that **Learning in Public** was one of the main reasons for doing so.
+When I started my newsletter, I stated that **Learning in Public** was one of the main reasons for doing so.
 
 But, why?
 
