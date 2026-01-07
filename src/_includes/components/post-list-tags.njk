@@ -1,0 +1,6 @@
+{# Used in post header to display tags #}
+{% for tag in tags %}
+  {% if tag != 'post' %}
+    <a href="/tags/{{ tag | kebabCase }}/">{{ tag }}</a>{% if not loop.last %}, {% endif %}
+  {% endif %}
+{% endfor %}

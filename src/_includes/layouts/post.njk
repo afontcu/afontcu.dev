@@ -1,0 +1,96 @@
+---
+layout: layouts/base.njk
+---
+<article>
+  <header class="post-header">
+    <h1>{{ title }}</h1>
+    <span class="reading-time">{{ content | readingTime }}</span>
+    {% if tags | length > 0 %}
+      <div class="post-tags">
+        {% include "components/post-list-tags.njk" %}
+      </div>
+    {% endif %}
+  </header>
+
+  {% if description %}
+    <p class="post-description">{{ description }}</p>
+  {% endif %}
+
+  <div class="post-content">
+    {{ content | safe }}
+  </div>
+
+  <nav class="post-nav">
+    {% set posts = collections.posts %}
+    {% set previousPost = posts | getPreviousPost(page.url) %}
+    {% set nextPost = posts | getNextPost(page.url) %}
+
+    <ul>
+      {% if previousPost %}
+        <li class="prev">
+          <a href="{{ previousPost.url }}" rel="prev">
+            ← {{ previousPost.data.title }}
+          </a>
+        </li>
+      {% endif %}
+      {% if nextPost %}
+        <li class="next">
+          <a href="{{ nextPost.url }}" rel="next">
+            {{ nextPost.data.title }} →
+          </a>
+        </li>
+      {% endif %}
+    </ul>
+  </nav>
+</article>
+
+<style>
+.post-header {
+  text-align: center;
+  margin-bottom: var(--rhythm-1-5);
+}
+
+.post-header h1 {
+  margin-bottom: var(--rhythm-half);
+}
+
+.reading-time {
+  display: block;
+  font-style: italic;
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+}
+
+.post-tags {
+  margin-top: var(--rhythm-half);
+  font-size: 0.8rem;
+}
+
+.post-description {
+  font-style: italic;
+  color: var(--color-text-muted);
+}
+
+.post-content {
+  margin-bottom: var(--rhythm-1-5);
+}
+
+.post-content img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.post-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.post-nav li {
+  margin-bottom: 0;
+}
+</style>

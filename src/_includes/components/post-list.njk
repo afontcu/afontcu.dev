@@ -1,0 +1,55 @@
+{% for post in posts %}
+  <article class="post-list-item" data-testid="post-list-item">
+    <header>
+      <h3 class="post-list-title">
+        <a href="{{ post.url }}" data-testid="post-list-link">{{ post.data.title }}</a>
+      </h3>
+      <small class="post-list-meta">
+        {{ post.content | readingTime }}
+        {% if post.data.tags | length > 0 %}
+          &middot;
+          {% for tag in post.data.tags %}
+            {% if tag != 'post' %}
+              <a href="/tags/{{ tag | kebabCase }}/">{{ tag }}</a>{% if not loop.last %}, {% endif %}
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      </small>
+    </header>
+    {% if post.data.description %}
+      <p class="post-list-excerpt">{{ post.data.description }}</p>
+    {% endif %}
+  </article>
+{% endfor %}
+
+<style>
+.post-list-item {
+  margin-top: 3.16rem; /* rhythm(2) = 2 * 1.58rem */
+}
+
+.post-list-item:first-child {
+  margin-top: 0;
+}
+
+.post-list-title {
+  margin-top: 0;
+  margin-bottom: var(--rhythm-quarter);
+}
+
+.post-list-meta {
+  font-style: italic;
+  font-size: 0.8rem; /* approx scale(-1/5) */
+}
+
+.post-list-meta a {
+  background-image: none;
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: underline;
+  text-shadow: none;
+  /* inherits italic from parent */
+}
+
+.post-list-excerpt {
+  /* inherits body color and default p margin */
+}
+</style>

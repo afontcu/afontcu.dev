@@ -1,0 +1,12 @@
+---
+layout: layouts/base.njk
+title: Adrià Fontcuberta
+isHome: true
+---
+
+{% include "components/bio.njk" %}
+
+<div class="post-list-container">
+  {% set posts = collections.posts %}
+  {% include "components/post-list.njk" %}
+</div>

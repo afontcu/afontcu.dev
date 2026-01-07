@@ -1,0 +1,5 @@
+{# Full-bleed wrapper component - use class="full-bleed" in HTML #}
+{# This is primarily handled via CSS, but keeping this for potential macro use #}
+<div class="full-bleed {% if skewed %}skewed{% endif %}">
+  {{ content | safe }}
+</div>

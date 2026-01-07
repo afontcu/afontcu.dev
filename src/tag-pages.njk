@@ -1,0 +1,15 @@
+---
+pagination:
+  data: collections.tagList
+  size: 1
+  alias: tag
+permalink: /tags/{{ tag | kebabCase }}/
+layout: layouts/base.njk
+---
+
+<h1>Posts tagged "{{ tag }}"</h1>
+
+<p><a href="/tags/">← All tags</a></p>
+
+{% set posts = collections.tagCollections[tag] %}
+{% include "components/post-list.njk" %}

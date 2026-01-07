@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {% include "components/head.njk" %}
+  <link rel="stylesheet" href="/css/global.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      {% if isHome %}
+        <div class="home-header">
+          <p>
+            Oh, hi! <span role="img" aria-label="waving hand">👋</span><br>
+            I'm {{ site.author }}, a software engineer interested in lean
+            software development, mostly focused on the front end.<br>
+            I try to fix the right problems right.
+          </p>
+        </div>
+      {% else %}
+        <h3 class="site-title">
+          <a href="/">afontcu.dev</a>
+        </h3>
+      {% endif %}
+    </header>
+
+    <main>
+      {{ content | safe }}
+    </main>
+
+    <div class="full-bleed">
+      <footer>
+        {% include "components/newsletter.njk" %}
+        {% include "components/bio.njk" %}
+      </footer>
+    </div>
+  </div>
+</body>
+</html>

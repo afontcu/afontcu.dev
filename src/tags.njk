@@ -1,0 +1,36 @@
+---
+layout: layouts/base.njk
+title: All Tags
+permalink: /tags/
+---
+
+<h1>All Tags</h1>
+
+<ul class="tag-list">
+{% for tag in collections.tagList %}
+  {% set tagPosts = collections.tagCollections[tag] %}
+  <li>
+    <a href="/tags/{{ tag | kebabCase }}/">{{ tag }}</a>
+    <span class="tag-count">({{ tagPosts | length if tagPosts else 0 }})</span>
+  </li>
+{% endfor %}
+</ul>
+
+<style>
+.tag-list {
+  list-style: none;
+  margin-left: 0;
+  padding: 0;
+}
+
+.tag-list li {
+  display: inline-block;
+  margin-right: var(--rhythm-half);
+  margin-bottom: var(--rhythm-half);
+}
+
+.tag-count {
+  color: var(--color-text-muted);
+  font-size: 0.8rem;
+}
+</style>
