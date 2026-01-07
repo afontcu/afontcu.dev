@@ -126,4 +126,4 @@ Hope it helped!
 
 _This post was featured in the_ [_#105 issue of the official Vue.js newsletter_](https://www.getrevue.co/profile/vuenewsletter/issues/105-vue-js-sprint-sneak-peek-get-the-vuevixens-scholarship-for-vue-js-london-125646) 💃
 
-**I just started out my own newsletter! Feel free to** [**subscribe here**](https://buttondown.email/afontcu)**.**
+**I have a newsletter! Feel free to [subscribe below](#mlb2-35450404).**
