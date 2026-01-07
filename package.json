@@ -10,7 +10,7 @@
     "build": "eleventy",
     "serve": "eleventy --serve",
     "format": "prettier --write 'src/**/*.{njk,md,json,css}'",
-    "test:e2e": "start-server-and-test 'npx serve _site' http://localhost:3000 'playwright test'",
+    "test:e2e": "playwright test",
     "test:e2e:ui": "playwright test --ui"
   },
   "homepage": "https://github.com/afontcu/afontcu.dev#readme",
@@ -26,8 +26,7 @@
   },
   "devDependencies": {
     "@playwright/test": "^1.57.0",
-    "prettier": "^3.0.0",
-    "serve": "^14.2.5",
-    "start-server-and-test": "^2.1.3"
+    "http-server": "^14.1.1",
+    "prettier": "^3.0.0"
   }
 }

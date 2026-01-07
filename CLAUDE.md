@@ -4,30 +4,29 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Personal blog for afontcu.dev — a Gatsby-based static site with Markdown content, hosted on Netlify.
+Personal blog for afontcu.dev — an 11ty-based static site with Markdown content, hosted on Netlify.
 
 ## Commands
 
 ```bash
-npm run develop    # Start dev server at localhost:8000
-npm run build      # Production build
-npm run serve      # Serve production build locally
+npm run dev        # Start dev server at localhost:8080
+npm run build      # Production build (outputs to _site/)
+npm run serve      # Same as dev
 
-# E2E tests (Cypress)
-npm run test:e2e:dev   # Open Cypress UI
-npm run test:e2e:run   # Headless run
-npm run test:e2e:ci    # Start dev server + run tests
+# E2E tests (Playwright)
+npm run test:e2e      # Run all E2E tests (requires server on port 3000)
+npm run test:e2e:ui   # Open Playwright UI
 
 # Formatting
-npm run format     # Prettier on src/ and cypress/
+npm run format     # Prettier on src/
 ```
 
 ## Architecture
 
 **Content pipeline:**
-- Blog posts live in `content/blog/` as Markdown files (or folders with `index.md` for posts with images)
-- `gatsby-node.js` generates pages from Markdown via GraphQL, creates tag pages
-- Slugs derived from filenames via `createFilePath`
+- Blog posts live in `src/blog/` as Markdown files
+- 11ty generates pages from Markdown, creates tag pages via `src/tag-pages.njk`
+- Slugs derived from frontmatter or filenames
 
 **Blog post frontmatter:**
 ```yaml
@@ -41,17 +40,13 @@ slug: custom-slug  # optional, defaults to filename
 ```
 
 **Key files:**
-- `gatsby-config.js` — plugins, site metadata, remark transformers
-- `gatsby-node.js` — page generation logic (blog posts + tag pages)
-- `src/templates/blog-post.js` — individual post template
-- `src/templates/tags.js` — tag listing page template
-- `src/pages/index.js` — home page with post list
-- `src/utils/typography.js` — Typography.js config (Lincoln theme, Lora/Source Sans Pro fonts)
-
-**Components:** `src/components/` contains reusable React components (bio, layout, seo, newsletter, post-list).
+- `eleventy.config.js` — 11ty configuration, plugins, collections
+- `src/blog/` — blog post markdown files
+- `src/index.njk` — home page template
+- `src/tag-pages.njk` — tag listing page template
+- `src/_includes/` — layout templates (base.njk, post.njk)
 
 ## CI/CD
 
-- CircleCI runs E2E tests on push
+- GitHub Actions runs E2E tests on push to master and PRs
 - Netlify deploys on master merge
-- `trigger-circle.sh` triggers CI pipeline post-deploy
