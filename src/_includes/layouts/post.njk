@@ -12,10 +12,6 @@ layout: layouts/base.njk
     {% endif %}
   </header>
 
-  {% if description %}
-    <p class="post-description">{{ description }}</p>
-  {% endif %}
-
   <div class="post-content">
     {{ content | safe }}
   </div>
@@ -64,11 +60,6 @@ layout: layouts/base.njk
 .post-tags {
   margin-top: var(--rhythm-half);
   font-size: 0.8rem;
-}
-
-.post-description {
-  font-style: italic;
-  color: var(--color-text-muted);
 }
 
 .post-content {
