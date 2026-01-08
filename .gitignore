@@ -48,3 +48,6 @@ playwright-report/
 # IDE
 .vscode/
 .idea/
+
+# Claude Code (private)
+.claude/
