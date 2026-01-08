@@ -79,7 +79,7 @@ Look, I'm not naive. More code supply might mean less demand for "coders." If on
 
 There's also the junior pipeline problem. **The 10% comes from somewhere.** You build taste by writing bad code, feeling the pain, and learning. If juniors skip the reps and jump straight to AI-assisted coding, where does the judgment come from? I don't know.
 
-But I do know that **the demand isn't for coders. It's for problem-solvers.** For people who understand [outcomes over outputs](https://afontcu.dev/ways-telling-problem-oriented/). For people who can talk to stakeholders, exercise judgment, figure out what's actually valuable.
+But I do know that **the market wants problem-solvers**, not coders. For people who understand [outcomes over outputs](https://afontcu.dev/ways-telling-problem-oriented/). For people who can talk to stakeholders, exercise judgment, figure out what's actually valuable.
 
 AI can't do that. Not yet.
 
