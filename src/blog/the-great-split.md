@@ -1,7 +1,7 @@
 ---
 title: "Too bad you liked writing code"
 description: "AI coding is revealing who loved coding and who loved building."
-date: '2026-02-13T10:00:00.000Z'
+date: '2026-02-16T10:00:00.000Z'
 tags: ['Software Crafting', 'Random Thoughts']
 slug: too-bad-you-liked-writing-code
 ---
