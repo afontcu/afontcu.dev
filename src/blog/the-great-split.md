@@ -80,3 +80,5 @@ If you're on the **building** side, you're about to become way more valuable. If
 
 If you work on an adjacent field to software engineering, if you are a designer, a product manager, a marketer... be ready. Machines are coming after you.
 
+Things are changing fast and they won't slow down. We're in the middle of something big.
+
