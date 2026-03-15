@@ -40,7 +40,7 @@ But there's another side to this.
 
 Some things I never did because they'd take too long. Refactor that module nobody touches but everyone fears. Add those integration tests. Document that tricky workflow. I wouldn't get the "go" from leadership to invest the time. **Important but not urgent** stayed forever in the backlog.
 
-Now? I can parallelize. I can chip away at technical debt while shipping features. Some bottlenecks genuinely disappeared.
+Now I can finally justify that refactoring. I can tackle technical debt while shipping features. Some bottlenecks genuinely disappeared.
 
 It's a two-edged sword. The same speed that makes it easy to build the wrong thing also makes it possible to build things you'd never justify before.
 
