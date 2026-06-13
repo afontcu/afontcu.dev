@@ -47,11 +47,11 @@ Why fresh sessions? **Each agent needs a specific job, not the whole picture.** 
 
 I sit back and relax.
 
-Just kidding, I'm basically there as the human in the loop. I'm constantly discussing the plan, the scope, the priorities, the public-facing APIs. But once everything is ready, I just let the agent code and test. Everytime I handoff context from one agent to another, it's a chance for me to step in.
+Just kidding, I'm basically there as the human in the loop. I'm constantly discussing the plan, the scope, the priorities, the public-facing APIs. But once everything is ready, I just let the agent code and test. Every time I handoff context from one agent to another, it's a chance for me to step in.
 
 I review the code, but I'm confident in the result if the previous steps were thorough and tested.
 
-Oh, by the way, on testing: do you remember TDD and how we used to fight over it? Well, now you're just a skill away from having a TDD expert alongside you. Why wouldn't you give it a go?
+Oh, by the way, on testing: do you remember TDD and how we used to fight over it? Well, now you're just a skill away from having a TDD expert alongside you. Why wouldn't you give it a go?
 
 ## Inversion of control
 
