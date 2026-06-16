@@ -1,0 +1,171 @@
+---
+title: In case of doubt, reduce the WIP
+description: Have you ever lined up at the coffee shop? Chances are you have.
+date: '2021-01-05T17:36:01.570Z'
+categories: ''
+tags: ['Agile']
+slug: reduce-wip
+---
+
+You know the drill. You wait there a bit, order your espresso, pay for it, and get out—no big deal.
+
+Here it is in all its glory:
+
+![A coffee shop with our friendly customers. I'm an artist.](./pic1.png)
+
+
+## An example
+
+Say the coffee shop receive an average of 60 customers every hour.
+
+What could things look like?
+
+They could wait for an hour, collect all orders, brew every coffee, and deliver them. They would be working on 60 coffees at the same time, so the shop's WIP (work in progress) would be 60.
+
+It doesn't sound like a brilliant strategy, does it?
+
+On the other hand, they could collect an order, have all the bartenders work on it, and deliver it as soon as it's ready. Then, take the next one. That's a WIP of 1.
+
+That's… not cool. As a customer, you wouldn't be able to "guess" how long you'd need to wait. Also, why would four people work on a single coffee? It is not *that* hard.
+
+Sigh, every alternative suck.
+
+What are they doing wrong? What are we missing?
+
+This is where maths could help.
+
+
+## Maths
+
+Yes, really, I said it. Maths.
+
+There's this smart theorem called [Little's Law](https://en.wikipedia.org/wiki/Little%27s_law). It states that the average **number of items on a queue** (our coffee shop) is equal to the average **time of arrival** to that queue multiplied by each order's average **waiting time**.
+
+That, put nicely, looks as the following:
+
+![](./pic6.png)
+
+Now let's use it.
+
+We already now we have 60 customers entering our coffee shop per hour, on average. Let's say it takes 6 minutes (0.1 hours) for any bartender to brew the perfect coffee.
+
+Number of customers waiting in line = 60 customers per hour * 0.1 hours spent per customer.
+
+That is! On average, the shop will have 6 customers waiting in line.
+
+So… back to our initial question.
+
+You should not work on a single coffee, but you shouldn't start working on 60, either. What's a sensible number?
+
+The answer really depends on the context. We now know we expect an average of 6 customers waiting.
+
+It is easy to see see how this information is helpful to decide how/when to collect a new order.
+
+
+## Let's take a step back
+
+Because something amazing just happened.
+
+We said that "the number of items in a system is the product of the arrival rate and the time an item spends in the system."
+
+Wait.
+
+Isn't it…
+
+…well…
+
+…obvious?
+
+
+## Yes, this is obvious
+
+*Thank you for the confirmation, Mr. heading.*
+
+Yes, folks, this is obvious. Nobody expects that adding more customers makes things faster, right?
+
+![Increasing the input of the system won't make it faster!](./pic2.png)
+
+In fact, we discovered that there are only two ways to reduce the time spent by our customers:
+
+![Same thing as above, but switching the focus](./pic5.png)
+
+1. Reduce the total amount of customers waiting in the shop, or
+2. Increase the rate at which they get out.
+
+
+## We've known this for ages
+
+Yes, we have!
+
+It is 100% logical.
+
+Then, **why do we keep managing software development teams by doing the exact opposite?**
+
+"*But Adri, we don't*" – I can hear you saying.
+
+"*Yes, we do*" – you should hear me saying.
+
+We shove more features into a jam-packed backlog.
+
+We make people switch context all the time – meetings, priorities, whatever–.
+
+We add more teams, more people, more processes.
+
+We start more stuff.
+
+
+## Enough with the coffee shop
+
+*This turned into a software development metaphor. Who would've thought!*
+
+As you might have guessed, the coffee shop is the team. Surprise!
+
+Also, customers are actually features.
+
+So:
+
+The average number of features within the system is our **work in progress** (WIP). It is measured in *"amounts of stuff"*.
+
+The average amount of features passing into and out of the system is the **throughput** of the system. It is measured in *"amounts of stuff per unit of time"*.
+
+Finally, the average amount of time a feature spends in the system is known as **lead time**. It is measured in *"units of time"*.
+
+![Requests line up to be transformed into features by team members. (disclaimer: there's more to it than requests and features; but that's beyond the scope of the post. Bear with me here!)](./pic3.png)
+
+Soo, replacing concepts in the formula we discussed before…
+
+![](./pic4.png)
+
+Do you want features out sooner? That is, do you want a better (shorter) Lead Time?
+
+Reduce the WIP, because it is **easier than increasing throughput**.
+
+But that's not what we do.
+
+We ask teams to go faster, put in more hours, close more Jira tickets, start projects, hire people.
+
+We try to increase the throughput.
+
+Instead, reduce the number of things handled at the same time.
+
+Do not [try to go faster. Go less slow](https://afontcu.dev/slow/).
+
+
+## A reinforcing loop
+
+With a stable system and less work in progress, you get a shorter lead time…
+
+…meaning throughput increases without working on "more" stuff…
+
+…meaning you get slack time…
+
+…which you can use to improve tools, processes, skills. Morale gets up. And all of these allow you to reduce the WIP.
+
+
+## In short
+
+Do you want to ship things quicker? Focus on the important ones and kill the others.
+
+Focus on improving the flow of the system over its throughput. Make things run smooth, sharpen your tools, reduce the waste.
+
+Do it because it is way **simpler** (and cheaper) than increasing the rate at which your team completes stuff.
