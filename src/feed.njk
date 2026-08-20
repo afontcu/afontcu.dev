@@ -1,5 +1,12 @@
 ---
-permalink: /feed.xml
+pagination:
+  data: feedPaths
+  size: 1
+  alias: feedPath
+feedPaths:
+  - /feed.xml
+  - /rss.xml
+permalink: "{{ feedPath }}"
 eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="utf-8"?>
